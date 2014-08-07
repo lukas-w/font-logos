@@ -1,61 +1,61 @@
 {
   "checksum": {
-    "previous": "4c80a2aaa731c9782197fddd738014e591e47538e410cd5a9426c70470fd576a",
-    "current": "4c80a2aaa731c9782197fddd738014e591e47538e410cd5a9426c70470fd576a"
+    "previous": "1be90f84a1bef35f6f71c9f4774b0eed146721f7e0a9abb4f152650c67d14ab4",
+    "current": "1be90f84a1bef35f6f71c9f4774b0eed146721f7e0a9abb4f152650c67d14ab4"
   },
   "fonts": [
-    "assets/fonts/font-linux_4c80a2aaa731c9782197fddd738014e5.ttf",
-    "assets/fonts/font-linux_4c80a2aaa731c9782197fddd738014e5.svg",
-    "assets/fonts/font-linux_4c80a2aaa731c9782197fddd738014e5.woff",
-    "assets/fonts/font-linux_4c80a2aaa731c9782197fddd738014e5.eot"
+    "assets/fonts/font-linux_1be90f84a1bef35f6f71c9f4774b0eed.ttf",
+    "assets/fonts/font-linux_1be90f84a1bef35f6f71c9f4774b0eed.svg",
+    "assets/fonts/font-linux_1be90f84a1bef35f6f71c9f4774b0eed.woff",
+    "assets/fonts/font-linux_1be90f84a1bef35f6f71c9f4774b0eed.eot"
   ],
   "glyphs": {
     "archlinux": {
-      "codepoint": 61714,
+      "codepoint": 61696,
       "source": "vectors/archlinux.svg"
     },
     "centos": {
-      "codepoint": 61709,
+      "codepoint": 61697,
       "source": "vectors/centos.svg"
     },
     "debian": {
-      "codepoint": 61700,
+      "codepoint": 61698,
       "source": "vectors/debian.svg"
     },
     "fedora": {
-      "codepoint": 61705,
+      "codepoint": 61699,
       "source": "vectors/fedora.svg"
     },
     "linuxmint": {
-      "codepoint": 61715,
+      "codepoint": 61700,
       "source": "vectors/linuxmint.svg"
     },
     "linuxmint-inverse": {
-      "codepoint": 61716,
+      "codepoint": 61701,
       "source": "vectors/linuxmint-inverse.svg"
     },
     "mageia": {
-      "codepoint": 61704,
+      "codepoint": 61702,
       "source": "vectors/mageia.svg"
     },
     "mandriva": {
-      "codepoint": 61710,
+      "codepoint": 61703,
       "source": "vectors/mandriva.svg"
     },
     "opensuse": {
-      "codepoint": 61712,
+      "codepoint": 61704,
       "source": "vectors/opensuse.svg"
     },
     "redhat": {
-      "codepoint": 61707,
+      "codepoint": 61705,
       "source": "vectors/redhat.svg"
     },
     "ubuntu": {
-      "codepoint": 61698,
+      "codepoint": 61706,
       "source": "vectors/ubuntu.svg"
     },
     "ubuntu-inverse": {
-      "codepoint": 61699,
+      "codepoint": 61707,
       "source": "vectors/ubuntu-inverse.svg"
     }
   },
@@ -67,24 +67,25 @@
     "font_name": "font-linux",
     "force": false,
     "input": {
-      "templates": "vectors",
+      "templates": "templates",
       "vectors": "vectors"
     },
     "no_hash": false,
     "output": {
-      "css": "assets/stylesheets",
+      "css": "assets/fonts",
+      "font-linux.css": "assets/css",
       "fonts": "assets/fonts",
-      "preview": "views/styleguide"
+      "preview": "views"
     },
     "preprocessor_path": "",
     "quiet": false,
     "templates": [
-      "css",
-      "preview"
+      "preview",
+      "font-linux.css"
     ]
   },
   "templates": [
-    "assets/stylesheets/font-linux.css",
-    "views/styleguide/font-linux-preview.html"
+    "views/font-linux-preview.html",
+    "assets/css/templates/font-linux.css"
   ]
 }

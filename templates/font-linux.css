@@ -1,0 +1,37 @@
+/*
+  Icon Font: <%= font_name %>
+*/
+
+<%= font_face %>
+
+.fl {
+}
+
+.fl-12 { font-size: 12px; }
+
+.fl-14 { font-size: 14px; }
+
+.fl-16 { font-size: 16px; }
+
+.fl-18 { font-size: 18px; }
+
+.fl-21 { font-size: 21px; }
+
+.fl-24 { font-size: 24px; }
+
+.fl-36 { font-size: 36px; }
+
+.fl-48 { font-size: 48px; }
+
+.fl-60 { font-size: 60px; }
+
+.fl-72 { font-size: 72px; }
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+<%= glyph_selectors %> {
+<%= glyph_properties %>
+}
+
+<%= glyphs %>

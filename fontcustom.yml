@@ -20,6 +20,7 @@ quiet: false
 
 input:
   vectors: vectors         # required
+  templates: templates
 
 
 # --------------------------------------------------------------------------- #
@@ -28,9 +29,8 @@ input:
 
 output:
   fonts: assets/fonts                              # required
-  css: assets/stylesheets
-  preview: views/styleguide
-#my-custom-template.yml: path/to/template/output
+  preview: views
+  font-linux.css: assets/css
 
 
 # --------------------------------------------------------------------------- #
@@ -41,6 +41,6 @@ output:
 # --------------------------------------------------------------------------- #
 
 templates:
- - css
  - preview
+ - font-linux.css
  #- my-custom-template.yml
