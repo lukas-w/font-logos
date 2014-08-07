@@ -1,0 +1,63 @@
+/*
+  Icon Font: font-linux
+*/
+
+@font-face {
+  font-family: "font-linux";
+  src: url("../fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.eot");
+  src: url("../fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.woff") format("woff"),
+       url("../fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.ttf") format("truetype"),
+       url("../fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.svg#font-linux") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "font-linux";
+    src: url("../fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.svg#font-linux") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.fl-archlinux:before,
+.fl-centos:before,
+.fl-debian:before,
+.fl-fedora:before,
+.fl-linux-mint:before,
+.fl-linux-mint-inverse:before,
+.fl-mageia:before,
+.fl-mandriva:before,
+.fl-opensuse:before,
+.fl-redhat:before,
+.fl-ubuntu:before,
+.fl-ubuntu-inverse:before {
+  display: inline-block;
+  font-family: "font-linux";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.fl-archlinux:before { content: "\f112"; }
+.fl-centos:before { content: "\f10d"; }
+.fl-debian:before { content: "\f104"; }
+.fl-fedora:before { content: "\f109"; }
+.fl-linux-mint:before { content: "\f105"; }
+.fl-linux-mint-inverse:before { content: "\f106"; }
+.fl-mageia:before { content: "\f108"; }
+.fl-mandriva:before { content: "\f10e"; }
+.fl-opensuse:before { content: "\f110"; }
+.fl-redhat:before { content: "\f10b"; }
+.fl-ubuntu:before { content: "\f102"; }
+.fl-ubuntu-inverse:before { content: "\f103"; }

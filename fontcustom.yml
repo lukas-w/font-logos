@@ -1,0 +1,46 @@
+# --------------------------------------------------------------------------- #
+# Project Info
+#   Defaults shown. Learn more about these options by running
+#   `fontcustom help` or visiting <http://fontcustom.com>.
+# --------------------------------------------------------------------------- #
+
+font_name: font-linux
+css_selector: .fl-{{glyph}}
+preprocessor_path: ""
+autowidth: false
+no_hash: false
+force: false
+debug: false
+quiet: false
+
+
+# --------------------------------------------------------------------------- #
+# Input Paths
+# --------------------------------------------------------------------------- #
+
+input:
+  vectors: vectors         # required
+
+
+# --------------------------------------------------------------------------- #
+# Output Paths
+# --------------------------------------------------------------------------- #
+
+output:
+  fonts: assets/fonts                              # required
+  css: assets/stylesheets
+  preview: views/styleguide
+#my-custom-template.yml: path/to/template/output
+
+
+# --------------------------------------------------------------------------- #
+# Templates
+#   Included in Font Custom: preview, css, scss, scss-rails
+#   Custom templates should be saved in the INPUT[:templates] directory and
+#   referenced by their baserame.
+# --------------------------------------------------------------------------- #
+
+templates:
+ - css
+ - preview
+ #- my-custom-template.yml

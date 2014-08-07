@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   id="svg3037"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="ubuntu.svg">
+  <defs
+     id="defs5498" />
+  <sodipodi:namedview
+     inkscape:window-height="1030"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="397.40673"
+     inkscape:cy="221.85465"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:current-layer="g3159"
+     inkscape:snap-global="false"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       orientation="0,1"
+       position="-34.980469,63.996094"
+       id="guide3111" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5594">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-100.75915,-484.95513)">
+    <g
+       id="g3159"
+       transform="matrix(1.8062188,0,0,1.8062258,100.75924,484.95513)">
+      <g
+         transform="matrix(1.3251521,0,0,1.325147,-292.34947,-590.17041)"
+         id="layer1-8"
+         inkscape:label="Layer 1">
+        <g
+           transform="translate(134.36339,-69.005239)"
+           id="g5423">
+          <path
+             style="fill:#2397d4;fill-opacity:1"
+             inkscape:connector-curvature="0"
+             d="m 177.89056,597.12767 h -0.01 c -6.6729,0 -12.10712,-5.42671 -12.11419,-12.09501 -0.01,-6.69051 5.42514,-12.12528 12.1041,-12.13236 6.68298,0 12.1162,5.42671 12.12426,12.09501 0,6.69052 -5.42512,12.1263 -12.10408,12.13337 h 0 z"
+             id="path3042-0-6-4" />
+          <path
+             style="fill:#2397d4;fill-opacity:1"
+             inkscape:connector-curvature="0"
+             d="m 210.60812,588.24494 c -6.23094,0 -11.30246,-5.06615 -11.30657,-11.29167 -0.01,-6.24198 5.06123,-11.31635 11.2963,-11.32148 6.23916,0 11.31068,5.0651 11.31683,11.29063 0,6.24197 -5.06224,11.31635 -11.29628,11.32252 h -0.01 z"
+             id="path3056-6-4-1" />
+          <path
+             transform="matrix(1.4421651,0,0,1.4421651,215.7232,578.60266)"
+             d="m -10,-15.700835 c 0,3.865993 -3.134007,6.9999998 -7,6.9999998 -3.865993,0 -7,-3.1340068 -7,-6.9999998 0,-3.865993 3.134007,-7 7,-7 3.865993,0 7,3.134007 7,7 z"
+             sodipodi:ry="7"
+             sodipodi:rx="7"
+             sodipodi:cy="-15.700835"
+             sodipodi:cx="-17"
+             id="path4104"
+             style="fill:#2397d4;fill-opacity:1"
+             sodipodi:type="arc" />
+          <path
+             transform="matrix(0.80761247,0,0,0.80761247,140.73061,552.34319)"
+             d="m 94,-16.522263 c 0,6.351275 -5.148725,11.5000004 -11.5,11.5000004 -6.351275,0 -11.5,-5.1487254 -11.5,-11.5000004 0,-6.351274 5.148725,-11.5 11.5,-11.5 6.351275,0 11.5,5.148726 11.5,11.5 z"
+             sodipodi:ry="11.5"
+             sodipodi:rx="11.5"
+             sodipodi:cy="-16.522263"
+             sodipodi:cx="82.5"
+             id="path4106"
+             style="fill:#2397d4;fill-opacity:1"
+             sodipodi:type="arc" />
+          <path
+             sodipodi:type="arc"
+             style="fill:#2397d4;fill-opacity:1"
+             id="path4132"
+             sodipodi:cx="0.5"
+             sodipodi:cy="-37.522263"
+             sodipodi:rx="10.5"
+             sodipodi:ry="10.5"
+             d="m 11,-37.522263 c 0,5.79899 -4.7010101,10.5 -10.5,10.5 -5.7989899,0 -10.5,-4.70101 -10.5,-10.5 0,-5.798989 4.7010101,-10.5 10.5,-10.5 5.7989899,0 10.5,4.701011 10.5,10.5 z"
+             transform="matrix(0.76915473,0,0,0.76915473,187.18756,551.30398)" />
+        </g>
+        <path
+           inkscape:export-filename="/home/akien/Contribution/Atelier/Schultz-Drive/Logo/cauldron.png"
+           inkscape:export-ydpi="204.49001"
+           inkscape:export-xdpi="204.49001"
+           sodipodi:nodetypes="csssccscccscsssc"
+           inkscape:connector-curvature="0"
+           id="path3347-1"
+           d="m 278.49724,539.03569 c -10.4504,13.54548 -18.92581,28.78103 -18.92581,47.23792 0,40.00634 30.35843,73 68,73 37.64044,0 68,-32.99349 68,-73 0,-18.46054 -8.48889,-33.21199 -19.53017,-47.2379 -4.14024,-4.34463 -10.11757,-3.69864 -14.46899,-0.91856 -12.73296,6.58855 -19.60609,9.22094 -34.00084,9.15646 -13.92202,-0.0624 -21.23667,-2.33602 -33.97033,-9.27735 -4.35142,-2.65919 -10.96363,-3.3052 -15.10386,1.03943 z m 9.07419,11.23792 c 13.19828,7.29754 24.96911,11 40,11 15.0436,0 26.79494,-3.70251 40,-11 7.2055,10.15985 14,22.7579 14,36 0,32.80129 -24.17531,59 -54,59 -29.82612,0 -55,-26.19854 -55,-59 0,-13.22462 7.77879,-25.8322 15,-36 z"
+           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#262f45;fill-opacity:1;stroke:none;stroke-width:14;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+      </g>
+    </g>
+  </g>
+</svg>

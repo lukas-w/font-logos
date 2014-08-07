@@ -1,0 +1,90 @@
+{
+  "checksum": {
+    "previous": "79a638a02ed2577cbd5404dc9cd8a48552a5228acf8b94cde2abf920b5a57f5f",
+    "current": "79a638a02ed2577cbd5404dc9cd8a48552a5228acf8b94cde2abf920b5a57f5f"
+  },
+  "fonts": [
+    "assets/fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.ttf",
+    "assets/fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.svg",
+    "assets/fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.woff",
+    "assets/fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.eot"
+  ],
+  "glyphs": {
+    "archlinux": {
+      "codepoint": 61714,
+      "source": "vectors/archlinux.svg"
+    },
+    "centos": {
+      "codepoint": 61709,
+      "source": "vectors/centos.svg"
+    },
+    "debian": {
+      "codepoint": 61700,
+      "source": "vectors/debian.svg"
+    },
+    "fedora": {
+      "codepoint": 61705,
+      "source": "vectors/fedora.svg"
+    },
+    "linux-mint": {
+      "codepoint": 61701,
+      "source": "vectors/linux-mint.svg"
+    },
+    "linux-mint-inverse": {
+      "codepoint": 61702,
+      "source": "vectors/linux-mint-inverse.svg"
+    },
+    "mageia": {
+      "codepoint": 61704,
+      "source": "vectors/mageia.svg"
+    },
+    "mandriva": {
+      "codepoint": 61710,
+      "source": "vectors/mandriva.svg"
+    },
+    "opensuse": {
+      "codepoint": 61712,
+      "source": "vectors/opensuse.svg"
+    },
+    "redhat": {
+      "codepoint": 61707,
+      "source": "vectors/redhat.svg"
+    },
+    "ubuntu": {
+      "codepoint": 61698,
+      "source": "vectors/ubuntu.svg"
+    },
+    "ubuntu-inverse": {
+      "codepoint": 61699,
+      "source": "vectors/ubuntu-inverse.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "fontcustom.yml",
+    "css_selector": ".fl-{{glyph}}",
+    "debug": false,
+    "font_name": "font-linux",
+    "force": false,
+    "input": {
+      "templates": "vectors",
+      "vectors": "vectors"
+    },
+    "no_hash": false,
+    "output": {
+      "css": "assets/stylesheets",
+      "fonts": "assets/fonts",
+      "preview": "views/styleguide"
+    },
+    "preprocessor_path": "",
+    "quiet": false,
+    "templates": [
+      "css",
+      "preview"
+    ]
+  },
+  "templates": [
+    "assets/stylesheets/font-linux.css",
+    "views/styleguide/font-linux-preview.html"
+  ]
+}
