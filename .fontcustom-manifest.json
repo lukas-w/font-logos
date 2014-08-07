@@ -1,13 +1,13 @@
 {
   "checksum": {
-    "previous": "79a638a02ed2577cbd5404dc9cd8a48552a5228acf8b94cde2abf920b5a57f5f",
-    "current": "79a638a02ed2577cbd5404dc9cd8a48552a5228acf8b94cde2abf920b5a57f5f"
+    "previous": "4c80a2aaa731c9782197fddd738014e591e47538e410cd5a9426c70470fd576a",
+    "current": "4c80a2aaa731c9782197fddd738014e591e47538e410cd5a9426c70470fd576a"
   },
   "fonts": [
-    "assets/fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.ttf",
-    "assets/fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.svg",
-    "assets/fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.woff",
-    "assets/fonts/font-linux_79a638a02ed2577cbd5404dc9cd8a485.eot"
+    "assets/fonts/font-linux_4c80a2aaa731c9782197fddd738014e5.ttf",
+    "assets/fonts/font-linux_4c80a2aaa731c9782197fddd738014e5.svg",
+    "assets/fonts/font-linux_4c80a2aaa731c9782197fddd738014e5.woff",
+    "assets/fonts/font-linux_4c80a2aaa731c9782197fddd738014e5.eot"
   ],
   "glyphs": {
     "archlinux": {
@@ -26,13 +26,13 @@
       "codepoint": 61705,
       "source": "vectors/fedora.svg"
     },
-    "linux-mint": {
-      "codepoint": 61701,
-      "source": "vectors/linux-mint.svg"
+    "linuxmint": {
+      "codepoint": 61715,
+      "source": "vectors/linuxmint.svg"
     },
-    "linux-mint-inverse": {
-      "codepoint": 61702,
-      "source": "vectors/linux-mint-inverse.svg"
+    "linuxmint-inverse": {
+      "codepoint": 61716,
+      "source": "vectors/linuxmint-inverse.svg"
     },
     "mageia": {
       "codepoint": 61704,
