@@ -7,6 +7,7 @@
 .fl {
 }
 
+<% scale = %w|12 14 16 18 21 24 36 48 60 72| %>
 <% scale.each do |n| %>
 .fl-<%= n %> { font-size: <%= n %>px; }
 <% end %>

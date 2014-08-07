@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "font-linux";
-  src: url("./font-linux_1be90f84a1bef35f6f71c9f4774b0eed.eot");
-  src: url("./font-linux_1be90f84a1bef35f6f71c9f4774b0eed.eot?#iefix") format("embedded-opentype"),
-       url("./font-linux_1be90f84a1bef35f6f71c9f4774b0eed.woff") format("woff"),
-       url("./font-linux_1be90f84a1bef35f6f71c9f4774b0eed.ttf") format("truetype"),
-       url("./font-linux_1be90f84a1bef35f6f71c9f4774b0eed.svg#font-linux") format("svg");
+  src: url("./font-linux_c759f07807dadd16d6665a312eda353a.eot");
+  src: url("./font-linux_c759f07807dadd16d6665a312eda353a.eot?#iefix") format("embedded-opentype"),
+       url("./font-linux_c759f07807dadd16d6665a312eda353a.woff") format("woff"),
+       url("./font-linux_c759f07807dadd16d6665a312eda353a.ttf") format("truetype"),
+       url("./font-linux_c759f07807dadd16d6665a312eda353a.svg#font-linux") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,12 +16,14 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "font-linux";
-    src: url("./font-linux_1be90f84a1bef35f6f71c9f4774b0eed.svg#font-linux") format("svg");
+    src: url("./font-linux_c759f07807dadd16d6665a312eda353a.svg#font-linux") format("svg");
   }
 }
 
 .fl {
 }
+
+
 
 .fl-12 { font-size: 12px; }
 
@@ -42,6 +44,7 @@
 .fl-60 { font-size: 60px; }
 
 .fl-72 { font-size: 72px; }
+
 
 [data-icon]:before { content: attr(data-icon); }
 

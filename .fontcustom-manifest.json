@@ -1,13 +1,13 @@
 {
   "checksum": {
-    "previous": "1be90f84a1bef35f6f71c9f4774b0eed146721f7e0a9abb4f152650c67d14ab4",
-    "current": "1be90f84a1bef35f6f71c9f4774b0eed146721f7e0a9abb4f152650c67d14ab4"
+    "previous": "c759f07807dadd16d6665a312eda353a7bedf451c92e099f10a16f89aec4380c",
+    "current": "c759f07807dadd16d6665a312eda353a7bedf451c92e099f10a16f89aec4380c"
   },
   "fonts": [
-    "assets/fonts/font-linux_1be90f84a1bef35f6f71c9f4774b0eed.ttf",
-    "assets/fonts/font-linux_1be90f84a1bef35f6f71c9f4774b0eed.svg",
-    "assets/fonts/font-linux_1be90f84a1bef35f6f71c9f4774b0eed.woff",
-    "assets/fonts/font-linux_1be90f84a1bef35f6f71c9f4774b0eed.eot"
+    "assets/font-linux_c759f07807dadd16d6665a312eda353a.ttf",
+    "assets/font-linux_c759f07807dadd16d6665a312eda353a.svg",
+    "assets/font-linux_c759f07807dadd16d6665a312eda353a.woff",
+    "assets/font-linux_c759f07807dadd16d6665a312eda353a.eot"
   ],
   "glyphs": {
     "archlinux": {
@@ -72,9 +72,9 @@
     },
     "no_hash": false,
     "output": {
-      "css": "assets/fonts",
-      "font-linux.css": "assets/css",
-      "fonts": "assets/fonts",
+      "css": "assets",
+      "font-linux.css": "assets",
+      "fonts": "assets",
       "preview": "views"
     },
     "preprocessor_path": "",
@@ -86,6 +86,6 @@
   },
   "templates": [
     "views/font-linux-preview.html",
-    "assets/css/templates/font-linux.css"
+    "assets/templates/font-linux.css"
   ]
 }

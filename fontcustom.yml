@@ -28,9 +28,9 @@ input:
 # --------------------------------------------------------------------------- #
 
 output:
-  fonts: assets/fonts                              # required
+  fonts: assets                              # required
   preview: views
-  font-linux.css: assets/css
+  font-linux.css: assets
 
 
 # --------------------------------------------------------------------------- #
@@ -43,4 +43,3 @@ output:
 templates:
  - preview
  - font-linux.css
- #- my-custom-template.yml
