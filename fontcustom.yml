@@ -8,7 +8,7 @@ font_name: font-linux
 css_selector: .fl-{{glyph}}
 preprocessor_path: ""
 autowidth: false
-no_hash: false
+no_hash: true
 force: false
 debug: false
 quiet: false
@@ -29,7 +29,7 @@ input:
 
 output:
   fonts: assets                              # required
-  preview: views
+  preview: .
   font-linux.css: assets
 
 

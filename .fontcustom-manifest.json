@@ -1,13 +1,13 @@
 {
   "checksum": {
-    "previous": "c759f07807dadd16d6665a312eda353a7bedf451c92e099f10a16f89aec4380c",
-    "current": "c759f07807dadd16d6665a312eda353a7bedf451c92e099f10a16f89aec4380c"
+    "previous": "8f64403357af1ae745b2bf75142f4ca7591bd991b04c04bc0a48a82a98a43ffa",
+    "current": "8f64403357af1ae745b2bf75142f4ca7591bd991b04c04bc0a48a82a98a43ffa"
   },
   "fonts": [
-    "assets/font-linux_c759f07807dadd16d6665a312eda353a.ttf",
-    "assets/font-linux_c759f07807dadd16d6665a312eda353a.svg",
-    "assets/font-linux_c759f07807dadd16d6665a312eda353a.woff",
-    "assets/font-linux_c759f07807dadd16d6665a312eda353a.eot"
+    "assets/font-linux.ttf",
+    "assets/font-linux.svg",
+    "assets/font-linux.woff",
+    "assets/font-linux.eot"
   ],
   "glyphs": {
     "archlinux": {
@@ -70,12 +70,12 @@
       "templates": "templates",
       "vectors": "vectors"
     },
-    "no_hash": false,
+    "no_hash": true,
     "output": {
       "css": "assets",
       "font-linux.css": "assets",
       "fonts": "assets",
-      "preview": "views"
+      "preview": "."
     },
     "preprocessor_path": "",
     "quiet": false,
@@ -85,7 +85,7 @@
     ]
   },
   "templates": [
-    "views/font-linux-preview.html",
+    "./font-linux-preview.html",
     "assets/templates/font-linux.css"
   ]
 }
