@@ -59,6 +59,7 @@
 .fl-mandriva:before,
 .fl-opensuse:before,
 .fl-redhat:before,
+.fl-slackware:before,
 .fl-ubuntu:before,
 .fl-ubuntu-inverse:before {
   display: inline-block;
@@ -85,5 +86,6 @@
 .fl-mandriva:before { content: "\f107"; }
 .fl-opensuse:before { content: "\f108"; }
 .fl-redhat:before { content: "\f109"; }
+.fl-slackware:before { content: "\f10c"; }
 .fl-ubuntu:before { content: "\f10a"; }
 .fl-ubuntu-inverse:before { content: "\f10b"; }
