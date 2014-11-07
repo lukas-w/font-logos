@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "8f64403357af1ae745b2bf75142f4ca7591bd991b04c04bc0a48a82a98a43ffa",
-    "current": "8f64403357af1ae745b2bf75142f4ca7591bd991b04c04bc0a48a82a98a43ffa"
+    "previous": "9c2a3a9d0b95e51a31e1e75b46a1e2a7286d133a8a86fd6909cdc3bab4425917",
+    "current": "9c2a3a9d0b95e51a31e1e75b46a1e2a7286d133a8a86fd6909cdc3bab4425917"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -49,6 +49,14 @@
     "redhat": {
       "codepoint": 61705,
       "source": "vectors/redhat.svg"
+    },
+    "slackware": {
+      "codepoint": 61708,
+      "source": "vectors/slackware.svg"
+    },
+    "slackware-1": {
+      "codepoint": 61709,
+      "source": "vectors/slackware-1.svg"
     },
     "ubuntu": {
       "codepoint": 61706,
