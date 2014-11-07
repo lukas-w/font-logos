@@ -11,7 +11,7 @@ fonts in your project and use the CSS classes listed below.
 
 Or just link to it using [RawGit](//rawgit.com) (served via [MaxCDN](//www.maxcdn.com)'s network):
 
-	<link href="//cdn.rawgit.com/Lukas-W/font-linux/master/assets/font-linux.css" rel="stylesheet">
+	<link href="//cdn.rawgit.com/Lukas-W/font-linux/v0.1/assets/font-linux.css" rel="stylesheet">
 
 Available logos are:
 
