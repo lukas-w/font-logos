@@ -171,6 +171,7 @@
 .fl-opensuse:before,
 .fl-redhat:before,
 .fl-slackware:before,
+.fl-slackware-inverse:before,
 .fl-ubuntu:before,
 .fl-ubuntu-inverse:before {
         display: inline-block;
@@ -197,9 +198,10 @@
 .fl-mandriva:before { content: "\f107"; }
 .fl-opensuse:before { content: "\f108"; }
 .fl-redhat:before { content: "\f109"; }
-.fl-slackware:before { content: "\f10c"; }
+.fl-slackware:before { content: "\f10d"; }
+.fl-slackware-inverse:before { content: "\f10e"; }
 .fl-ubuntu:before { content: "\f10a"; }
-.fl-ubuntu-inverse:before { content: "\f10b"; }
+.fl-ubuntu-inverse:before { content: "\f10c"; }
     </style>
 
     <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -215,7 +217,7 @@
   <body class="characters-off">
     <div id="page" class="container">
       <header>
-        <h1>font-linux contains 13 glyphs:</h1>
+        <h1>font-linux contains 14 glyphs:</h1>
         <a onclick="toggleCharacters(); return false;" href="#">Toggle Preview Characters</a>
       </header>
 
@@ -359,7 +361,20 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-slackware" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10c;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10d;" />
+        </div>
+      </div>
+      
+      <div class="glyph">
+        <div class="preview-glyphs">
+          <span class="step size-12"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span>
+        </div>
+        <div class="preview-scale">
+          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+        </div>
+        <div class="usage">
+          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-slackware-inverse" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10e;" />
         </div>
       </div>
       
@@ -385,7 +400,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-ubuntu-inverse" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10b;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10c;" />
         </div>
       </div>
       

@@ -1,21 +1,21 @@
 # font-linux #
 
-Font-linux is an icon font containing logos of popular linux distributions for 
+Font-linux is an icon font containing logos of popular linux distributions for
 inclusion in websites.
 
 ## Usage ##
-To use the font, include `assets/stylesheets/font-linux.css` as well as the 
+To use the font, include `assets/stylesheets/font-linux.css` as well as the
 fonts in your project and use the CSS classes listed below.
 
 	<link href="/assets/stylesheets/fontlinux.css" rel="stylesheet">
-	
+
 Or just link to it using [RawGit](//rawgit.com) (served via [MaxCDN](//www.maxcdn.com)'s network):
 
 	<link href="//cdn.rawgit.com/Lukas-W/font-linux/master/assets/font-linux.css" rel="stylesheet">
 
 Available logos are:
 
-| Distribution | CSS class                | Inclusion code 
+| Distribution | CSS class                | Inclusion code
 | -------------|--------------------------|-------------------------------------
 | Arch Linux   | `fl-archlinux`           | `<span class="fl-archlinux"></span>`
 | CentOS       | `fl-centos`              | `<span class="fl-centos"></span>`
@@ -26,6 +26,7 @@ Available logos are:
 | Mandriva     | `fl-mandriva`            | `<span class="fl-mandriva"></span>`
 | OpenSUSE     | `fl-opensuse`            | `<span class="fl-opensuse"></span>`
 | Red Hat      | `fl-redhat`              | `<span class="fl-redhat"></span>`
+| Slackware    | `fl-slackware[-inverse]` | `<span class="fl-slackware"></span>`
 | Ubuntu       | `fl-ubuntu[-inverse]`    | `<span class="fl-ubuntu"></span>`
 
 ## Dependencies ##
@@ -33,7 +34,7 @@ This project uses [fontcustom](//fontcustom.com) to compile vectors into fonts.
 
 ## Compilation of the vectors ##
 
-After making changes to one of the vectors, the fonts have to be recompiled. 
+After making changes to one of the vectors, the fonts have to be recompiled.
 From the root directory, run:
 
 	fontcustom compile
