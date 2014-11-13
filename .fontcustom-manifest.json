@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "6ffc2d0510d0f5efcddce7b6bd84d923349b2ef67ae1b2d3217ac67f9d6d767d",
-    "current": "6ffc2d0510d0f5efcddce7b6bd84d923349b2ef67ae1b2d3217ac67f9d6d767d"
+    "previous": "d3696dd253c1398f31f1f50f6b62200c9fc7445c59b29ea84e0a289b1a64fcf1",
+    "current": "d3696dd253c1398f31f1f50f6b62200c9fc7445c59b29ea84e0a289b1a64fcf1"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -72,6 +72,10 @@
     "config": "fontcustom.yml",
     "css_selector": ".fl-{{glyph}}",
     "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
     "font_name": "font-linux",
     "force": false,
     "input": {
@@ -94,6 +98,6 @@
   },
   "templates": [
     "./font-linux-preview.html",
-    "assets/templates/font-linux.css"
+    "assets/font-linux.css"
   ]
 }
