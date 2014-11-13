@@ -4,10 +4,10 @@ Font-linux is an icon font containing logos of popular linux distributions for
 inclusion in websites.
 
 ## Usage ##
-To use the font, include `assets/stylesheets/font-linux.css` as well as the
+To use the font, include `assets/font-linux.css` as well as the
 fonts in your project and use the CSS classes listed below.
 
-	<link href="/assets/stylesheets/fontlinux.css" rel="stylesheet">
+	<link href="/assets/fontlinux.css" rel="stylesheet">
 
 Or just link to it using [RawGit](//rawgit.com) (served via [MaxCDN](//www.maxcdn.com)'s network):
 

@@ -1,414 +1,307 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>font-linux glyphs preview</title>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>font-linux icon font</title>
 
-    <style>
-      /* Page Styles */
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet">
+		<link href="assets/font-linux.css" rel="stylesheet">
 
-      * {
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
+		<style>
+			/* Page Styles */
+			.glyph {
+				border-bottom: 1px dotted #ccc;
+				padding: 10px 0 20px;
+				margin-bottom: 20px;
+			}
 
-      body {
-        background: #fff;
-        color: #444;
-        font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-      }
+			.preview-glyphs { vertical-align: bottom; }
 
-      a,
-      a:visited {
-        color: #888;
-        text-decoration: underline;
-      }
-      a:hover,
-      a:focus { color: #000; }
+			.preview-scale {
+				color: #888;
+				font-size: 12px;
+				margin-top: 5px;
+			}
 
-      header {
-        border-bottom: 2px solid #ddd;
-        margin-bottom: 20px;
-        overflow: hidden;
-        padding: 20px 0;
-      }
+			.step {
+				display: inline-block;
+				line-height: 1;
+				position: relative;
+				width: 10%;
+			}
 
-      header h1 {
-        color: #888;
-        float: left;
-        font-size: 36px;
-        font-weight: 300;
-      }
+			.step .letters,
+			.step i {
+				-webkit-transition: opacity .3s;
+				-moz-transition: opacity .3s;
+				-ms-transition: opacity .3s;
+				-o-transition: opacity .3s;
+				transition: opacity .3s;
+			}
 
-      header a {
-        float: right;
-        font-size: 14px;
-      }
+			.step:hover .letters { opacity: 1; }
+			.step:hover i { opacity: .3; }
 
-      .container {
-        margin: 0 auto;
-        max-width: 1200px;
-        min-width: 960px;
-        padding: 0 40px;
-        width: 90%;
-      }
+			.letters {
+				opacity: .3;
+				position: absolute;
+			}
 
-      .glyph {
-        border-bottom: 1px dotted #ccc;
-        padding: 10px 0 20px;
-        margin-bottom: 20px;
-      }
+			.characters-off .letters { display: none; }
+			.characters-off .step:hover i { opacity: 1; }
 
-      .preview-glyphs { vertical-align: bottom; }
+			
+			.size-12 { font-size: 12px; }
+			
+			.size-14 { font-size: 14px; }
+			
+			.size-16 { font-size: 16px; }
+			
+			.size-18 { font-size: 18px; }
+			
+			.size-21 { font-size: 21px; }
+			
+			.size-24 { font-size: 24px; }
+			
+			.size-36 { font-size: 36px; }
+			
+			.size-48 { font-size: 48px; }
+			
+			.size-60 { font-size: 60px; }
+			
+			.size-72 { font-size: 72px; }
+			
 
-      .preview-scale {
-        color: #888;
-        font-size: 12px;
-        margin-top: 5px;
-      }
+			.usage { margin-top: 10px; }
 
-      .step {
-        display: inline-block;
-        line-height: 1;
-        position: relative;
-        width: 10%;
-      }
+			.usage input {
+				font-family: monospace;
+				margin-right: 3px;
+				padding: 2px 5px;
+				text-align: center;
+			}
 
-      .step .letters,
-      .step i {
-        -webkit-transition: opacity .3s;
-        -moz-transition: opacity .3s;
-        -ms-transition: opacity .3s;
-        -o-transition: opacity .3s;
-        transition: opacity .3s;
-      }
+			.usage .point { width: 150px; }
 
-      .step:hover .letters { opacity: 1; }
-      .step:hover i { opacity: .3; }
+			.usage .class { width: 250px; }
 
-      .letters {
-        opacity: .3;
-        position: absolute;
-      }
+			footer {
+				color: #888;
+				font-size: 12px;
+				padding: 20px 0;
+			}
 
-      .characters-off .letters { display: none; }
-      .characters-off .step:hover i { opacity: 1; }
+		</style>
+	</head>
 
-      
-      .size-12 { font-size: 12px; }
-      
-      .size-14 { font-size: 14px; }
-      
-      .size-16 { font-size: 16px; }
-      
-      .size-18 { font-size: 18px; }
-      
-      .size-21 { font-size: 21px; }
-      
-      .size-24 { font-size: 24px; }
-      
-      .size-36 { font-size: 36px; }
-      
-      .size-48 { font-size: 48px; }
-      
-      .size-60 { font-size: 60px; }
-      
-      .size-72 { font-size: 72px; }
-      
+	<body>
+		<div id="page" class="container">
+			<header>
+				<a href="https://github.com/Lukas-W/font-linux"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 
-      .usage { margin-top: 10px; }
+				<h1 class="page-header">font-linux</h1>
+				<p>font-linux is an icon font containing logos of popular linux distributions for
+				inclusion in websites.</p>
 
-      .usage input {
-        font-family: monospace;
-        margin-right: 3px;
-        padding: 2px 5px;
-        text-align: center;
-      }
+				<h2>Usage</h2>
+				<p>To use the font, include <code>assets/font-linux.css</code> as well as the
+				fonts in your project and use the CSS classes listed below.</p>
+				<pre>&lt;link href=&quot;/assets/stylesheets/fontlinux.css&quot; rel=&quot;stylesheet&quot;&gt;</pre>
+				<br>
+				<p>Or just link to it using <a href="http://rawgit.com/">RawGit</a> (served via <a href="http://www.maxcdn.com">MaxCDN</a>'s network):</p>
+				<pre>&lt;link href=&quot;//cdn.rawgit.com/Lukas-W/font-linux/master/assets/font-linux.css&quot; rel=&quot;stylesheet&quot;&gt;</pre>
+			</header>
 
-      .usage .point { width: 150px; }
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-14"><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-16"><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-18"><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-21"><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-24"><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-36"><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-48"><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-60"><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-72"><i id="fl-archlinux" class="fl-archlinux"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-archlinux" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf100;" />
+				</div>
+			</div>
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-centos" class="fl-centos"></i></span><span class="step size-14"><i id="fl-centos" class="fl-centos"></i></span><span class="step size-16"><i id="fl-centos" class="fl-centos"></i></span><span class="step size-18"><i id="fl-centos" class="fl-centos"></i></span><span class="step size-21"><i id="fl-centos" class="fl-centos"></i></span><span class="step size-24"><i id="fl-centos" class="fl-centos"></i></span><span class="step size-36"><i id="fl-centos" class="fl-centos"></i></span><span class="step size-48"><i id="fl-centos" class="fl-centos"></i></span><span class="step size-60"><i id="fl-centos" class="fl-centos"></i></span><span class="step size-72"><i id="fl-centos" class="fl-centos"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-centos" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf101;" />
+				</div>
+			</div>
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-debian" class="fl-debian"></i></span><span class="step size-14"><i id="fl-debian" class="fl-debian"></i></span><span class="step size-16"><i id="fl-debian" class="fl-debian"></i></span><span class="step size-18"><i id="fl-debian" class="fl-debian"></i></span><span class="step size-21"><i id="fl-debian" class="fl-debian"></i></span><span class="step size-24"><i id="fl-debian" class="fl-debian"></i></span><span class="step size-36"><i id="fl-debian" class="fl-debian"></i></span><span class="step size-48"><i id="fl-debian" class="fl-debian"></i></span><span class="step size-60"><i id="fl-debian" class="fl-debian"></i></span><span class="step size-72"><i id="fl-debian" class="fl-debian"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-debian" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf102;" />
+				</div>
+			</div>
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-14"><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-16"><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-18"><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-21"><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-24"><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-36"><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-48"><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-60"><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-72"><i id="fl-fedora" class="fl-fedora"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-fedora" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf103;" />
+				</div>
+			</div>
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-14"><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-16"><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-18"><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-21"><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-24"><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-36"><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-48"><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-60"><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-72"><i id="fl-linuxmint" class="fl-linuxmint"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-linuxmint" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf104;" />
+				</div>
+			</div>
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-14"><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-16"><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-18"><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-21"><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-24"><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-36"><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-48"><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-60"><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-72"><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-linuxmint-inverse" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf105;" />
+				</div>
+			</div>
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-14"><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-16"><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-18"><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-21"><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-24"><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-36"><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-48"><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-60"><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-72"><i id="fl-mageia" class="fl-mageia"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-mageia" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf106;" />
+				</div>
+			</div>
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-14"><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-16"><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-18"><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-21"><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-24"><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-36"><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-48"><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-60"><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-72"><i id="fl-mandriva" class="fl-mandriva"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-mandriva" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf107;" />
+				</div>
+			</div>
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-14"><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-16"><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-18"><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-21"><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-24"><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-36"><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-48"><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-60"><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-72"><i id="fl-opensuse" class="fl-opensuse"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-opensuse" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf108;" />
+				</div>
+			</div>
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-14"><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-16"><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-18"><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-21"><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-24"><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-36"><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-48"><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-60"><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-72"><i id="fl-redhat" class="fl-redhat"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-redhat" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf109;" />
+				</div>
+			</div>
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-14"><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-16"><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-18"><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-21"><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-24"><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-36"><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-48"><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-60"><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-72"><i id="fl-slackware" class="fl-slackware"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-slackware" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10d;" />
+				</div>
+			</div>
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-14"><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-16"><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-18"><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-21"><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-24"><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-36"><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-48"><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-60"><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-72"><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-slackware-inverse" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10e;" />
+				</div>
+			</div>
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-14"><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-16"><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-18"><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-21"><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-24"><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-36"><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-48"><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-60"><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-72"><i id="fl-ubuntu" class="fl-ubuntu"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-ubuntu" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10a;" />
+				</div>
+			</div>
+			
+			<div class="glyph">
+				<div class="preview-glyphs">
+					<span class="step size-12"><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-14"><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-16"><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-18"><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-21"><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-24"><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-36"><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-48"><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-60"><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-72"><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span>
+				</div>
+				<div class="preview-scale">
+					<span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+				</div>
+				<div class="usage">
+					<input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-ubuntu-inverse" />
+					<input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10c;" />
+				</div>
+			</div>
+			
 
-      .usage .class { width: 250px; }
-
-      footer {
-        color: #888;
-        font-size: 12px;
-        padding: 20px 0;
-      }
-
-      /* Icon Font: font-linux */
-
-      @font-face {
-  font-family: "font-linux";
-  src: url("assets/font-linux.eot");
-  src: url("assets/font-linux.eot?#iefix") format("embedded-opentype"),
-       url(data:application/x-font-woff;charset=utf-8;base64,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),
-       url("assets/font-linux.woff") format("woff"),
-       url("assets/font-linux.ttf") format("truetype"),
-       url("assets/font-linux.svg#font-linux") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: "font-linux";
-    src: url("assets/font-linux.svg#font-linux") format("svg");
-  }
-}
-
-      [data-icon]:before { content: attr(data-icon); }
-
-      [data-icon]:before,
-      .fl-archlinux:before,
-.fl-centos:before,
-.fl-debian:before,
-.fl-fedora:before,
-.fl-linuxmint:before,
-.fl-linuxmint-inverse:before,
-.fl-mageia:before,
-.fl-mandriva:before,
-.fl-opensuse:before,
-.fl-redhat:before,
-.fl-slackware:before,
-.fl-slackware-inverse:before,
-.fl-ubuntu:before,
-.fl-ubuntu-inverse:before {
-        display: inline-block;
-  font-family: "font-linux";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-decoration: inherit;
-  text-rendering: optimizeLegibility;
-  text-transform: none;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-      }
-
-      .fl-archlinux:before { content: "\f100"; }
-.fl-centos:before { content: "\f101"; }
-.fl-debian:before { content: "\f102"; }
-.fl-fedora:before { content: "\f103"; }
-.fl-linuxmint:before { content: "\f104"; }
-.fl-linuxmint-inverse:before { content: "\f105"; }
-.fl-mageia:before { content: "\f106"; }
-.fl-mandriva:before { content: "\f107"; }
-.fl-opensuse:before { content: "\f108"; }
-.fl-redhat:before { content: "\f109"; }
-.fl-slackware:before { content: "\f10d"; }
-.fl-slackware-inverse:before { content: "\f10e"; }
-.fl-ubuntu:before { content: "\f10a"; }
-.fl-ubuntu-inverse:before { content: "\f10c"; }
-    </style>
-
-    <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-    <script>
-      function toggleCharacters() {
-        var body = document.getElementsByTagName('body')[0];
-        body.className = body.className === 'characters-off' ? '' : 'characters-off';
-      }
-    </script>
-  </head>
-
-  <body class="characters-off">
-    <div id="page" class="container">
-      <header>
-        <h1>font-linux contains 14 glyphs:</h1>
-        <a onclick="toggleCharacters(); return false;" href="#">Toggle Preview Characters</a>
-      </header>
-
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-archlinux" class="fl-archlinux"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-archlinux" class="fl-archlinux"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-archlinux" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf100;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-centos" class="fl-centos"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-centos" class="fl-centos"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-centos" class="fl-centos"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-centos" class="fl-centos"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-centos" class="fl-centos"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-centos" class="fl-centos"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-centos" class="fl-centos"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-centos" class="fl-centos"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-centos" class="fl-centos"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-centos" class="fl-centos"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-centos" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf101;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-debian" class="fl-debian"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-debian" class="fl-debian"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-debian" class="fl-debian"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-debian" class="fl-debian"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-debian" class="fl-debian"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-debian" class="fl-debian"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-debian" class="fl-debian"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-debian" class="fl-debian"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-debian" class="fl-debian"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-debian" class="fl-debian"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-debian" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf102;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-fedora" class="fl-fedora"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-fedora" class="fl-fedora"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-fedora" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf103;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-linuxmint" class="fl-linuxmint"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-linuxmint" class="fl-linuxmint"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-linuxmint" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf104;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-linuxmint-inverse" class="fl-linuxmint-inverse"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-linuxmint-inverse" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf105;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-mageia" class="fl-mageia"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-mageia" class="fl-mageia"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-mageia" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf106;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-mandriva" class="fl-mandriva"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-mandriva" class="fl-mandriva"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-mandriva" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf107;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-opensuse" class="fl-opensuse"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-opensuse" class="fl-opensuse"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-opensuse" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf108;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-redhat" class="fl-redhat"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-redhat" class="fl-redhat"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-redhat" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf109;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-slackware" class="fl-slackware"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-slackware" class="fl-slackware"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-slackware" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10d;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-slackware-inverse" class="fl-slackware-inverse"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-slackware-inverse" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10e;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-ubuntu" class="fl-ubuntu"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-ubuntu" class="fl-ubuntu"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-ubuntu" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10a;" />
-        </div>
-      </div>
-      
-      <div class="glyph">
-        <div class="preview-glyphs">
-          <span class="step size-12"><span class="letters">Pp</span><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-ubuntu-inverse" class="fl-ubuntu-inverse"></i></span>
-        </div>
-        <div class="preview-scale">
-          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
-        </div>
-        <div class="usage">
-          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-ubuntu-inverse" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10c;" />
-        </div>
-      </div>
-      
-
-      <footer>
-        Made with love using <a href="http://fontcustom.com">Font Custom</a>.
-      </footer>
-    </div>
-  </body>
+			<footer>
+				Made with love using <a href="http://fontcustom.com">Font Custom</a>.
+			</footer>
+		</div>
+	</body>
 </html>

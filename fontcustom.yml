@@ -22,15 +22,14 @@ input:
   vectors: vectors         # required
   templates: templates
 
-
 # --------------------------------------------------------------------------- #
 # Output Paths
 # --------------------------------------------------------------------------- #
 
 output:
   fonts: assets                              # required
-  preview: .
   font-linux.css: assets
+  index.html: .
 
 
 # --------------------------------------------------------------------------- #
@@ -43,3 +42,4 @@ output:
 templates:
  - preview
  - font-linux.css
+ - index.html
