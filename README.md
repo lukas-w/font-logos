@@ -1,6 +1,8 @@
 # font-linux #
 
-Font-linux is an icon font containing logos of popular linux distributions for
+![Available logos](https://cloud.githubusercontent.com/assets/2879917/7107494/3bdb7062-e167-11e4-8ac1-48a0075720bb.png)
+
+Font-linux is an icon font containing logos of popular linux distributions for 
 inclusion in websites.
 
 ## Usage ##
