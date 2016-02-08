@@ -21,8 +21,10 @@ Available logos are:
 | -------------|--------------------------|-------------------------------------
 | Arch Linux   | `fl-archlinux`           | `<span class="fl-archlinux"></span>`
 | CentOS       | `fl-centos`              | `<span class="fl-centos"></span>`
+| CoreOS       | `fl-coreos[-contrast]`   | `<span class="fl-coreos-contrast"></span>`
 | Debian       | `fl-debian`              | `<span class="fl-debian"></span>`
 | Fedora       | `fl-fedora`              | `<span class="fl-fedora"></span>`
+| Gentoo       | `fl-gentoo`              | `<span class="fl-gentoo"></span>`
 | Linux Mint   | `fl-linuxmint[-inverse]` | `<span class="fl-linuxmint"></span>`
 | Mageia       | `fl-mageia`              | `<span class="fl-mageia"></span>`
 | Mandriva     | `fl-mandriva`            | `<span class="fl-mandriva"></span>`
@@ -32,7 +34,7 @@ Available logos are:
 | Ubuntu       | `fl-ubuntu[-inverse]`    | `<span class="fl-ubuntu"></span>`
 
 ## Dependencies ##
-This project uses [fontcustom](//fontcustom.com) to compile vectors into fonts.
+This project uses [fontcustom](//github.com/FontCustom/fontcustom) to compile vectors into fonts.
 
 ## Compilation of the vectors ##
 
