@@ -13,3 +13,24 @@ $spacing-unit:     30px;
 ;
 
 {% include fontcustom.css %}
+
+.site-header {
+	background-color: #333;
+	color: white;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+
+	h1 > small {
+		color: #aaa;
+	}
+	.github-button {
+		float: right;
+	}
+	.github-button a {
+		color: white;
+	}
+	.github-button a:hover {
+		color: #aaa;
+	}
+}

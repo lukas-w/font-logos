@@ -1,8 +1,11 @@
 <header class="site-header">
-	<h1 class="page-header">{{ site.title }}
-		<small>v{{ site.data.fl.version }}</small>
-		<span class="pull-right">
-			<a href="//github.com/Lukas-W/font-linux"><i class="fa fa-github"></i></a>
-		</span>
-	</h1>
+	<div class="container">
+		<h1 class="page-header">{{ site.title }}
+			<small>v{{ site.data.fl.version }}</small>
+			<span class="github-button">
+				<a href="//github.com/Lukas-W/font-linux"><i class="fa fa-github"></i></a>
+			</span>
+		</h1>
+		{{ site.description }}
+	</div>
 </header>
