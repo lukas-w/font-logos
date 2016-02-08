@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "d27334062c8bce9ca8764fcee1e39117fa4a8550d9a4159cb6349245780cbd56",
-    "current": "d27334062c8bce9ca8764fcee1e39117fa4a8550d9a4159cb6349245780cbd56"
+    "previous": "61b643d14ef6efff396a1ded0bcedb7cad980c4e810f6cd669a2f1494335634a",
+    "current": "61b643d14ef6efff396a1ded0bcedb7cad980c4e810f6cd669a2f1494335634a"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -26,44 +26,48 @@
       "codepoint": 61699,
       "source": "vectors/fedora.svg"
     },
+    "freebsd": {
+      "codepoint": 61711,
+      "source": "vectors/freebsd.svg"
+    },
     "linuxmint": {
-      "codepoint": 61700,
+      "codepoint": 61701,
       "source": "vectors/linuxmint.svg"
     },
     "linuxmint-inverse": {
-      "codepoint": 61701,
+      "codepoint": 61702,
       "source": "vectors/linuxmint-inverse.svg"
     },
     "mageia": {
-      "codepoint": 61702,
+      "codepoint": 61703,
       "source": "vectors/mageia.svg"
     },
     "mandriva": {
-      "codepoint": 61703,
+      "codepoint": 61704,
       "source": "vectors/mandriva.svg"
     },
     "opensuse": {
-      "codepoint": 61704,
+      "codepoint": 61705,
       "source": "vectors/opensuse.svg"
     },
     "redhat": {
-      "codepoint": 61705,
+      "codepoint": 61706,
       "source": "vectors/redhat.svg"
     },
     "slackware": {
-      "codepoint": 61709,
+      "codepoint": 61707,
       "source": "vectors/slackware.svg"
     },
     "slackware-inverse": {
-      "codepoint": 61710,
+      "codepoint": 61708,
       "source": "vectors/slackware-inverse.svg"
     },
     "ubuntu": {
-      "codepoint": 61706,
+      "codepoint": 61709,
       "source": "vectors/ubuntu.svg"
     },
     "ubuntu-inverse": {
-      "codepoint": 61708,
+      "codepoint": 61710,
       "source": "vectors/ubuntu-inverse.svg"
     }
   },
@@ -92,6 +96,7 @@
     },
     "preprocessor_path": "",
     "quiet": false,
+    "skip_first": false,
     "templates": [
       "preview",
       "font-linux.css",
