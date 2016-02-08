@@ -1,0 +1,55 @@
+.glyph {
+	border-bottom: 1px dotted #ccc;
+	padding: 10px 0 20px;
+	margin-bottom: 20px;
+}
+.preview-cols {
+	vertical-align: bottom;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.preview-scale {
+	color: #888;
+	font-size: 12px;
+	margin-top: 5px;
+}
+.step {
+	display: inline-block;
+	line-height: 1;
+	position: relative;	
+}
+.step .letters,
+.step i {
+	-webkit-transition: opacity .3s;
+	-moz-transition: opacity .3s;
+	-ms-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	transition: opacity .3s;
+}
+.step:hover .letters { opacity: 1; }
+.step:hover i { opacity: .3; }
+.letters {
+	opacity: .3;
+	position: absolute;
+}
+.characters-off .letters { display: none; }
+.characters-off .step:hover i { opacity: 1; }
+
+
+{% for scale in site.data.fl.scales %}
+.size-{{ scale }} {
+	font-size: {{ scale }}px;
+}
+{% endfor %}
+
+.usage { margin-top: 10px; }
+.usage input {
+	font-family: monospace;
+	margin-right: 3px;
+	padding: 2px 5px;
+	text-align: center;
+}
+.usage .point { width: 150px; }
+.usage .class { width: 250px; }

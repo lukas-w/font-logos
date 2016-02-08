@@ -1,0 +1,27 @@
+version: 0.1
+icons:
+    - archlinux
+    - centos
+    - debian
+    - fedora
+    - linuxmint
+    - linuxmint-inverse
+    - mageia
+    - mandriva
+    - opensuse
+    - redhat
+    - slackware
+    - slackware-inverse
+    - ubuntu
+    - ubuntu-inverse
+scales:
+    - 12
+    - 14
+    - 16
+    - 18
+    - 21
+    - 24
+    - 36
+    - 48
+    - 60
+    - 72

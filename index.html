@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{{ site.description }}
+
+{% capture usage_md %}{% include usage.md %}{% endcapture %}
+{{ usage_md | markdownify }}
+
+{% for icon in site.data.fl.icons %}
+	<div class="glyph">
+		<div class="preview-cols preview-glyphs">
+			{% for scale in site.data.fl.scales %}
+				<div class="preview-col">
+					<div>
+						<span class="step size-{{ scale }}"><i class="fl-{{ icon }}"></i></span>
+					</div>
+					<div class="preview-scale">
+						<span class="step">{{ scale }}</span>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+		<div class="usage">
+			<input class="class" type="text" readonly="readonly" onClick="this.select();" value="fl-{{ icon }}" />
+		</div>
+	</div>
+{% endfor %}
