@@ -34,7 +34,7 @@ Available logos are:
 | Ubuntu       | `fl-ubuntu[-inverse]`    | `<span class="fl-ubuntu"></span>`
 
 ## Dependencies ##
-This project uses [fontcustom](//github.com/FontCustom/fontcustom) to compile vectors into fonts.
+This project uses [fontcustom](//fontcustom.github.io/fontcustom/) to compile vectors into fonts.
 
 ## Compilation of the vectors ##
 
