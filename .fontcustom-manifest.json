@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "4263d2348bdaac4d4720b2e7d1fad557a40c4fdf9215d66e7fabbb9fc1e15bb1",
-    "current": "4263d2348bdaac4d4720b2e7d1fad557a40c4fdf9215d66e7fabbb9fc1e15bb1"
+    "previous": "6c8ddd352935be20855cfadef8ed4153b5eea740d1665fe40ef2f53c215c9871",
+    "current": "6c8ddd352935be20855cfadef8ed4153b5eea740d1665fe40ef2f53c215c9871"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -18,6 +18,10 @@
       "codepoint": 61697,
       "source": "vectors/centos.svg"
     },
+    "coreos": {
+      "codepoint": 61712,
+      "source": "vectors/coreos.svg"
+    },
     "debian": {
       "codepoint": 61698,
       "source": "vectors/debian.svg"
@@ -29,6 +33,10 @@
     "freebsd": {
       "codepoint": 61711,
       "source": "vectors/freebsd.svg"
+    },
+    "gentoo": {
+      "codepoint": 61713,
+      "source": "vectors/gentoo.svg"
     },
     "linuxmint": {
       "codepoint": 61701,
