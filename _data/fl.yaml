@@ -1,9 +1,12 @@
-version: 0.1
+version: 0.2
 icons:
     - archlinux
     - centos
+    - coreos
     - debian
     - fedora
+    - freebsd
+    - gentoo
     - linuxmint
     - linuxmint-inverse
     - mageia
