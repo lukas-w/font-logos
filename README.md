@@ -1,6 +1,6 @@
 # font-linux #
 
-![Available logos](https://cloud.githubusercontent.com/assets/2879917/7107494/3bdb7062-e167-11e4-8ac1-48a0075720bb.png)
+![Available logos](assets/preview.png)
 
 Font-linux is an icon font containing logos of popular linux distributions for 
 inclusion in websites.
@@ -21,7 +21,7 @@ Available logos are:
 | -------------|--------------------------|-------------------------------------
 | Arch Linux   | `fl-archlinux`           | `<span class="fl-archlinux"></span>`
 | CentOS       | `fl-centos`              | `<span class="fl-centos"></span>`
-| CoreOS       | `fl-coreos[-contrast]`   | `<span class="fl-coreos-contrast"></span>`
+| CoreOS       | `fl-coreos`              | `<span class="fl-coreos"></span>`
 | Debian       | `fl-debian`              | `<span class="fl-debian"></span>`
 | Fedora       | `fl-fedora`              | `<span class="fl-fedora"></span>`
 | Gentoo       | `fl-gentoo`              | `<span class="fl-gentoo"></span>`
@@ -45,6 +45,4 @@ From the root directory, run:
 
 To stage the new revision:
 
-	git rm -r assets views
-	git add assets views .fontcustom-manifest.json
-
+	git add assets .fontcustom-manifest.json
