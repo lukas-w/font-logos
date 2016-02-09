@@ -1,6 +1,6 @@
 # font-linux #
 
-![Available logos](https://cloud.githubusercontent.com/assets/2879917/7107494/3bdb7062-e167-11e4-8ac1-48a0075720bb.png)
+![Available logos](assets/preview.png)
 
 Font-linux is an icon font containing logos of popular linux distributions for 
 inclusion in websites.
@@ -21,8 +21,10 @@ Available logos are:
 | -------------|--------------------------|-------------------------------------
 | Arch Linux   | `fl-archlinux`           | `<span class="fl-archlinux"></span>`
 | CentOS       | `fl-centos`              | `<span class="fl-centos"></span>`
+| CoreOS       | `fl-coreos`              | `<span class="fl-coreos"></span>`
 | Debian       | `fl-debian`              | `<span class="fl-debian"></span>`
 | Fedora       | `fl-fedora`              | `<span class="fl-fedora"></span>`
+| Gentoo       | `fl-gentoo`              | `<span class="fl-gentoo"></span>`
 | Linux Mint   | `fl-linuxmint[-inverse]` | `<span class="fl-linuxmint"></span>`
 | Mageia       | `fl-mageia`              | `<span class="fl-mageia"></span>`
 | Mandriva     | `fl-mandriva`            | `<span class="fl-mandriva"></span>`
@@ -32,7 +34,7 @@ Available logos are:
 | Ubuntu       | `fl-ubuntu[-inverse]`    | `<span class="fl-ubuntu"></span>`
 
 ## Dependencies ##
-This project uses [fontcustom](//fontcustom.com) to compile vectors into fonts.
+This project uses [fontcustom](//fontcustom.github.io/fontcustom/) to compile vectors into fonts.
 
 ## Compilation of the vectors ##
 
@@ -43,6 +45,4 @@ From the root directory, run:
 
 To stage the new revision:
 
-	git rm -r assets views
-	git add assets views .fontcustom-manifest.json
-
+	git add assets .fontcustom-manifest.json
