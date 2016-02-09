@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "61b643d14ef6efff396a1ded0bcedb7cad980c4e810f6cd669a2f1494335634a",
-    "current": "61b643d14ef6efff396a1ded0bcedb7cad980c4e810f6cd669a2f1494335634a"
+    "previous": "4263d2348bdaac4d4720b2e7d1fad557a40c4fdf9215d66e7fabbb9fc1e15bb1",
+    "current": "4263d2348bdaac4d4720b2e7d1fad557a40c4fdf9215d66e7fabbb9fc1e15bb1"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -96,16 +96,13 @@
     },
     "preprocessor_path": "",
     "quiet": false,
-    "skip_first": false,
     "templates": [
       "preview",
-      "font-linux.css",
-      "index.html"
+      "font-linux.css"
     ]
   },
   "templates": [
     "assets/font-linux-preview.html",
-    "assets/font-linux.css",
-    "./index.html"
+    "assets/font-linux.css"
   ]
 }
