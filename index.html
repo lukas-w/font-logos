@@ -5,22 +5,15 @@ layout: default
 {% capture usage_md %}{% include usage.md %}{% endcapture %}
 {{ usage_md | markdownify }}
 
-{% for icon in site.data.fl.icons %}
-	<div class="glyph">
-		<div class="preview-cols preview-glyphs">
-			{% for scale in site.data.fl.scales %}
-				<div class="preview-col">
-					<div>
-						<span class="step size-{{ scale }}"><i class="fl-{{ icon }}"></i></span>
-					</div>
-					<div class="preview-scale">
-						<span class="step">{{ scale }}</span>
-					</div>
-				</div>
-			{% endfor %}
+<h2>Icons</h2>
+
+<div class="preview-cols preview-glyphs row">
+	{% for icon in site.data.fl.icons %}
+		<div class="preview-col col-lg-3 col-md-3 col-sm-4 col-xs-6">
+			<div>
+				<span class="preview-icon"><i class="fl-{{ icon }}"></i></span>
+				<span class="preview-code vertical-align">fl-{{icon}}</span>
+			</div>
 		</div>
-		<div class="usage">
-			<input class="class" type="text" readonly="readonly" onClick="this.select();" value="fl-{{ icon }}" />
-		</div>
-	</div>
-{% endfor %}
+	{% endfor %}
+</div>

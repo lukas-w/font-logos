@@ -3,17 +3,8 @@
 	padding: 10px 0 20px;
 	margin-bottom: 20px;
 }
-.preview-cols {
-	vertical-align: bottom;
-	display: flex;
-	flex-flow: row wrap;
-	align-items: flex-end;
-	justify-content: space-between;
-}
-.preview-scale {
-	color: #888;
-	font-size: 12px;
-	margin-top: 5px;
+.preview-code {
+	display: inline-block;
 }
 .step {
 	display: inline-block;
@@ -37,13 +28,6 @@
 .characters-off .letters { display: none; }
 .characters-off .step:hover i { opacity: 1; }
 
-
-{% for scale in site.data.fl.scales %}
-.size-{{ scale }} {
-	font-size: {{ scale }}px;
-}
-{% endfor %}
-
 .usage { margin-top: 10px; }
 .usage input {
 	font-family: monospace;
@@ -53,3 +37,8 @@
 }
 .usage .point { width: 150px; }
 .usage .class { width: 250px; }
+
+.preview-icon {
+	font-size: 48px;
+	margin-right: 10px;
+}
