@@ -1,9 +1,10 @@
-version: 0.2
+version: 0.3
 icons:
     - archlinux
     - centos
     - coreos
     - debian
+    - elementary
     - fedora
     - freebsd
     - gentoo
