@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "6c8ddd352935be20855cfadef8ed4153b5eea740d1665fe40ef2f53c215c9871",
-    "current": "6c8ddd352935be20855cfadef8ed4153b5eea740d1665fe40ef2f53c215c9871"
+    "previous": "684f161e4b4a44667f77383c4d67dc640df91b2e66ed981a9cda4bac0204611e",
+    "current": "684f161e4b4a44667f77383c4d67dc640df91b2e66ed981a9cda4bac0204611e"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -25,6 +25,10 @@
     "debian": {
       "codepoint": 61698,
       "source": "vectors/debian.svg"
+    },
+    "elementary": {
+      "codepoint": 61715,
+      "source": "vectors/elementary.svg"
     },
     "fedora": {
       "codepoint": 61699,
