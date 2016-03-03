@@ -1,6 +1,6 @@
 # font-linux #
 
-![Available logos](assets/preview.png)
+![Available logos](assets/icon_preview.png)
 
 Font-linux is an icon font containing logos of popular linux distributions for 
 inclusion in websites.
@@ -23,6 +23,7 @@ Available logos are:
 | CentOS       | `fl-centos`              | `<span class="fl-centos"></span>`
 | CoreOS       | `fl-coreos`              | `<span class="fl-coreos"></span>`
 | Debian       | `fl-debian`              | `<span class="fl-debian"></span>`
+| elementary OS| `fl-debian`              | `<span class="fl-elementary"></span>`
 | Fedora       | `fl-fedora`              | `<span class="fl-fedora"></span>`
 | FreeBSD      | `fl-freebsd`             | `<span class="fl-freebsd"></span>`
 | Gentoo       | `fl-gentoo`              | `<span class="fl-gentoo"></span>`
