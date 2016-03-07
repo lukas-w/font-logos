@@ -29,7 +29,6 @@ input:
 output:
   fonts: assets                              # required
   font-linux.css: assets
-  index.html: .
 
 
 # --------------------------------------------------------------------------- #
@@ -42,3 +41,4 @@ output:
 templates:
  - preview
  - font-linux.css
+ - icon_preview.html

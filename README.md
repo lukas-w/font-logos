@@ -35,7 +35,8 @@ Available logos are:
 | Ubuntu       | `fl-ubuntu[-inverse]`    | `<span class="fl-ubuntu"></span>`
 
 ## Dependencies ##
-This project uses [fontcustom](//fontcustom.github.io/fontcustom/) to compile vectors into fonts.
+* This project uses [fontcustom](//fontcustom.github.io/fontcustom/) to compile vectors into fonts.
+* [wkhtmltopdf](http://wkhtmltopdf.org/) is used to generate this readme's preview image.
 
 ## Compilation of the vectors ##
 
@@ -43,6 +44,10 @@ After making changes to one of the vectors, the fonts have to be recompiled.
 From the root directory, run:
 
 	fontcustom compile
+
+To compile everything including the readme's `preview.png`, run:
+
+	sh ./compile.sh
 
 To stage the new revision:
 

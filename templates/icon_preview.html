@@ -1,0 +1,30 @@
+<%
+	load 'templates/icons.rb'
+	icons = getGroupedIcons()
+
+	image_width = 888
+
+	icon_count = icons.length
+	spacing = 10
+	total_spacing = spacing * icon_count
+	icon_size = (image_width - total_spacing) / icon_count
+%>
+
+<link href="font-linux.css" rel="stylesheet">
+
+<style>
+	.preview-icon+.preview-icon {
+		padding-left: <%= spacing %>px;
+	}
+	body {
+		width: <%= image_width%>px;
+		color: #333;
+		font-size: <%= icon_size %>;
+	}
+</style>
+
+<body>
+	<div>
+		<% icons.each do |name, value| %><span class="preview-icon fl-<%= name %>"></span><% end %>
+	</div>
+</body>
