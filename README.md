@@ -23,6 +23,7 @@ Available logos are:
 | CentOS       | `fl-centos`              | `<span class="fl-centos"></span>`
 | CoreOS       | `fl-coreos`              | `<span class="fl-coreos"></span>`
 | Debian       | `fl-debian`              | `<span class="fl-debian"></span>`
+| elementary OS| `fl-elementary`          | `<span class="fl-elementary"></span>`
 | Fedora       | `fl-fedora`              | `<span class="fl-fedora"></span>`
 | FreeBSD      | `fl-freebsd`             | `<span class="fl-freebsd"></span>`
 | Gentoo       | `fl-gentoo`              | `<span class="fl-gentoo"></span>`
