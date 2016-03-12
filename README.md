@@ -6,6 +6,9 @@ Font-linux is an icon font containing logos of popular linux distributions for
 inclusion in websites.
 
 ## Usage ##
+
+*Note:* All brand icons are trademarks of their respective owners and should only be used to represent the company or product to which they refer.
+
 To use the font, include `assets/font-linux.css` as well as the
 fonts in your project and use the CSS classes listed below.
 
