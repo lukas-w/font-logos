@@ -16,7 +16,7 @@ fonts in your project and use the CSS classes listed below.
 
 Or just link to it using [RawGit](//rawgit.com) (served via [MaxCDN](//www.maxcdn.com)'s network):
 
-	<link href="//cdn.rawgit.com/Lukas-W/font-linux/v0.3/assets/font-linux.css" rel="stylesheet">
+	<link href="//cdn.rawgit.com/Lukas-W/font-linux/v0.5/assets/font-linux.css" rel="stylesheet">
 
 Available logos are:
 
@@ -27,7 +27,7 @@ Available logos are:
 | CoreOS       | `fl-coreos`              | `<span class="fl-coreos"></span>`
 | Debian       | `fl-debian`              | `<span class="fl-debian"></span>`
 | elementary OS| `fl-elementary`          | `<span class="fl-elementary"></span>`
-| Fedora       | `fl-fedora`              | `<span class="fl-fedora"></span>`
+| Fedora       | `fl-fedora[-inverse]`    | `<span class="fl-fedora"></span>`
 | FreeBSD      | `fl-freebsd`             | `<span class="fl-freebsd"></span>`
 | Gentoo       | `fl-gentoo`              | `<span class="fl-gentoo"></span>`
 | Linux Mint   | `fl-linuxmint[-inverse]` | `<span class="fl-linuxmint"></span>`

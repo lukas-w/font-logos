@@ -55,6 +55,7 @@
 .fl-debian:before,
 .fl-elementary:before,
 .fl-fedora:before,
+.fl-fedora-inverse:before,
 .fl-freebsd:before,
 .fl-gentoo:before,
 .fl-linuxmint:before,
@@ -87,6 +88,7 @@
 .fl-debian:before { content: "\f102"; }
 .fl-elementary:before { content: "\f113"; }
 .fl-fedora:before { content: "\f103"; }
+.fl-fedora-inverse:before { content: "\f114"; }
 .fl-freebsd:before { content: "\f10f"; }
 .fl-gentoo:before { content: "\f111"; }
 .fl-linuxmint:before { content: "\f105"; }

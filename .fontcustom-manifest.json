@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "2e34ef5ec0d73ac0d12132a52ed78c78e0768cafaad5174c3164851e49519623",
-    "current": "2e34ef5ec0d73ac0d12132a52ed78c78e0768cafaad5174c3164851e49519623"
+    "previous": "a69d1a3bf2675924fc4210e33a15e8d6f67111c6d8b2209b8d6df682762d42fb",
+    "current": "a69d1a3bf2675924fc4210e33a15e8d6f67111c6d8b2209b8d6df682762d42fb"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -33,6 +33,10 @@
     "fedora": {
       "codepoint": 61699,
       "source": "vectors/fedora.svg"
+    },
+    "fedora-inverse": {
+      "codepoint": 61716,
+      "source": "vectors/fedora-inverse.svg"
     },
     "freebsd": {
       "codepoint": 61711,
