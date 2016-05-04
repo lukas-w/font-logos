@@ -64,6 +64,7 @@
 .fl-mandriva:before,
 .fl-opensuse:before,
 .fl-redhat:before,
+.fl-sabayon:before,
 .fl-slackware:before,
 .fl-slackware-inverse:before,
 .fl-ubuntu:before,
@@ -97,6 +98,7 @@
 .fl-mandriva:before { content: "\f108"; }
 .fl-opensuse:before { content: "\f109"; }
 .fl-redhat:before { content: "\f10a"; }
+.fl-sabayon:before { content: "\f115"; }
 .fl-slackware:before { content: "\f10b"; }
 .fl-slackware-inverse:before { content: "\f10c"; }
 .fl-ubuntu:before { content: "\f10d"; }
