@@ -22,6 +22,7 @@ Available logos are:
 
 | Distribution | CSS class                | Inclusion code
 | -------------|--------------------------|-------------------------------------
+| AOSC OS      | `fl-aosc`                | `<span class="fl-aosc"></span>`
 | Arch Linux   | `fl-archlinux`           | `<span class="fl-archlinux"></span>`
 | CentOS       | `fl-centos`              | `<span class="fl-centos"></span>`
 | CoreOS       | `fl-coreos`              | `<span class="fl-coreos"></span>`

@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "d16c93191cd18bceae7bb9c523f192eb815b1ff3628fe6a31da1f6e1758e692a",
-    "current": "d16c93191cd18bceae7bb9c523f192eb815b1ff3628fe6a31da1f6e1758e692a"
+    "previous": "a76e92e845b68c25624afb27264de40421d014e18d0dc5ef3f36f95648869665",
+    "current": "a76e92e845b68c25624afb27264de40421d014e18d0dc5ef3f36f95648869665"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -10,6 +10,10 @@
     "assets/font-linux.eot"
   ],
   "glyphs": {
+    "aosc": {
+      "codepoint": 61718,
+      "source": "vectors/aosc.svg"
+    },
     "archlinux": {
       "codepoint": 61696,
       "source": "vectors/archlinux.svg"
