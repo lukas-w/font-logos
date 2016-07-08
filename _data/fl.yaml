@@ -1,5 +1,6 @@
-version: 0.5
+version: 0.6
 icons:
+    - aosc
     - archlinux
     - centos
     - coreos
@@ -15,6 +16,7 @@ icons:
     - mandriva
     - opensuse
     - redhat
+    - sabayon
     - slackware
     - slackware-inverse
     - ubuntu
