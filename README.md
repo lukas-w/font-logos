@@ -36,6 +36,7 @@ Available logos are:
 | Mandriva     | `fl-mandriva`            | `<span class="fl-mandriva"></span>`
 | OpenSUSE     | `fl-opensuse`            | `<span class="fl-opensuse"></span>`
 | Red Hat      | `fl-redhat`              | `<span class="fl-redhat"></span>`
+| Sabayon      | `fl-sabayon`             | `<span class="fl-sabayon"></span>`
 | Slackware    | `fl-slackware[-inverse]` | `<span class="fl-slackware"></span>`
 | Ubuntu       | `fl-ubuntu[-inverse]`    | `<span class="fl-ubuntu"></span>`
 
