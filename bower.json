@@ -1,0 +1,34 @@
+{
+  "name": "font-linux",
+  "description": "An icon font providing popular linux distros' logos",
+  "main": "index.js",
+  "authors": [
+    "Lukas W (https://github.com/Lukas-W)"
+  ],
+  "license": "Unlicense",
+  "keywords": [
+    "elementary",
+    "mageia",
+    "slackware",
+    "redhat",
+    "opensuse",
+    "mandriva",
+    "mint",
+    "fedora",
+    "debian",
+    "arch",
+    "centos",
+    "ubuntu",
+    "distro",
+    "icon",
+    "linux"
+  ],
+  "homepage": "https://github.com/cassidyjames/font-linux",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
