@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "119f1c5d41a5a9b11d133ac27fbca9256850bc4c04e6320eb26c9bb26a84db91",
-    "current": "119f1c5d41a5a9b11d133ac27fbca9256850bc4c04e6320eb26c9bb26a84db91"
+    "previous": "f00c1b76971eeb00ef3de717c0183b6e951ceae90b31f268387d9f9be7fef460",
+    "current": "f00c1b76971eeb00ef3de717c0183b6e951ceae90b31f268387d9f9be7fef460"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -90,6 +90,10 @@
       "codepoint": 61708,
       "source": "vectors/slackware-inverse.svg"
     },
+    "tux": {
+      "codepoint": 61720,
+      "source": "vectors/tux.svg"
+    },
     "ubuntu": {
       "codepoint": 61709,
       "source": "vectors/ubuntu.svg"
@@ -123,6 +127,7 @@
     },
     "preprocessor_path": "",
     "quiet": false,
+    "skip_first": false,
     "templates": [
       "preview",
       "font-linux.css",

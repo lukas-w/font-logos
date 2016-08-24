@@ -69,6 +69,7 @@
 .fl-sabayon:before,
 .fl-slackware:before,
 .fl-slackware-inverse:before,
+.fl-tux:before,
 .fl-ubuntu:before,
 .fl-ubuntu-inverse:before {
   display: inline-block;
@@ -105,5 +106,6 @@
 .fl-sabayon:before { content: "\f115"; }
 .fl-slackware:before { content: "\f10b"; }
 .fl-slackware-inverse:before { content: "\f10c"; }
+.fl-tux:before { content: "\f118"; }
 .fl-ubuntu:before { content: "\f10d"; }
 .fl-ubuntu-inverse:before { content: "\f10e"; }

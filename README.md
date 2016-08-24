@@ -39,6 +39,7 @@ Available logos are:
 | Red Hat      | `fl-redhat`              | `<span class="fl-redhat"></span>`
 | Sabayon      | `fl-sabayon`             | `<span class="fl-sabayon"></span>`
 | Slackware    | `fl-slackware[-inverse]` | `<span class="fl-slackware"></span>`
+| Tux          | `fl-tux`                 | `<span class="fl-tux"></span>`
 | Ubuntu       | `fl-ubuntu[-inverse]`    | `<span class="fl-ubuntu"></span>`
 
 ## Dependencies ##
