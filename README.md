@@ -34,6 +34,7 @@ Available logos are:
 | Linux Mint   | `fl-linuxmint[-inverse]` | `<span class="fl-linuxmint"></span>`
 | Mageia       | `fl-mageia`              | `<span class="fl-mageia"></span>`
 | Mandriva     | `fl-mandriva`            | `<span class="fl-mandriva"></span>`
+| NixOS        | `fl-nixos`               | `<span class="fl-nixos"></span>`
 | OpenSUSE     | `fl-opensuse`            | `<span class="fl-opensuse"></span>`
 | Red Hat      | `fl-redhat`              | `<span class="fl-redhat"></span>`
 | Sabayon      | `fl-sabayon`             | `<span class="fl-sabayon"></span>`

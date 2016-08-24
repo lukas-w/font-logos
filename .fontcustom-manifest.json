@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "a76e92e845b68c25624afb27264de40421d014e18d0dc5ef3f36f95648869665",
-    "current": "a76e92e845b68c25624afb27264de40421d014e18d0dc5ef3f36f95648869665"
+    "previous": "119f1c5d41a5a9b11d133ac27fbca9256850bc4c04e6320eb26c9bb26a84db91",
+    "current": "119f1c5d41a5a9b11d133ac27fbca9256850bc4c04e6320eb26c9bb26a84db91"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -65,6 +65,10 @@
     "mandriva": {
       "codepoint": 61704,
       "source": "vectors/mandriva.svg"
+    },
+    "nixos": {
+      "codepoint": 61719,
+      "source": "vectors/nixos.svg"
     },
     "opensuse": {
       "codepoint": 61705,

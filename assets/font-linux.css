@@ -63,6 +63,7 @@
 .fl-linuxmint-inverse:before,
 .fl-mageia:before,
 .fl-mandriva:before,
+.fl-nixos:before,
 .fl-opensuse:before,
 .fl-redhat:before,
 .fl-sabayon:before,
@@ -98,6 +99,7 @@
 .fl-linuxmint-inverse:before { content: "\f106"; }
 .fl-mageia:before { content: "\f107"; }
 .fl-mandriva:before { content: "\f108"; }
+.fl-nixos:before { content: "\f117"; }
 .fl-opensuse:before { content: "\f109"; }
 .fl-redhat:before { content: "\f10a"; }
 .fl-sabayon:before { content: "\f115"; }
