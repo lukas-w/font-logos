@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "b4ef0141535cb17f05cab50fce9da496b976d1efdae84a3e478d934f51651772",
-    "current": "b4ef0141535cb17f05cab50fce9da496b976d1efdae84a3e478d934f51651772"
+    "previous": "06c927da1ab5812ed809aea625c53d3467637a9b4d7cac88c712253eaa7e1893",
+    "current": "06c927da1ab5812ed809aea625c53d3467637a9b4d7cac88c712253eaa7e1893"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -131,7 +131,6 @@
     },
     "preprocessor_path": "",
     "quiet": false,
-    "skip_first": false,
     "templates": [
       "preview",
       "font-linux.css",
