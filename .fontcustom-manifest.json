@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "f00c1b76971eeb00ef3de717c0183b6e951ceae90b31f268387d9f9be7fef460",
-    "current": "f00c1b76971eeb00ef3de717c0183b6e951ceae90b31f268387d9f9be7fef460"
+    "previous": "b4ef0141535cb17f05cab50fce9da496b976d1efdae84a3e478d934f51651772",
+    "current": "b4ef0141535cb17f05cab50fce9da496b976d1efdae84a3e478d934f51651772"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -73,6 +73,10 @@
     "opensuse": {
       "codepoint": 61705,
       "source": "vectors/opensuse.svg"
+    },
+    "raspberry-pi": {
+      "codepoint": 61722,
+      "source": "vectors/raspberry-pi.svg"
     },
     "redhat": {
       "codepoint": 61706,
