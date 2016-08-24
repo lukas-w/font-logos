@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "06c927da1ab5812ed809aea625c53d3467637a9b4d7cac88c712253eaa7e1893",
-    "current": "06c927da1ab5812ed809aea625c53d3467637a9b4d7cac88c712253eaa7e1893"
+    "previous": "c25e4d8580315f5b420602fbf032cc065ccdf6d4ea293875b849ac73baa98369",
+    "current": "c25e4d8580315f5b420602fbf032cc065ccdf6d4ea293875b849ac73baa98369"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -117,7 +117,7 @@
     "font_design_size": 16,
     "font_em": 512,
     "font_name": "font-linux",
-    "force": false,
+    "force": true,
     "input": {
       "templates": "templates",
       "vectors": "vectors"
