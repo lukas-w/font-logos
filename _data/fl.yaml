@@ -1,4 +1,4 @@
-version: 0.6
+version: 0.7
 icons:
     - aosc
     - archlinux
@@ -14,10 +14,13 @@ icons:
     - linuxmint-inverse
     - mageia
     - mandriva
+    - nixos
     - opensuse
+    - raspberry-pi
     - redhat
     - sabayon
     - slackware
     - slackware-inverse
+    - tux
     - ubuntu
     - ubuntu-inverse
