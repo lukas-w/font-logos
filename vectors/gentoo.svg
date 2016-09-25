@@ -1,46 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="512"
    height="512"
    id="svg2"
-   sodipodi:version="0.32"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="gentoo.svg"
-   version="1.0"
-   inkscape:export-filename="gentoo-logo-dark.png"
-   inkscape:export-xdpi="20.885794"
-   inkscape:export-ydpi="20.885794">
+   version="1.0">
   <title
      id="title3032">Gentoo Logo Dark v1.0</title>
   <defs
      id="defs4" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="334.26928"
-     inkscape:cy="251.65415"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer2"
-     inkscape:window-width="1855"
-     inkscape:window-height="1056"
-     inkscape:window-x="1665"
-     inkscape:window-y="24"
-     showgrid="false"
-     inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -92,9 +64,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="back"
      style="display:inline"
      transform="translate(-25.69105,-136.02588)">
     <path

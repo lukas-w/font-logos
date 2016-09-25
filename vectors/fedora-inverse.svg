@@ -1,73 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="512"
    height="512"
    id="svg3037"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="fedora-inverse.svg">
+   version="1.1">
   <defs
-     id="defs5498">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       id="perspective2752" />
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       id="perspective2624" />
-    <inkscape:perspective
-       id="perspective2460"
-       inkscape:persp3d-origin="512 : 108 : 1"
-       inkscape:vp_z="1024 : 162 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 162 : 1"
-       sodipodi:type="inkscape:persp3d" />
-  </defs>
-  <sodipodi:namedview
-     inkscape:window-height="1055"
-     inkscape:window-width="1920"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
-     pagecolor="#ffffff"
-     id="base"
-     showgrid="false"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="167.59703"
-     inkscape:cy="221.85465"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:current-layer="g2516"
-     inkscape:snap-global="false"
-     inkscape:window-maximized="1"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0">
-    <sodipodi:guide
-       orientation="0,1"
-       position="-34.980469,63.996094"
-       id="guide3111" />
-  </sodipodi:namedview>
+     id="defs5498" />
   <metadata
      id="metadata5594">
     <rdf:RDF>
@@ -81,8 +24,6 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-100.75915,-484.95513)">
     <g
@@ -95,12 +36,10 @@
            id="g2516"
            transform="matrix(4.1474231,0,0,4.1474231,-599.81857,123.97573)">
           <path
-             inkscape:connector-curvature="0"
              d="m 193.82821,16.449765 c 0,-8.7925382 -7.12799,-15.92058561 -15.92042,-15.92058561 -8.78858,0 -15.91349,7.12207111 -15.9199,15.90936961 l -4.8e-4,-5.19e-4 0,12.320006 4.8e-4,5.2e-4 c 0.005,1.995186 1.62289,3.610389 3.61937,3.610389 l 0.0173,-5.08e-4 9.7e-4,5.08e-4 12.28857,0 c 8.78961,-0.0033 15.91403,-7.128846 15.91403,-15.91918"
              style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#1a1a1a;stroke-width:1.07706056;stroke-miterlimit:4;stroke-dasharray:none"
              id="path3584" />
           <path
-             inkscape:connector-curvature="0"
              d="m 175.11012,15.735081 0,-3.954937 0,-0.0051 c 0,-4.1267512 3.34517,-7.4719904 7.47198,-7.4719904 0.6263,0 1.07103,0.070289 1.65093,0.2221779 0.8448,0.2213795 1.53487,0.9136941 1.5354,1.7198014 2.3e-4,0.9741715 -0.70686,1.6822254 -1.76364,1.6822254 -0.50366,0 -0.68545,-0.09636 -1.42296,-0.09636 -2.17546,0 -3.93961,1.76189 -3.94342,3.937649 l 0,3.409249 0,5.22e-4 c 0,0.307466 0.24888,0.556828 0.55691,0.556828 l 0.002,0 2.5896,0 c 0.9652,0 1.74423,0.772209 1.74504,1.739654 0,0.968268 -0.7801,1.739001 -1.74504,1.739001 l -3.14808,0 0,3.971838 0,0.0052 c 0,4.126159 -3.34541,7.471881 -7.47199,7.471881 -0.62604,0 -1.07102,-0.07064 -1.65039,-0.222117 -0.84512,-0.221077 -1.53568,-0.913948 -1.53592,-1.719765 0,-0.974122 0.70714,-1.682552 1.76388,-1.682552 0.50313,0 0.6857,0.09667 1.42243,0.09667 2.17573,0 3.94039,-1.762374 3.94397,-3.937916 l 0,-3.4269 c 0,-0.307093 -0.24942,-0.555862 -0.55694,-0.555862 l -0.002,0 -2.58963,-5.2e-4 c -0.96518,0 -1.74497,-0.769995 -1.74497,-1.73796 -5.4e-4,-0.973954 0.78796,-1.740695 1.76359,-1.740695 l 3.12923,0"
              style="fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none"
              id="path3588" />
