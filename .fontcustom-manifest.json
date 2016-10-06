@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "e7173e44982e831dc0e2b98fd269003a26dd10e53c4ff0a907a727d368483083",
-    "current": "e7173e44982e831dc0e2b98fd269003a26dd10e53c4ff0a907a727d368483083"
+    "previous": "49bd166a96334b9a7bad2220048b1767b3cf3980aafbffa5226465ac492474fc",
+    "current": "49bd166a96334b9a7bad2220048b1767b3cf3980aafbffa5226465ac492474fc"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -66,6 +66,10 @@
       "codepoint": 61704,
       "source": "vectors/mandriva.svg"
     },
+    "manjaro": {
+      "codepoint": 61723,
+      "source": "vectors/manjaro.svg"
+    },
     "nixos": {
       "codepoint": 61719,
       "source": "vectors/nixos.svg"
@@ -117,7 +121,7 @@
     "font_design_size": 16,
     "font_em": 512,
     "font_name": "font-linux",
-    "force": true,
+    "force": false,
     "input": {
       "templates": "templates",
       "vectors": "vectors"

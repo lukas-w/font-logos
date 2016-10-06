@@ -33,6 +33,7 @@ Available logos are:
 | Gentoo       | `fl-gentoo`              | `<span class="fl-gentoo"></span>`
 | Linux Mint   | `fl-linuxmint[-inverse]` | `<span class="fl-linuxmint"></span>`
 | Mageia       | `fl-mageia`              | `<span class="fl-mageia"></span>`
+| Manjaro      | `fl-manjaro`             | `<span class="fl-manjaro"></span>`
 | Mandriva     | `fl-mandriva`            | `<span class="fl-mandriva"></span>`
 | NixOS        | `fl-nixos`               | `<span class="fl-nixos"></span>`
 | OpenSUSE     | `fl-opensuse`            | `<span class="fl-opensuse"></span>`
