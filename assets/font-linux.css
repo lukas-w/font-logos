@@ -50,6 +50,7 @@
 
 [data-icon]:before,
 .fl-aosc:before,
+.fl-apple:before,
 .fl-archlinux:before,
 .fl-centos:before,
 .fl-coreos:before,
@@ -89,6 +90,7 @@
 }
 
 .fl-aosc:before { content: "\f116"; }
+.fl-apple:before { content: "\f11c"; }
 .fl-archlinux:before { content: "\f100"; }
 .fl-centos:before { content: "\f101"; }
 .fl-coreos:before { content: "\f110"; }

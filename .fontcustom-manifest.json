@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "49bd166a96334b9a7bad2220048b1767b3cf3980aafbffa5226465ac492474fc",
-    "current": "49bd166a96334b9a7bad2220048b1767b3cf3980aafbffa5226465ac492474fc"
+    "previous": "b554bbe80d31324672bfdd6ac129c65d3f21f30b8f859cdbc2a8adaacf2c1429",
+    "current": "b554bbe80d31324672bfdd6ac129c65d3f21f30b8f859cdbc2a8adaacf2c1429"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -13,6 +13,10 @@
     "aosc": {
       "codepoint": 61718,
       "source": "vectors/aosc.svg"
+    },
+    "apple": {
+      "codepoint": 61724,
+      "source": "vectors/apple.svg"
     },
     "archlinux": {
       "codepoint": 61696,
