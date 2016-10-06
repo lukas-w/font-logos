@@ -1,6 +1,7 @@
-version: 0.7
+version: 0.8
 icons:
     - aosc
+    - apple
     - archlinux
     - centos
     - coreos
@@ -14,6 +15,7 @@ icons:
     - linuxmint-inverse
     - mageia
     - mandriva
+    - manjaro
     - nixos
     - opensuse
     - raspberry-pi
