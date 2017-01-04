@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "b554bbe80d31324672bfdd6ac129c65d3f21f30b8f859cdbc2a8adaacf2c1429",
-    "current": "b554bbe80d31324672bfdd6ac129c65d3f21f30b8f859cdbc2a8adaacf2c1429"
+    "previous": "70f9d4fcdfae1a56cb0ad39de788495c14974bf47c1d8f9560ade06ef8d18fc5",
+    "current": "70f9d4fcdfae1a56cb0ad39de788495c14974bf47c1d8f9560ade06ef8d18fc5"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -33,6 +33,10 @@
     "debian": {
       "codepoint": 61698,
       "source": "vectors/debian.svg"
+    },
+    "docker": {
+      "codepoint": 61726,
+      "source": "vectors/docker.svg"
     },
     "elementary": {
       "codepoint": 61715,
