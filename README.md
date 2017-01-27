@@ -22,6 +22,7 @@ Available logos are:
 
 | Distribution | CSS class                | Inclusion code
 | -------------|--------------------------|-------------------------------------
+| Alpine       | `fl-alpine`              | `<span class="fl-alpine"></span>`
 | AOSC OS      | `fl-aosc`                | `<span class="fl-aosc"></span>`
 | Arch Linux   | `fl-archlinux`           | `<span class="fl-archlinux"></span>`
 | Apple        | `fl-apple`               | `<span class="fl-apple"></span>`
@@ -46,7 +47,7 @@ Available logos are:
 | Ubuntu       | `fl-ubuntu[-inverse]`    | `<span class="fl-ubuntu"></span>`
 
 ## Dependencies ##
-* This project uses [fontcustom](//fontcustom.github.io/fontcustom/) to compile vectors into fonts.
+* This project uses [fontcustom](https://github.com/FontCustom/fontcustom) to compile vectors into fonts.
 * [wkhtmltopdf](http://wkhtmltopdf.org/) is used to generate this readme's preview image.
 
 ## Compilation of the vectors ##

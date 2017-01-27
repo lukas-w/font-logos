@@ -49,6 +49,7 @@
 [data-icon]:before { content: attr(data-icon); }
 
 [data-icon]:before,
+.fl-alpine:before,
 .fl-aosc:before,
 .fl-apple:before,
 .fl-archlinux:before,
@@ -90,6 +91,7 @@
   font-smoothing: antialiased;
 }
 
+.fl-alpine:before { content: "\f11f"; }
 .fl-aosc:before { content: "\f116"; }
 .fl-apple:before { content: "\f11c"; }
 .fl-archlinux:before { content: "\f100"; }
