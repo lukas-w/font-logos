@@ -1,11 +1,13 @@
-version: 0.8
+version: 0.9
 icons:
+    - alpine
     - aosc
     - apple
     - archlinux
     - centos
     - coreos
     - debian
+    - docker
     - elementary
     - fedora
     - fedora-inverse
