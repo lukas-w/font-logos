@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "70f9d4fcdfae1a56cb0ad39de788495c14974bf47c1d8f9560ade06ef8d18fc5",
-    "current": "70f9d4fcdfae1a56cb0ad39de788495c14974bf47c1d8f9560ade06ef8d18fc5"
+    "previous": "079863186bdbfa6052d37e014a263829009501619845fefd0d6340edd3407c32",
+    "current": "079863186bdbfa6052d37e014a263829009501619845fefd0d6340edd3407c32"
   },
   "fonts": [
     "assets/font-linux.ttf",
@@ -10,6 +10,10 @@
     "assets/font-linux.eot"
   ],
   "glyphs": {
+    "alpine": {
+      "codepoint": 61727,
+      "source": "vectors/alpine.svg"
+    },
     "aosc": {
       "codepoint": 61718,
       "source": "vectors/aosc.svg"
@@ -129,7 +133,7 @@
     "font_design_size": 16,
     "font_em": 512,
     "font_name": "font-linux",
-    "force": false,
+    "force": true,
     "input": {
       "templates": "templates",
       "vectors": "vectors"

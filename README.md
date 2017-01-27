@@ -22,6 +22,7 @@ Available logos are:
 
 | Distribution | CSS class                | Inclusion code
 | -------------|--------------------------|-------------------------------------
+| Alpine       | `fl-alpine`              | `<span class="fl-alpine"></span>`
 | AOSC OS      | `fl-aosc`                | `<span class="fl-aosc"></span>`
 | Arch Linux   | `fl-archlinux`           | `<span class="fl-archlinux"></span>`
 | Apple        | `fl-apple`               | `<span class="fl-apple"></span>`
