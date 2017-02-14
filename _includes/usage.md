@@ -7,7 +7,7 @@ To use the font, include `assets/font-linux.css` as well as the fonts in your pr
 <link href="/assets/stylesheets/font-linux.css" rel="stylesheet">
 {% endhighlight %}
 
-Or just link to it using [RawGit]("http://rawgit.com/") (served via [MaxCDN](http://www.maxcdn.com)'s network):
+Or just link to it using [RawGit](https://rawgit.com/) (served via [MaxCDN](http://www.maxcdn.com)'s network):
 
 {% highlight html %}
 <link href="//cdn.rawgit.com/Lukas-W/font-linux/v{{ site.data.fl.version }}/assets/font-linux.css" rel="stylesheet">
