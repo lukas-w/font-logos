@@ -1,13 +1,13 @@
 {
   "checksum": {
-    "previous": "079863186bdbfa6052d37e014a263829009501619845fefd0d6340edd3407c32",
-    "current": "079863186bdbfa6052d37e014a263829009501619845fefd0d6340edd3407c32"
+    "previous": "19635114cffe235a408a1ae92fa74ea444362c9029fb0773bdbe4daae2b891ca",
+    "current": "19635114cffe235a408a1ae92fa74ea444362c9029fb0773bdbe4daae2b891ca"
   },
   "fonts": [
-    "assets/font-linux.ttf",
-    "assets/font-linux.svg",
-    "assets/font-linux.woff",
-    "assets/font-linux.eot"
+    "assets/fonts/font-linux.ttf",
+    "assets/fonts/font-linux.svg",
+    "assets/fonts/font-linux.woff",
+    "assets/fonts/font-linux.eot"
   ],
   "glyphs": {
     "alpine": {
@@ -140,10 +140,10 @@
     },
     "no_hash": true,
     "output": {
-      "css": "assets",
-      "font-linux.css": "assets",
-      "fonts": "assets",
-      "preview": "assets"
+      "css": "assets/fonts",
+      "font-linux.css": "assets/css",
+      "fonts": "assets/fonts",
+      "preview": "assets/fonts"
     },
     "preprocessor_path": "",
     "quiet": false,
@@ -154,8 +154,8 @@
     ]
   },
   "templates": [
-    "assets/font-linux-preview.html",
-    "assets/font-linux.css",
-    "assets/icon_preview.html"
+    "assets/fonts/font-linux-preview.html",
+    "assets/css/font-linux.css",
+    "assets/fonts/icon_preview.html"
   ]
 }

@@ -27,8 +27,8 @@ input:
 # --------------------------------------------------------------------------- #
 
 output:
-  fonts: assets                              # required
-  font-linux.css: assets
+  fonts: assets/fonts                              # required
+  font-linux.css: assets/css
 
 
 # --------------------------------------------------------------------------- #

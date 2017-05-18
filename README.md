@@ -9,14 +9,14 @@ inclusion in websites.
 
 *Note:* All brand icons are trademarks of their respective owners and should only be used to represent the company or product to which they refer.
 
-To use the font, include `assets/font-linux.css` as well as the
+To use the font, include `assets/css/font-linux.css` as well as the
 fonts in your project and use the CSS classes listed below.
 
-	<link href="/assets/fontlinux.css" rel="stylesheet">
+	<link href="/assets/css/fontlinux.css" rel="stylesheet">
 
 Or just link to it using [RawGit](//rawgit.com) (served via [MaxCDN](//www.maxcdn.com)'s network):
 
-	<link href="//cdn.rawgit.com/Lukas-W/font-linux/v0.9/assets/font-linux.css" rel="stylesheet">
+	<link href="//cdn.rawgit.com/Lukas-W/font-linux/v0.9/assets/css/font-linux.css" rel="stylesheet">
 
 Available logos are:
 
