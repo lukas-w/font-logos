@@ -1,12 +1,13 @@
 {
-  "name": "font-linux",
-  "description": "An icon font providing popular linux distros' logos",
-  "version": "0.9.0",
+  "name": "font-os",
+  "description": "An icon font providing OS logos",
+  "version": "1.0.0",
   "style": "assets/font-linux.css",
   "authors": [
+    "Junaid Qadir Shekhanzai (shekhanzai.baloch@gmail.com)"
     "Lukas W (https://github.com/Lukas-W)"
   ],
-  "license": "Unlicense",
+  "license": "MIT",
   "homepage": "https://github.com/Lukas-W/font-linux",
-  "repository": "https://github.com/Lukas-W/font-linux.git"
+  "repository": "https://github.com/JeyKue/font-os.git"
 }
