@@ -14,9 +14,10 @@ fonts in your project and use the CSS classes listed below.
 
 	<link href="/assets/css/font-os.css" rel="stylesheet">
 
-Or just link to it using [RawGit](//rawgit.com) (served via [MaxCDN](//www.maxcdn.com)'s network):
+Or via `npm`
 
-	<link href="//cdn.rawgit.com/JeyKeu/font-os/v1.0.0/assets/css/font-os.css" rel="stylesheet">
+`npm install font-os --save`
+
 
 Available logos are:
 
