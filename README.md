@@ -2,8 +2,7 @@
 
 ![Available logos](assets/preview.png)
 
-font-os is an icon font containing logos of popular linux distributions for 
-inclusion in websites.
+font-os is an icon font containing Operating System logos to be used on your website.
 
 ## Usage ##
 
