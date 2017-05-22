@@ -1,13 +1,12 @@
 {
   "name": "font-os",
   "description": "An icon font providing OS logos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "style": "assets/font-os.css",
   "authors": [
     "Junaid Qadir Shekhanzai (shekhanzai.baloch@gmail.com)",
     "Lukas W (https://github.com/Lukas-W)"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/Lukas-W/font-linux",
   "repository": "https://github.com/JeyKue/font-os.git"
 }

@@ -1,0 +1,121 @@
+/*
+  Icon Font: font-os
+*/
+
+@font-face {
+  font-family: "font-os";
+  src: url("../fonts/font-os.eot");
+  src: url("../fonts/font-os.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/font-os.woff") format("woff"),
+       url("../fonts/font-os.ttf") format("truetype"),
+       url("../fonts/font-os.svg#font-os") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "font-os";
+    src: url("../fonts/font-os.svg#font-os") format("svg");
+  }
+}
+
+.fo {
+}
+
+
+
+.fo-12 { font-size: 12px; }
+
+.fo-14 { font-size: 14px; }
+
+.fo-16 { font-size: 16px; }
+
+.fo-18 { font-size: 18px; }
+
+.fo-21 { font-size: 21px; }
+
+.fo-24 { font-size: 24px; }
+
+.fo-36 { font-size: 36px; }
+
+.fo-48 { font-size: 48px; }
+
+.fo-60 { font-size: 60px; }
+
+.fo-72 { font-size: 72px; }
+
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.fo-alpine:before,
+.fo-aosc:before,
+.fo-apple:before,
+.fo-archlinux:before,
+.fo-centos:before,
+.fo-coreos:before,
+.fo-debian:before,
+.fo-docker:before,
+.fo-elementary:before,
+.fo-fedora:before,
+.fo-fedora-inverse:before,
+.fo-freebsd:before,
+.fo-gentoo:before,
+.fo-linuxmint:before,
+.fo-linuxmint-inverse:before,
+.fo-mageia:before,
+.fo-mandriva:before,
+.fo-manjaro:before,
+.fo-nixos:before,
+.fo-opensuse:before,
+.fo-raspberry-pi:before,
+.fo-redhat:before,
+.fo-sabayon:before,
+.fo-slackware:before,
+.fo-slackware-inverse:before,
+.fo-tux:before,
+.fo-ubuntu:before,
+.fo-ubuntu-inverse:before {
+  display: inline-block;
+  font-family: "font-os";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.fo-alpine:before { content: "\f100"; }
+.fo-aosc:before { content: "\f101"; }
+.fo-apple:before { content: "\f102"; }
+.fo-archlinux:before { content: "\f103"; }
+.fo-centos:before { content: "\f104"; }
+.fo-coreos:before { content: "\f105"; }
+.fo-debian:before { content: "\f106"; }
+.fo-docker:before { content: "\f107"; }
+.fo-elementary:before { content: "\f108"; }
+.fo-fedora:before { content: "\f109"; }
+.fo-fedora-inverse:before { content: "\f10a"; }
+.fo-freebsd:before { content: "\f10b"; }
+.fo-gentoo:before { content: "\f10c"; }
+.fo-linuxmint:before { content: "\f10d"; }
+.fo-linuxmint-inverse:before { content: "\f10e"; }
+.fo-mageia:before { content: "\f10f"; }
+.fo-mandriva:before { content: "\f110"; }
+.fo-manjaro:before { content: "\f111"; }
+.fo-nixos:before { content: "\f112"; }
+.fo-opensuse:before { content: "\f113"; }
+.fo-raspberry-pi:before { content: "\f114"; }
+.fo-redhat:before { content: "\f115"; }
+.fo-sabayon:before { content: "\f116"; }
+.fo-slackware:before { content: "\f117"; }
+.fo-slackware-inverse:before { content: "\f118"; }
+.fo-tux:before { content: "\f119"; }
+.fo-ubuntu:before { content: "\f11a"; }
+.fo-ubuntu-inverse:before { content: "\f11b"; }
