@@ -4,13 +4,13 @@
 #   `fontcustom help` or visiting <http://fontcustom.com>.
 # --------------------------------------------------------------------------- #
 
-font_name: font-linux
-css_selector: .fl-{{glyph}}
+font_name: font-os
+css_selector: .fo-{{glyph}}
 preprocessor_path: ""
 autowidth: false
 no_hash: true
 force: false
-debug: false
+debug: true
 quiet: false
 
 
@@ -27,8 +27,8 @@ input:
 # --------------------------------------------------------------------------- #
 
 output:
-  fonts: assets                              # required
-  font-linux.css: assets
+  fonts: assets/fonts                              # required
+  css: assets/css
 
 
 # --------------------------------------------------------------------------- #
@@ -40,5 +40,5 @@ output:
 
 templates:
  - preview
- - font-linux.css
+ - css/font-os.css
  - icon_preview.html
