@@ -143,6 +143,7 @@
   font-family: "font-linux";
   src: url("./font-linux.eot");
   src: url("./font-linux.eot?#iefix") format("embedded-opentype"),
+       url("./font-linux.woff2") format("woff2"),
        url("./font-linux.woff") format("woff"),
        url("./font-linux.ttf") format("truetype"),
        url("./font-linux.svg#font-linux") format("svg");
@@ -167,6 +168,7 @@
 .fl-centos:before,
 .fl-coreos:before,
 .fl-debian:before,
+.fl-devuan:before,
 .fl-docker:before,
 .fl-elementary:before,
 .fl-fedora:before,
@@ -202,34 +204,35 @@
   font-smoothing: antialiased;
       }
 
-      .fl-alpine:before { content: "\f11f"; }
-.fl-aosc:before { content: "\f116"; }
-.fl-apple:before { content: "\f11c"; }
-.fl-archlinux:before { content: "\f100"; }
-.fl-centos:before { content: "\f101"; }
-.fl-coreos:before { content: "\f110"; }
-.fl-debian:before { content: "\f102"; }
-.fl-docker:before { content: "\f11e"; }
-.fl-elementary:before { content: "\f113"; }
-.fl-fedora:before { content: "\f103"; }
-.fl-fedora-inverse:before { content: "\f114"; }
-.fl-freebsd:before { content: "\f10f"; }
-.fl-gentoo:before { content: "\f111"; }
-.fl-linuxmint:before { content: "\f105"; }
-.fl-linuxmint-inverse:before { content: "\f106"; }
-.fl-mageia:before { content: "\f107"; }
-.fl-mandriva:before { content: "\f108"; }
-.fl-manjaro:before { content: "\f11b"; }
-.fl-nixos:before { content: "\f117"; }
-.fl-opensuse:before { content: "\f109"; }
-.fl-raspberry-pi:before { content: "\f11a"; }
-.fl-redhat:before { content: "\f10a"; }
-.fl-sabayon:before { content: "\f115"; }
-.fl-slackware:before { content: "\f10b"; }
-.fl-slackware-inverse:before { content: "\f10c"; }
-.fl-tux:before { content: "\f118"; }
-.fl-ubuntu:before { content: "\f10d"; }
-.fl-ubuntu-inverse:before { content: "\f10e"; }
+      .fl-alpine:before { content: "\f100"; }
+.fl-aosc:before { content: "\f101"; }
+.fl-apple:before { content: "\f102"; }
+.fl-archlinux:before { content: "\f103"; }
+.fl-centos:before { content: "\f104"; }
+.fl-coreos:before { content: "\f105"; }
+.fl-debian:before { content: "\f106"; }
+.fl-devuan:before { content: "\f107"; }
+.fl-docker:before { content: "\f108"; }
+.fl-elementary:before { content: "\f109"; }
+.fl-fedora:before { content: "\f10a"; }
+.fl-fedora-inverse:before { content: "\f10b"; }
+.fl-freebsd:before { content: "\f10c"; }
+.fl-gentoo:before { content: "\f10d"; }
+.fl-linuxmint:before { content: "\f10e"; }
+.fl-linuxmint-inverse:before { content: "\f10f"; }
+.fl-mageia:before { content: "\f110"; }
+.fl-mandriva:before { content: "\f111"; }
+.fl-manjaro:before { content: "\f112"; }
+.fl-nixos:before { content: "\f113"; }
+.fl-opensuse:before { content: "\f114"; }
+.fl-raspberry-pi:before { content: "\f115"; }
+.fl-redhat:before { content: "\f116"; }
+.fl-sabayon:before { content: "\f117"; }
+.fl-slackware:before { content: "\f118"; }
+.fl-slackware-inverse:before { content: "\f119"; }
+.fl-tux:before { content: "\f11a"; }
+.fl-ubuntu:before { content: "\f11b"; }
+.fl-ubuntu-inverse:before { content: "\f11c"; }
     </style>
 
     <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -245,7 +248,7 @@
   <body class="characters-off">
     <div id="page" class="container">
       <header>
-        <h1>font-linux contains 28 glyphs:</h1>
+        <h1>font-linux contains 29 glyphs:</h1>
         <a onclick="toggleCharacters(); return false;" href="#">Toggle Preview Characters</a>
       </header>
 
@@ -259,7 +262,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-alpine" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11f;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf100;" />
         </div>
       </div>
       
@@ -272,7 +275,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-aosc" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf116;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf101;" />
         </div>
       </div>
       
@@ -285,7 +288,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-apple" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11c;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf102;" />
         </div>
       </div>
       
@@ -298,7 +301,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-archlinux" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf100;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf103;" />
         </div>
       </div>
       
@@ -311,7 +314,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-centos" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf101;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf104;" />
         </div>
       </div>
       
@@ -324,7 +327,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-coreos" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf110;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf105;" />
         </div>
       </div>
       
@@ -337,7 +340,20 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-debian" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf102;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf106;" />
+        </div>
+      </div>
+      
+      <div class="glyph">
+        <div class="preview-glyphs">
+          <span class="step size-12"><span class="letters">Pp</span><i id="fl-devuan" class="fl-devuan"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-devuan" class="fl-devuan"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-devuan" class="fl-devuan"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-devuan" class="fl-devuan"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-devuan" class="fl-devuan"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-devuan" class="fl-devuan"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-devuan" class="fl-devuan"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-devuan" class="fl-devuan"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-devuan" class="fl-devuan"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-devuan" class="fl-devuan"></i></span>
+        </div>
+        <div class="preview-scale">
+          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+        </div>
+        <div class="usage">
+          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-devuan" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf107;" />
         </div>
       </div>
       
@@ -350,7 +366,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-docker" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11e;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf108;" />
         </div>
       </div>
       
@@ -363,7 +379,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-elementary" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf113;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf109;" />
         </div>
       </div>
       
@@ -376,7 +392,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-fedora" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf103;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10a;" />
         </div>
       </div>
       
@@ -389,7 +405,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-fedora-inverse" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf114;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10b;" />
         </div>
       </div>
       
@@ -402,7 +418,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-freebsd" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10f;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10c;" />
         </div>
       </div>
       
@@ -415,7 +431,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-gentoo" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf111;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10d;" />
         </div>
       </div>
       
@@ -428,7 +444,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-linuxmint" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf105;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10e;" />
         </div>
       </div>
       
@@ -441,7 +457,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-linuxmint-inverse" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf106;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10f;" />
         </div>
       </div>
       
@@ -454,7 +470,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-mageia" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf107;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf110;" />
         </div>
       </div>
       
@@ -467,7 +483,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-mandriva" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf108;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf111;" />
         </div>
       </div>
       
@@ -480,7 +496,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-manjaro" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11b;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf112;" />
         </div>
       </div>
       
@@ -493,7 +509,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-nixos" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf117;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf113;" />
         </div>
       </div>
       
@@ -506,7 +522,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-opensuse" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf109;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf114;" />
         </div>
       </div>
       
@@ -519,7 +535,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-raspberry-pi" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11a;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf115;" />
         </div>
       </div>
       
@@ -532,7 +548,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-redhat" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10a;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf116;" />
         </div>
       </div>
       
@@ -545,7 +561,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-sabayon" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf115;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf117;" />
         </div>
       </div>
       
@@ -558,7 +574,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-slackware" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10b;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf118;" />
         </div>
       </div>
       
@@ -571,7 +587,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-slackware-inverse" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10c;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf119;" />
         </div>
       </div>
       
@@ -584,7 +600,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-tux" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf118;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11a;" />
         </div>
       </div>
       
@@ -597,7 +613,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-ubuntu" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10d;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11b;" />
         </div>
       </div>
       
@@ -610,7 +626,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-ubuntu-inverse" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf10e;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11c;" />
         </div>
       </div>
       

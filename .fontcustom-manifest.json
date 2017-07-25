@@ -1,131 +1,138 @@
 {
   "checksum": {
-    "previous": "079863186bdbfa6052d37e014a263829009501619845fefd0d6340edd3407c32",
-    "current": "079863186bdbfa6052d37e014a263829009501619845fefd0d6340edd3407c32"
+    "previous": "63f9c87ca42e62349cc4ef39c23fa9b3143fd760ed7b407d3ccc9611ab8c8109",
+    "current": "63f9c87ca42e62349cc4ef39c23fa9b3143fd760ed7b407d3ccc9611ab8c8109"
   },
   "fonts": [
     "assets/font-linux.ttf",
     "assets/font-linux.svg",
     "assets/font-linux.woff",
-    "assets/font-linux.eot"
+    "assets/font-linux.eot",
+    "assets/font-linux.woff2"
   ],
   "glyphs": {
     "alpine": {
-      "codepoint": 61727,
+      "codepoint": 61696,
       "source": "vectors/alpine.svg"
     },
     "aosc": {
-      "codepoint": 61718,
+      "codepoint": 61697,
       "source": "vectors/aosc.svg"
     },
     "apple": {
-      "codepoint": 61724,
+      "codepoint": 61698,
       "source": "vectors/apple.svg"
     },
     "archlinux": {
-      "codepoint": 61696,
+      "codepoint": 61699,
       "source": "vectors/archlinux.svg"
     },
     "centos": {
-      "codepoint": 61697,
+      "codepoint": 61700,
       "source": "vectors/centos.svg"
     },
     "coreos": {
-      "codepoint": 61712,
+      "codepoint": 61701,
       "source": "vectors/coreos.svg"
     },
     "debian": {
-      "codepoint": 61698,
+      "codepoint": 61702,
       "source": "vectors/debian.svg"
     },
+    "devuan": {
+      "codepoint": 61703,
+      "source": "vectors/devuan.svg"
+    },
     "docker": {
-      "codepoint": 61726,
+      "codepoint": 61704,
       "source": "vectors/docker.svg"
     },
     "elementary": {
-      "codepoint": 61715,
+      "codepoint": 61705,
       "source": "vectors/elementary.svg"
     },
     "fedora": {
-      "codepoint": 61699,
+      "codepoint": 61706,
       "source": "vectors/fedora.svg"
     },
     "fedora-inverse": {
-      "codepoint": 61716,
+      "codepoint": 61707,
       "source": "vectors/fedora-inverse.svg"
     },
     "freebsd": {
-      "codepoint": 61711,
+      "codepoint": 61708,
       "source": "vectors/freebsd.svg"
     },
     "gentoo": {
-      "codepoint": 61713,
+      "codepoint": 61709,
       "source": "vectors/gentoo.svg"
     },
     "linuxmint": {
-      "codepoint": 61701,
+      "codepoint": 61710,
       "source": "vectors/linuxmint.svg"
     },
     "linuxmint-inverse": {
-      "codepoint": 61702,
+      "codepoint": 61711,
       "source": "vectors/linuxmint-inverse.svg"
     },
     "mageia": {
-      "codepoint": 61703,
+      "codepoint": 61712,
       "source": "vectors/mageia.svg"
     },
     "mandriva": {
-      "codepoint": 61704,
+      "codepoint": 61713,
       "source": "vectors/mandriva.svg"
     },
     "manjaro": {
-      "codepoint": 61723,
+      "codepoint": 61714,
       "source": "vectors/manjaro.svg"
     },
     "nixos": {
-      "codepoint": 61719,
+      "codepoint": 61715,
       "source": "vectors/nixos.svg"
     },
     "opensuse": {
-      "codepoint": 61705,
+      "codepoint": 61716,
       "source": "vectors/opensuse.svg"
     },
     "raspberry-pi": {
-      "codepoint": 61722,
+      "codepoint": 61717,
       "source": "vectors/raspberry-pi.svg"
     },
     "redhat": {
-      "codepoint": 61706,
+      "codepoint": 61718,
       "source": "vectors/redhat.svg"
     },
     "sabayon": {
-      "codepoint": 61717,
+      "codepoint": 61719,
       "source": "vectors/sabayon.svg"
     },
     "slackware": {
-      "codepoint": 61707,
+      "codepoint": 61720,
       "source": "vectors/slackware.svg"
     },
     "slackware-inverse": {
-      "codepoint": 61708,
+      "codepoint": 61721,
       "source": "vectors/slackware-inverse.svg"
     },
     "tux": {
-      "codepoint": 61720,
+      "codepoint": 61722,
       "source": "vectors/tux.svg"
     },
     "ubuntu": {
-      "codepoint": 61709,
+      "codepoint": 61723,
       "source": "vectors/ubuntu.svg"
     },
     "ubuntu-inverse": {
-      "codepoint": 61710,
+      "codepoint": 61724,
       "source": "vectors/ubuntu-inverse.svg"
     }
   },
   "options": {
     "autowidth": false,
     "config": "fontcustom.yml",
+    "copyright": "",
+    "css3": false,
     "css_selector": ".fl-{{glyph}}",
     "debug": false,
     "font_ascent": 448,
