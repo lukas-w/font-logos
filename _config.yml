@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: font-linux
+title: font-logos
 description: > # this means to ignore newlines until "baseurl:"
-  An icon font containing logos of popular linux distributions for inclusion in websites.
+  An icon font containing logos of popular linux distributions and other open source software for inclusion in websites.
 baseurl: "/font-logos" # the subpath of your site, e.g. /blog
 url: "https://lukas-w.github.io" # the base hostname & protocol for your site
 
