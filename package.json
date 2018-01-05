@@ -8,5 +8,15 @@
   ],
   "license": "Unlicense",
   "homepage": "https://github.com/Lukas-W/font-logos",
-  "repository": "https://github.com/Lukas-W/font-logos.git"
+  "repository": "https://github.com/Lukas-W/font-logos.git",
+  "files": [
+    "assets/font-logos.css",
+    "assets/font-logos.eot",
+    "assets/font-logos.svg",
+    "assets/font-logos.ttf",
+    "assets/font-logos.woff",
+    "assets/font-logos.woff2",
+    "vectors/*",
+    "README.md"
+  ]
 }
