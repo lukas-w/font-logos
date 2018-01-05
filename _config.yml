@@ -9,7 +9,7 @@
 title: font-linux
 description: > # this means to ignore newlines until "baseurl:"
   An icon font containing logos of popular linux distributions for inclusion in websites.
-baseurl: "/font-linux" # the subpath of your site, e.g. /blog
+baseurl: "/font-logos" # the subpath of your site, e.g. /blog
 url: "https://lukas-w.github.io" # the base hostname & protocol for your site
 
 # Build settings
