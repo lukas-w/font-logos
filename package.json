@@ -1,12 +1,12 @@
 {
-  "name": "font-linux",
+  "name": "font-logos",
   "description": "An icon font providing popular linux distros' logos",
   "version": "0.9.0",
-  "style": "assets/font-linux.css",
+  "style": "assets/font-logos.css",
   "authors": [
     "Lukas W (https://github.com/Lukas-W)"
   ],
   "license": "Unlicense",
-  "homepage": "https://github.com/Lukas-W/font-linux",
-  "repository": "https://github.com/Lukas-W/font-linux.git"
+  "homepage": "https://github.com/Lukas-W/font-logos",
+  "repository": "https://github.com/Lukas-W/font-logos.git"
 }

@@ -1,14 +1,14 @@
 {
   "checksum": {
-    "previous": "63f9c87ca42e62349cc4ef39c23fa9b3143fd760ed7b407d3ccc9611ab8c8109",
-    "current": "63f9c87ca42e62349cc4ef39c23fa9b3143fd760ed7b407d3ccc9611ab8c8109"
+    "previous": "8ec952418b0814fbe2ae565c7889ef8fb3a9f152b9de3471340a7eadcf817fb6",
+    "current": "8ec952418b0814fbe2ae565c7889ef8fb3a9f152b9de3471340a7eadcf817fb6"
   },
   "fonts": [
-    "assets/font-linux.ttf",
-    "assets/font-linux.svg",
-    "assets/font-linux.woff",
-    "assets/font-linux.eot",
-    "assets/font-linux.woff2"
+    "assets/font-logos.ttf",
+    "assets/font-logos.svg",
+    "assets/font-logos.woff",
+    "assets/font-logos.eot",
+    "assets/font-logos.woff2"
   ],
   "glyphs": {
     "alpine": {
@@ -139,7 +139,7 @@
     "font_descent": 64,
     "font_design_size": 16,
     "font_em": 512,
-    "font_name": "font-linux",
+    "font_name": "font-logos",
     "force": true,
     "input": {
       "templates": "templates",
@@ -148,7 +148,7 @@
     "no_hash": true,
     "output": {
       "css": "assets",
-      "font-linux.css": "assets",
+      "font-logos.css": "assets",
       "fonts": "assets",
       "preview": "assets"
     },
@@ -156,13 +156,13 @@
     "quiet": false,
     "templates": [
       "preview",
-      "font-linux.css",
+      "font-logos.css",
       "icon_preview.html"
     ]
   },
   "templates": [
-    "assets/font-linux-preview.html",
-    "assets/font-linux.css",
+    "assets/font-logos-preview.html",
+    "assets/font-logos.css",
     "assets/icon_preview.html"
   ]
 }

@@ -1,18 +1,18 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <!--
-2017-7-25: Created with FontForge (http://fontforge.org)
+2018-1-5: Created with FontForge (http://fontforge.org)
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20170320 at Tue Jul 25 10:24:11 2017
- By Lukas W
+Created by FontForge 20170805 at Fri Jan  5 16:53:37 2018
+ By Lukas W,,,,
 
 </metadata>
 <defs>
-<font id="font-linux" horiz-adv-x="512" >
+<font id="font-logos" horiz-adv-x="512" >
   <font-face 
-    font-family="font-linux"
+    font-family="font-logos"
     font-weight="400"
     font-stretch="normal"
     units-per-em="512"
