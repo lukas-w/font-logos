@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "f7da414002209863b0733d6979c2af2cc308a078ec7e503684a156fc96e82b03",
-    "current": "f7da414002209863b0733d6979c2af2cc308a078ec7e503684a156fc96e82b03"
+    "previous": "22ece9d546ea658b7229471991bb0359dab69c79609627c5ff8560ced1284700",
+    "current": "22ece9d546ea658b7229471991bb0359dab69c79609627c5ff8560ced1284700"
   },
   "fonts": [
     "assets/font-logos.ttf",
@@ -71,6 +71,10 @@
       "codepoint": 61709,
       "source": "vectors/gentoo.svg"
     },
+    "gnu-guix": {
+      "codepoint": 61726,
+      "source": "vectors/gnu-guix.svg"
+    },
     "linuxmint": {
       "codepoint": 61710,
       "source": "vectors/linuxmint.svg"
@@ -118,6 +122,10 @@
     "slackware-inverse": {
       "codepoint": 61721,
       "source": "vectors/slackware-inverse.svg"
+    },
+    "snappy": {
+      "codepoint": 61727,
+      "source": "vectors/snappy.svg"
     },
     "tux": {
       "codepoint": 61722,

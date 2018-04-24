@@ -65,6 +65,7 @@
 .fl-flathub:before,
 .fl-freebsd:before,
 .fl-gentoo:before,
+.fl-gnu-guix:before,
 .fl-linuxmint:before,
 .fl-linuxmint-inverse:before,
 .fl-mageia:before,
@@ -77,6 +78,7 @@
 .fl-sabayon:before,
 .fl-slackware:before,
 .fl-slackware-inverse:before,
+.fl-snappy:before,
 .fl-tux:before,
 .fl-ubuntu:before,
 .fl-ubuntu-inverse:before {
@@ -109,6 +111,7 @@
 .fl-flathub:before { content: "\f11d"; }
 .fl-freebsd:before { content: "\f10c"; }
 .fl-gentoo:before { content: "\f10d"; }
+.fl-gnu-guix:before { content: "\f11e"; }
 .fl-linuxmint:before { content: "\f10e"; }
 .fl-linuxmint-inverse:before { content: "\f10f"; }
 .fl-mageia:before { content: "\f110"; }
@@ -121,6 +124,7 @@
 .fl-sabayon:before { content: "\f117"; }
 .fl-slackware:before { content: "\f118"; }
 .fl-slackware-inverse:before { content: "\f119"; }
+.fl-snappy:before { content: "\f11f"; }
 .fl-tux:before { content: "\f11a"; }
 .fl-ubuntu:before { content: "\f11b"; }
 .fl-ubuntu-inverse:before { content: "\f11c"; }
