@@ -1,4 +1,4 @@
-version: "0.10"
+version: "0.11"
 icons:
     - alpine
     - aosc
@@ -28,3 +28,6 @@ icons:
     - tux
     - ubuntu
     - ubuntu-inverse
+    - gnu-guix
+    - snappy
+    - flathub
