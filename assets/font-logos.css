@@ -62,6 +62,7 @@
 .fl-elementary:before,
 .fl-fedora:before,
 .fl-fedora-inverse:before,
+.fl-flathub:before,
 .fl-freebsd:before,
 .fl-gentoo:before,
 .fl-linuxmint:before,
@@ -105,6 +106,7 @@
 .fl-elementary:before { content: "\f109"; }
 .fl-fedora:before { content: "\f10a"; }
 .fl-fedora-inverse:before { content: "\f10b"; }
+.fl-flathub:before { content: "\f11d"; }
 .fl-freebsd:before { content: "\f10c"; }
 .fl-gentoo:before { content: "\f10d"; }
 .fl-linuxmint:before { content: "\f10e"; }
