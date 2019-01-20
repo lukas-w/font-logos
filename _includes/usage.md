@@ -7,10 +7,10 @@ To use the font, include `assets/font-logos.css` as well as the fonts in your pr
 <link href="/assets/stylesheets/font-logos.css" rel="stylesheet">
 {% endhighlight %}
 
-Or just link to it using [RawGit](https://rawgit.com/) (served via [MaxCDN](http://www.maxcdn.com)'s network):
+Or just link to it using [jsDelivr](https://jsdelivr.com/):
 
 {% highlight html %}
-<link href="//cdn.rawgit.com/Lukas-W/font-logos/v{{ site.data.fl.version }}/assets/font-logos.css" rel="stylesheet">
+<link href="//cdn.jsdelivr.net/gh/Lukas-W/font-logos@v{{ site.data.fl.version }}/assets/font-logos.css" rel="stylesheet">
 {% endhighlight %}
 
 Use the CSS classes listed below like this:
