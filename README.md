@@ -13,9 +13,9 @@ fonts in your project and use the CSS classes listed below.
 
 	<link href="/assets/fontlogos.css" rel="stylesheet">
 
-Or just link to it using [RawGit](//rawgit.com) (served via [MaxCDN](//www.maxcdn.com)'s network):
+Or just link to it using [jsDelivr](//jsdelivr.com):
 
-	<link href="//cdn.rawgit.com/Lukas-W/font-logos/v0.9/assets/font-logos.css" rel="stylesheet">
+	<link href="//cdn.jsdelivr.net/gh/Lukas-W/font-logos@v0.11/assets/font-logos.css" rel="stylesheet">
 
 Available logos are:
 
