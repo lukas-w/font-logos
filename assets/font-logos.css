@@ -81,7 +81,8 @@
 .fl-snappy:before,
 .fl-tux:before,
 .fl-ubuntu:before,
-.fl-ubuntu-inverse:before {
+.fl-ubuntu-inverse:before,
+.fl-void:before {
   display: inline-block;
   font-family: "font-logos";
   font-style: normal;
@@ -128,3 +129,4 @@
 .fl-tux:before { content: "\f11a"; }
 .fl-ubuntu:before { content: "\f11b"; }
 .fl-ubuntu-inverse:before { content: "\f11c"; }
+.fl-void:before { content: "\f120"; }

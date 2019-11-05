@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "22ece9d546ea658b7229471991bb0359dab69c79609627c5ff8560ced1284700",
-    "current": "22ece9d546ea658b7229471991bb0359dab69c79609627c5ff8560ced1284700"
+    "previous": "1424a1f949b47cbad2f488914abf40e2bde33fa41a182db5cca600155f650bf4",
+    "current": "1424a1f949b47cbad2f488914abf40e2bde33fa41a182db5cca600155f650bf4"
   },
   "fonts": [
     "assets/font-logos.ttf",
@@ -138,6 +138,10 @@
     "ubuntu-inverse": {
       "codepoint": 61724,
       "source": "vectors/ubuntu-inverse.svg"
+    },
+    "void": {
+      "codepoint": 61728,
+      "source": "vectors/void.svg"
     }
   },
   "options": {
