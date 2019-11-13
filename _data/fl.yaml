@@ -1,4 +1,4 @@
-version: "0.11"
+version: "0.12"
 icons:
     - alpine
     - aosc
@@ -31,3 +31,4 @@ icons:
     - gnu-guix
     - snappy
     - flathub
+    - void
