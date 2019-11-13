@@ -19,33 +19,34 @@ Or just link to it using [jsDelivr](//jsdelivr.com):
 
 Available logos are:
 
-| Distribution | CSS class                | Inclusion code
-| -------------|--------------------------|-------------------------------------
-| Alpine       | `fl-alpine`              | `<span class="fl-alpine"></span>`
-| AOSC OS      | `fl-aosc`                | `<span class="fl-aosc"></span>`
-| Arch Linux   | `fl-archlinux`           | `<span class="fl-archlinux"></span>`
-| Apple        | `fl-apple`               | `<span class="fl-apple"></span>`
-| CentOS       | `fl-centos`              | `<span class="fl-centos"></span>`
-| CoreOS       | `fl-coreos`              | `<span class="fl-coreos"></span>`
-| Debian       | `fl-debian`              | `<span class="fl-debian"></span>`
-| Devuan       | `fl-devuan`              | `<span class="fl-devuan"></span>`
-| Docker       | `fl-docker`              | `<span class="fl-docker"></span>`
-| elementary OS| `fl-elementary`          | `<span class="fl-elementary"></span>`
-| Fedora       | `fl-fedora[-inverse]`    | `<span class="fl-fedora"></span>`
-| FreeBSD      | `fl-freebsd`             | `<span class="fl-freebsd"></span>`
-| Gentoo       | `fl-gentoo`              | `<span class="fl-gentoo"></span>`
-| Linux Mint   | `fl-linuxmint[-inverse]` | `<span class="fl-linuxmint"></span>`
-| Mageia       | `fl-mageia`              | `<span class="fl-mageia"></span>`
-| Manjaro      | `fl-manjaro`             | `<span class="fl-manjaro"></span>`
-| Mandriva     | `fl-mandriva`            | `<span class="fl-mandriva"></span>`
-| NixOS        | `fl-nixos`               | `<span class="fl-nixos"></span>`
-| OpenSUSE     | `fl-opensuse`            | `<span class="fl-opensuse"></span>`
-| Raspberry Pi | `fl-raspberry-pi`        | `<span class="fl-raspberry-pi"></span>`
-| Red Hat      | `fl-redhat`              | `<span class="fl-redhat"></span>`
-| Sabayon      | `fl-sabayon`             | `<span class="fl-sabayon"></span>`
-| Slackware    | `fl-slackware[-inverse]` | `<span class="fl-slackware"></span>`
-| Tux          | `fl-tux`                 | `<span class="fl-tux"></span>`
-| Ubuntu       | `fl-ubuntu[-inverse]`    | `<span class="fl-ubuntu"></span>`
+| Distribution  | CSS class                  | Inclusion code                          |
+| ------------- | -------------------------- | -------------------------------------   |
+| Alpine        | `fl-alpine`                | `<span class="fl-alpine"></span>`       |
+| AOSC OS       | `fl-aosc`                  | `<span class="fl-aosc"></span>`         |
+| Arch Linux    | `fl-archlinux`             | `<span class="fl-archlinux"></span>`    |
+| Apple         | `fl-apple`                 | `<span class="fl-apple"></span>`        |
+| CentOS        | `fl-centos`                | `<span class="fl-centos"></span>`       |
+| CoreOS        | `fl-coreos`                | `<span class="fl-coreos"></span>`       |
+| Debian        | `fl-debian`                | `<span class="fl-debian"></span>`       |
+| Devuan        | `fl-devuan`                | `<span class="fl-devuan"></span>`       |
+| Docker        | `fl-docker`                | `<span class="fl-docker"></span>`       |
+| elementary OS | `fl-elementary`            | `<span class="fl-elementary"></span>`   |
+| Fedora        | `fl-fedora[-inverse]`      | `<span class="fl-fedora"></span>`       |
+| FreeBSD       | `fl-freebsd`               | `<span class="fl-freebsd"></span>`      |
+| Gentoo        | `fl-gentoo`                | `<span class="fl-gentoo"></span>`       |
+| Linux Mint    | `fl-linuxmint[-inverse]`   | `<span class="fl-linuxmint"></span>`    |
+| Mageia        | `fl-mageia`                | `<span class="fl-mageia"></span>`       |
+| Manjaro       | `fl-manjaro`               | `<span class="fl-manjaro"></span>`      |
+| Mandriva      | `fl-mandriva`              | `<span class="fl-mandriva"></span>`     |
+| NixOS         | `fl-nixos`                 | `<span class="fl-nixos"></span>`        |
+| OpenSUSE      | `fl-opensuse`              | `<span class="fl-opensuse"></span>`     |
+| Raspberry Pi  | `fl-raspberry-pi`          | `<span class="fl-raspberry-pi"></span>` |
+| Red Hat       | `fl-redhat`                | `<span class="fl-redhat"></span>`       |
+| Sabayon       | `fl-sabayon`               | `<span class="fl-sabayon"></span>`      |
+| Slackware     | `fl-slackware[-inverse]`   | `<span class="fl-slackware"></span>`    |
+| Tux           | `fl-tux`                   | `<span class="fl-tux"></span>`          |
+| Ubuntu        | `fl-ubuntu[-inverse]`      | `<span class="fl-ubuntu"></span>`       |
+| Void          | `fl-void`                  | `<span class="fl-void"></span>`         |
 
 ## Dependencies ##
 * This project uses [fontcustom](https://github.com/FontCustom/fontcustom) to compile vectors into fonts.

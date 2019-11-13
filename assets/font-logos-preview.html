@@ -192,7 +192,8 @@
 .fl-snappy:before,
 .fl-tux:before,
 .fl-ubuntu:before,
-.fl-ubuntu-inverse:before {
+.fl-ubuntu-inverse:before,
+.fl-void:before {
         display: inline-block;
   font-family: "font-logos";
   font-style: normal;
@@ -239,6 +240,7 @@
 .fl-tux:before { content: "\f11a"; }
 .fl-ubuntu:before { content: "\f11b"; }
 .fl-ubuntu-inverse:before { content: "\f11c"; }
+.fl-void:before { content: "\f120"; }
     </style>
 
     <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -254,7 +256,7 @@
   <body class="characters-off">
     <div id="page" class="container">
       <header>
-        <h1>font-logos contains 32 glyphs:</h1>
+        <h1>font-logos contains 33 glyphs:</h1>
         <a onclick="toggleCharacters(); return false;" href="#">Toggle Preview Characters</a>
       </header>
 
@@ -672,6 +674,19 @@
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-ubuntu-inverse" />
           <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf11c;" />
+        </div>
+      </div>
+      
+      <div class="glyph">
+        <div class="preview-glyphs">
+          <span class="step size-12"><span class="letters">Pp</span><i id="fl-void" class="fl-void"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="fl-void" class="fl-void"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="fl-void" class="fl-void"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="fl-void" class="fl-void"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="fl-void" class="fl-void"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="fl-void" class="fl-void"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="fl-void" class="fl-void"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="fl-void" class="fl-void"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="fl-void" class="fl-void"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="fl-void" class="fl-void"></i></span>
+        </div>
+        <div class="preview-scale">
+          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+        </div>
+        <div class="usage">
+          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".fl-void" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf120;" />
         </div>
       </div>
       
