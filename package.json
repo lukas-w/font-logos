@@ -9,6 +9,10 @@
   "license": "Unlicense",
   "homepage": "https://github.com/Lukas-W/font-logos",
   "repository": "https://github.com/Lukas-W/font-logos.git",
+  "scripts": {
+    "build": "sh compile.sh",
+    "prepare": "npm run build"
+  },
   "files": [
     "assets/font-logos.css",
     "assets/font-logos.eot",
