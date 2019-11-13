@@ -5,26 +5,34 @@
 	image_width = 888
 
 	icon_count = icons.length
-	spacing = 10
-	total_spacing = spacing * icon_count
+	spacing = 5
+	rows = 2
+	icon_count = icon_count / rows + 1
+	total_spacing = 2 * spacing * icon_count
 	icon_size = (image_width - total_spacing) / icon_count
 %>
 
 <link href="font-logos.css" rel="stylesheet">
 
 <style>
-	.preview-icon+.preview-icon {
-		padding-left: <%= spacing %>px;
+	.preview-icon {
+		padding: <%= spacing %>px;
+	}
+	.icon-container {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
 	}
 	body {
+		margin: -<%= spacing %>px;
 		width: <%= image_width%>px;
-		color: #333;
 		font-size: <%= icon_size %>;
+		color: #333;
 	}
 </style>
 
 <body>
-	<div>
+	<div class="icon-container">
 		<% icons.each do |name, value| %><span class="preview-icon fl-<%= name %>"></span><% end %>
 	</div>
 </body>
