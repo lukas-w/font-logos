@@ -82,7 +82,8 @@
 .fl-tux:before,
 .fl-ubuntu:before,
 .fl-ubuntu-inverse:before,
-.fl-void:before {
+.fl-void:before,
+.fl-zorin:before {
   display: inline-block;
   font-family: "font-logos";
   font-style: normal;
@@ -130,3 +131,4 @@
 .fl-ubuntu:before { content: "\f11b"; }
 .fl-ubuntu-inverse:before { content: "\f11c"; }
 .fl-void:before { content: "\f120"; }
+.fl-zorin:before { content: "\f121"; }
