@@ -28,6 +28,7 @@ Available logos are:
 | CentOS        | `fl-centos`                | `<span class="fl-centos"></span>`       |
 | CoreOS        | `fl-coreos`                | `<span class="fl-coreos"></span>`       |
 | Debian        | `fl-debian`                | `<span class="fl-debian"></span>`       |
+| Deepin        | `fl-deepin`                | `<span class="fl-deepin"></span>`       |
 | Devuan        | `fl-devuan`                | `<span class="fl-devuan"></span>`       |
 | Docker        | `fl-docker`                | `<span class="fl-docker"></span>`       |
 | elementary OS | `fl-elementary`            | `<span class="fl-elementary"></span>`   |
