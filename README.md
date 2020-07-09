@@ -47,6 +47,7 @@ Available logos are:
 | Tux           | `fl-tux`                   | `<span class="fl-tux"></span>`          |
 | Ubuntu        | `fl-ubuntu[-inverse]`      | `<span class="fl-ubuntu"></span>`       |
 | Void          | `fl-void`                  | `<span class="fl-void"></span>`         |
+| Zorin OS      | `fl-zorin`                 | `<span class="fl-zorin"></span>`        |
 
 ## Dependencies ##
 * This project uses [fontcustom](https://github.com/FontCustom/fontcustom) to compile vectors into fonts.
