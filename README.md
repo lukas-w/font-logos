@@ -25,6 +25,7 @@ Available logos are:
 | AOSC OS       | `fl-aosc`                  | `<span class="fl-aosc"></span>`         |
 | Arch Linux    | `fl-archlinux`             | `<span class="fl-archlinux"></span>`    |
 | Apple         | `fl-apple`                 | `<span class="fl-apple"></span>`        |
+| Budgie        | `fl-budgie`                | `<span class="fl-budgie"></span>`       |
 | CentOS        | `fl-centos`                | `<span class="fl-centos"></span>`       |
 | CoreOS        | `fl-coreos`                | `<span class="fl-coreos"></span>`       |
 | Debian        | `fl-debian`                | `<span class="fl-debian"></span>`       |
