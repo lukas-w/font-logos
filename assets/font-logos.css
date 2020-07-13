@@ -54,9 +54,11 @@
 .fl-aosc:before,
 .fl-apple:before,
 .fl-archlinux:before,
+.fl-budgie:before,
 .fl-centos:before,
 .fl-coreos:before,
 .fl-debian:before,
+.fl-deepin:before,
 .fl-devuan:before,
 .fl-docker:before,
 .fl-elementary:before,
@@ -66,12 +68,14 @@
 .fl-freebsd:before,
 .fl-gentoo:before,
 .fl-gnu-guix:before,
+.fl-illumos:before,
 .fl-linuxmint:before,
 .fl-linuxmint-inverse:before,
 .fl-mageia:before,
 .fl-mandriva:before,
 .fl-manjaro:before,
 .fl-nixos:before,
+.fl-openbsd:before,
 .fl-opensuse:before,
 .fl-raspberry-pi:before,
 .fl-redhat:before,
@@ -79,6 +83,7 @@
 .fl-slackware:before,
 .fl-slackware-inverse:before,
 .fl-snappy:before,
+.fl-solus:before,
 .fl-tux:before,
 .fl-ubuntu:before,
 .fl-ubuntu-inverse:before,
@@ -102,9 +107,11 @@
 .fl-aosc:before { content: "\f101"; }
 .fl-apple:before { content: "\f102"; }
 .fl-archlinux:before { content: "\f103"; }
+.fl-budgie:before { content: "\f122"; }
 .fl-centos:before { content: "\f104"; }
 .fl-coreos:before { content: "\f105"; }
 .fl-debian:before { content: "\f106"; }
+.fl-deepin:before { content: "\f123"; }
 .fl-devuan:before { content: "\f107"; }
 .fl-docker:before { content: "\f108"; }
 .fl-elementary:before { content: "\f109"; }
@@ -114,12 +121,14 @@
 .fl-freebsd:before { content: "\f10c"; }
 .fl-gentoo:before { content: "\f10d"; }
 .fl-gnu-guix:before { content: "\f11e"; }
+.fl-illumos:before { content: "\f124"; }
 .fl-linuxmint:before { content: "\f10e"; }
 .fl-linuxmint-inverse:before { content: "\f10f"; }
 .fl-mageia:before { content: "\f110"; }
 .fl-mandriva:before { content: "\f111"; }
 .fl-manjaro:before { content: "\f112"; }
 .fl-nixos:before { content: "\f113"; }
+.fl-openbsd:before { content: "\f125"; }
 .fl-opensuse:before { content: "\f114"; }
 .fl-raspberry-pi:before { content: "\f115"; }
 .fl-redhat:before { content: "\f116"; }
@@ -127,6 +136,7 @@
 .fl-slackware:before { content: "\f118"; }
 .fl-slackware-inverse:before { content: "\f119"; }
 .fl-snappy:before { content: "\f11f"; }
+.fl-solus:before { content: "\f126"; }
 .fl-tux:before { content: "\f11a"; }
 .fl-ubuntu:before { content: "\f11b"; }
 .fl-ubuntu-inverse:before { content: "\f11c"; }

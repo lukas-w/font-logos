@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "beaace7b97854e865a909e85e6817ee07ef895fcfef35cb2ef5a14d07ab6563a",
-    "current": "beaace7b97854e865a909e85e6817ee07ef895fcfef35cb2ef5a14d07ab6563a"
+    "previous": "07b3cf785fbecb4ad09ac91f51de04a9af88c696e370f7aea2362d504ea90e48",
+    "current": "07b3cf785fbecb4ad09ac91f51de04a9af88c696e370f7aea2362d504ea90e48"
   },
   "fonts": [
     "assets/font-logos.ttf",
@@ -27,6 +27,10 @@
       "codepoint": 61699,
       "source": "vectors/archlinux.svg"
     },
+    "budgie": {
+      "codepoint": 61730,
+      "source": "vectors/budgie.svg"
+    },
     "centos": {
       "codepoint": 61700,
       "source": "vectors/centos.svg"
@@ -38,6 +42,10 @@
     "debian": {
       "codepoint": 61702,
       "source": "vectors/debian.svg"
+    },
+    "deepin": {
+      "codepoint": 61731,
+      "source": "vectors/deepin.svg"
     },
     "devuan": {
       "codepoint": 61703,
@@ -75,6 +83,10 @@
       "codepoint": 61726,
       "source": "vectors/gnu-guix.svg"
     },
+    "illumos": {
+      "codepoint": 61732,
+      "source": "vectors/illumos.svg"
+    },
     "linuxmint": {
       "codepoint": 61710,
       "source": "vectors/linuxmint.svg"
@@ -98,6 +110,10 @@
     "nixos": {
       "codepoint": 61715,
       "source": "vectors/nixos.svg"
+    },
+    "openbsd": {
+      "codepoint": 61733,
+      "source": "vectors/openbsd.svg"
     },
     "opensuse": {
       "codepoint": 61716,
@@ -126,6 +142,10 @@
     "snappy": {
       "codepoint": 61727,
       "source": "vectors/snappy.svg"
+    },
+    "solus": {
+      "codepoint": 61734,
+      "source": "vectors/solus.svg"
     },
     "tux": {
       "codepoint": 61722,
