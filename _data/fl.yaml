@@ -1,18 +1,21 @@
-version: "0.13"
+version: "0.14"
 icons:
     - alpine
     - aosc
     - apple
     - archlinux
+    - budgie
     - centos
     - coreos
     - debian
+    - deepin
     - docker
     - elementary
     - fedora
     - fedora-inverse
     - freebsd
     - gentoo
+    - illumos
     - linuxmint
     - linuxmint-inverse
     - mageia
@@ -25,6 +28,7 @@ icons:
     - sabayon
     - slackware
     - slackware-inverse
+    - solus
     - tux
     - ubuntu
     - ubuntu-inverse
