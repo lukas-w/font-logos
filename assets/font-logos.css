@@ -64,6 +64,7 @@
 .fl-elementary:before,
 .fl-fedora:before,
 .fl-fedora-inverse:before,
+.fl-ferris:before,
 .fl-flathub:before,
 .fl-freebsd:before,
 .fl-gentoo:before,
@@ -75,7 +76,6 @@
 .fl-mandriva:before,
 .fl-manjaro:before,
 .fl-nixos:before,
-.fl-openbsd:before,
 .fl-opensuse:before,
 .fl-raspberry-pi:before,
 .fl-redhat:before,
@@ -117,6 +117,7 @@
 .fl-elementary:before { content: "\f109"; }
 .fl-fedora:before { content: "\f10a"; }
 .fl-fedora-inverse:before { content: "\f10b"; }
+.fl-ferris:before { content: "\f127"; }
 .fl-flathub:before { content: "\f11d"; }
 .fl-freebsd:before { content: "\f10c"; }
 .fl-gentoo:before { content: "\f10d"; }
@@ -128,7 +129,6 @@
 .fl-mandriva:before { content: "\f111"; }
 .fl-manjaro:before { content: "\f112"; }
 .fl-nixos:before { content: "\f113"; }
-.fl-openbsd:before { content: "\f125"; }
 .fl-opensuse:before { content: "\f114"; }
 .fl-raspberry-pi:before { content: "\f115"; }
 .fl-redhat:before { content: "\f116"; }

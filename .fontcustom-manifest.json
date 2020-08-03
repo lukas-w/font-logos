@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "07b3cf785fbecb4ad09ac91f51de04a9af88c696e370f7aea2362d504ea90e48",
-    "current": "07b3cf785fbecb4ad09ac91f51de04a9af88c696e370f7aea2362d504ea90e48"
+    "previous": "78d863df5af114ab1cf6740fdae18b21031c7c352c2edae0e7ac3254122a0b09",
+    "current": "78d863df5af114ab1cf6740fdae18b21031c7c352c2edae0e7ac3254122a0b09"
   },
   "fonts": [
     "assets/font-logos.ttf",
@@ -67,6 +67,10 @@
       "codepoint": 61707,
       "source": "vectors/fedora-inverse.svg"
     },
+    "ferris": {
+      "codepoint": 61735,
+      "source": "vectors/ferris.svg"
+    },
     "flathub": {
       "codepoint": 61725,
       "source": "vectors/flathub.svg"
@@ -110,10 +114,6 @@
     "nixos": {
       "codepoint": 61715,
       "source": "vectors/nixos.svg"
-    },
-    "openbsd": {
-      "codepoint": 61733,
-      "source": "vectors/openbsd.svg"
     },
     "opensuse": {
       "codepoint": 61716,
