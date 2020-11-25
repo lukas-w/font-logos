@@ -24,6 +24,7 @@ Available logos are:
 | Alpine        | `fl-alpine`                | `<span class="fl-alpine"></span>`       |
 | AOSC OS       | `fl-aosc`                  | `<span class="fl-aosc"></span>`         |
 | Arch Linux    | `fl-archlinux`             | `<span class="fl-archlinux"></span>`    |
+| ArchLabs      | `fl-archlabs`              | `<span class="fl-archlabs"></span>`    |
 | Apple         | `fl-apple`                 | `<span class="fl-apple"></span>`        |
 | Budgie        | `fl-budgie`                | `<span class="fl-budgie"></span>`       |
 | CentOS        | `fl-centos`                | `<span class="fl-centos"></span>`       |
