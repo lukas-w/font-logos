@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "07b3cf785fbecb4ad09ac91f51de04a9af88c696e370f7aea2362d504ea90e48",
-    "current": "07b3cf785fbecb4ad09ac91f51de04a9af88c696e370f7aea2362d504ea90e48"
+    "previous": "05f08c542eab115a6376d63ed5a8bf93bbeb6a51b1266488792981a51c1875bc",
+    "current": "05f08c542eab115a6376d63ed5a8bf93bbeb6a51b1266488792981a51c1875bc"
   },
   "fonts": [
     "assets/font-logos.ttf",
@@ -23,9 +23,17 @@
       "codepoint": 61698,
       "source": "vectors/apple.svg"
     },
+    "archlabs": {
+      "codepoint": 61735,
+      "source": "vectors/archlabs.svg"
+    },
     "archlinux": {
       "codepoint": 61699,
       "source": "vectors/archlinux.svg"
+    },
+    "artix": {
+      "codepoint": 61740,
+      "source": "vectors/artix.svg"
     },
     "budgie": {
       "codepoint": 61730,
@@ -66,6 +74,10 @@
     "fedora-inverse": {
       "codepoint": 61707,
       "source": "vectors/fedora-inverse.svg"
+    },
+    "ferris": {
+      "codepoint": 61736,
+      "source": "vectors/ferris.svg"
     },
     "flathub": {
       "codepoint": 61725,
@@ -118,6 +130,10 @@
     "opensuse": {
       "codepoint": 61716,
       "source": "vectors/opensuse.svg"
+    },
+    "pop-os": {
+      "codepoint": 61739,
+      "source": "vectors/pop-os.svg"
     },
     "raspberry-pi": {
       "codepoint": 61717,

@@ -53,7 +53,9 @@
 .fl-alpine:before,
 .fl-aosc:before,
 .fl-apple:before,
+.fl-archlabs:before,
 .fl-archlinux:before,
+.fl-artix:before,
 .fl-budgie:before,
 .fl-centos:before,
 .fl-coreos:before,
@@ -64,6 +66,7 @@
 .fl-elementary:before,
 .fl-fedora:before,
 .fl-fedora-inverse:before,
+.fl-ferris:before,
 .fl-flathub:before,
 .fl-freebsd:before,
 .fl-gentoo:before,
@@ -77,6 +80,7 @@
 .fl-nixos:before,
 .fl-openbsd:before,
 .fl-opensuse:before,
+.fl-pop-os:before,
 .fl-raspberry-pi:before,
 .fl-redhat:before,
 .fl-sabayon:before,
@@ -106,7 +110,9 @@
 .fl-alpine:before { content: "\f100"; }
 .fl-aosc:before { content: "\f101"; }
 .fl-apple:before { content: "\f102"; }
+.fl-archlabs:before { content: "\f127"; }
 .fl-archlinux:before { content: "\f103"; }
+.fl-artix:before { content: "\f12c"; }
 .fl-budgie:before { content: "\f122"; }
 .fl-centos:before { content: "\f104"; }
 .fl-coreos:before { content: "\f105"; }
@@ -117,6 +123,7 @@
 .fl-elementary:before { content: "\f109"; }
 .fl-fedora:before { content: "\f10a"; }
 .fl-fedora-inverse:before { content: "\f10b"; }
+.fl-ferris:before { content: "\f128"; }
 .fl-flathub:before { content: "\f11d"; }
 .fl-freebsd:before { content: "\f10c"; }
 .fl-gentoo:before { content: "\f10d"; }
@@ -130,6 +137,7 @@
 .fl-nixos:before { content: "\f113"; }
 .fl-openbsd:before { content: "\f125"; }
 .fl-opensuse:before { content: "\f114"; }
+.fl-pop-os:before { content: "\f12b"; }
 .fl-raspberry-pi:before { content: "\f115"; }
 .fl-redhat:before { content: "\f116"; }
 .fl-sabayon:before { content: "\f117"; }
