@@ -24,7 +24,8 @@ Available logos are:
 | Alpine        | `fl-alpine`                | `<span class="fl-alpine"></span>`       |
 | AOSC OS       | `fl-aosc`                  | `<span class="fl-aosc"></span>`         |
 | Arch Linux    | `fl-archlinux`             | `<span class="fl-archlinux"></span>`    |
-| ArchLabs      | `fl-archlabs`              | `<span class="fl-archlabs"></span>`    |
+| ArchLabs      | `fl-archlabs`              | `<span class="fl-archlabs"></span>`     |
+| Artix Linux   | `fl-artix`                 | `<span class="fl-artix"></span>`        |
 | Apple         | `fl-apple`                 | `<span class="fl-apple"></span>`        |
 | Budgie        | `fl-budgie`                | `<span class="fl-budgie"></span>`       |
 | CentOS        | `fl-centos`                | `<span class="fl-centos"></span>`       |
@@ -46,7 +47,7 @@ Available logos are:
 | NixOS         | `fl-nixos`                 | `<span class="fl-nixos"></span>`        |
 | OpenBSD       | `fl-openbsd`               | `<span class="fl-openbsd"></span>`      |
 | OpenSUSE      | `fl-opensuse`              | `<span class="fl-opensuse"></span>`     |
-| Pop!_OS       | `fl-pop-os`                | `<span class="fl-pop-os"></span>`     |
+| Pop!_OS       | `fl-pop-os`                | `<span class="fl-pop-os"></span>`       |
 | Raspberry Pi  | `fl-raspberry-pi`          | `<span class="fl-raspberry-pi"></span>` |
 | Red Hat       | `fl-redhat`                | `<span class="fl-redhat"></span>`       |
 | Sabayon       | `fl-sabayon`               | `<span class="fl-sabayon"></span>`      |
