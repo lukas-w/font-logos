@@ -1,9 +1,11 @@
-version: "0.14"
+version: "0.15"
 icons:
     - alpine
     - aosc
     - apple
+    - archlabs
     - archlinux
+    - artix
     - budgie
     - centos
     - coreos
@@ -13,6 +15,7 @@ icons:
     - elementary
     - fedora
     - fedora-inverse
+    - ferris
     - freebsd
     - gentoo
     - illumos
@@ -22,7 +25,9 @@ icons:
     - mandriva
     - manjaro
     - nixos
+    - openbsd
     - opensuse
+    - pop-os
     - raspberry-pi
     - redhat
     - sabayon
