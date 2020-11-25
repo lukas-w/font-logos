@@ -34,6 +34,7 @@ Available logos are:
 | Docker        | `fl-docker`                | `<span class="fl-docker"></span>`       |
 | elementary OS | `fl-elementary`            | `<span class="fl-elementary"></span>`   |
 | Fedora        | `fl-fedora[-inverse]`      | `<span class="fl-fedora"></span>`       |
+| Ferris        | `fl-ferris`                | `<span class="fl-ferris"></span>`       |
 | FreeBSD       | `fl-freebsd`               | `<span class="fl-freebsd"></span>`      |
 | Gentoo        | `fl-gentoo`                | `<span class="fl-gentoo"></span>`       |
 | illumos       | `fl-illumos`               | `<span class="fl-illumos"></span>`      |
