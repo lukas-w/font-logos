@@ -43,6 +43,7 @@ Available logos are:
 | Manjaro       | `fl-manjaro`               | `<span class="fl-manjaro"></span>`      |
 | Mandriva      | `fl-mandriva`              | `<span class="fl-mandriva"></span>`     |
 | NixOS         | `fl-nixos`                 | `<span class="fl-nixos"></span>`        |
+| OpenBSD       | `fl-openbsd`               | `<span class="fl-openbsd"></span>`      |
 | OpenSUSE      | `fl-opensuse`              | `<span class="fl-opensuse"></span>`     |
 | Raspberry Pi  | `fl-raspberry-pi`          | `<span class="fl-raspberry-pi"></span>` |
 | Red Hat       | `fl-redhat`                | `<span class="fl-redhat"></span>`       |
