@@ -19,7 +19,7 @@ fonts in your project and use the CSS classes listed below.
 
 Alternatively just link to it using a CDN such as [jsDelivr](//jsdelivr.com):
 
-	<link href="//cdn.jsdelivr.net/gh/Lukas-W/font-logos@v0.15/assets/font-logos.css" rel="stylesheet">
+	<link href="//cdn.jsdelivr.net/gh/Lukas-W/font-logos@v0.16/assets/font-logos.css" rel="stylesheet">
 
 ## Usage ##
 
@@ -47,7 +47,7 @@ Available logos are:
 | FreeBSD       | `fl-freebsd`               | `<span class="fl-freebsd"></span>`      |
 | Gentoo        | `fl-gentoo`                | `<span class="fl-gentoo"></span>`       |
 | illumos       | `fl-illumos`               | `<span class="fl-illumos"></span>`      |
-| Kali Linux       | `fl-kali-linux`               | `<span class="fl-kali-linux"></span>`      |
+| Kali Linux    | `fl-kali-linux`            | `<span class="fl-kali-linux"></span>`   |
 | Linux Mint    | `fl-linuxmint[-inverse]`   | `<span class="fl-linuxmint"></span>`    |
 | Mageia        | `fl-mageia`                | `<span class="fl-mageia"></span>`       |
 | Manjaro       | `fl-manjaro`               | `<span class="fl-manjaro"></span>`      |
