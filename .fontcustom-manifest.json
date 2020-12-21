@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "05f08c542eab115a6376d63ed5a8bf93bbeb6a51b1266488792981a51c1875bc",
-    "current": "05f08c542eab115a6376d63ed5a8bf93bbeb6a51b1266488792981a51c1875bc"
+    "previous": "a39cce0d59de20f2b890e6a479eff6f8cd168e265f9ef5c8163137cabb378f66",
+    "current": "a39cce0d59de20f2b890e6a479eff6f8cd168e265f9ef5c8163137cabb378f66"
   },
   "fonts": [
     "assets/font-logos.ttf",
@@ -98,6 +98,10 @@
     "illumos": {
       "codepoint": 61732,
       "source": "vectors/illumos.svg"
+    },
+    "kali-linux": {
+      "codepoint": 61741,
+      "source": "vectors/kali-linux.svg"
     },
     "linuxmint": {
       "codepoint": 61710,

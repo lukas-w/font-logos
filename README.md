@@ -47,6 +47,7 @@ Available logos are:
 | FreeBSD       | `fl-freebsd`               | `<span class="fl-freebsd"></span>`      |
 | Gentoo        | `fl-gentoo`                | `<span class="fl-gentoo"></span>`       |
 | illumos       | `fl-illumos`               | `<span class="fl-illumos"></span>`      |
+| Kali Linux       | `fl-kali-linux`               | `<span class="fl-kali-linux"></span>`      |
 | Linux Mint    | `fl-linuxmint[-inverse]`   | `<span class="fl-linuxmint"></span>`    |
 | Mageia        | `fl-mageia`                | `<span class="fl-mageia"></span>`       |
 | Manjaro       | `fl-manjaro`               | `<span class="fl-manjaro"></span>`      |
