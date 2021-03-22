@@ -85,4 +85,3 @@ To compile everything including the readme's `preview.png`, run:
 To stage the new revision:
 
 	git add assets .fontcustom-manifest.json
-
