@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "a39cce0d59de20f2b890e6a479eff6f8cd168e265f9ef5c8163137cabb378f66",
-    "current": "a39cce0d59de20f2b890e6a479eff6f8cd168e265f9ef5c8163137cabb378f66"
+    "previous": "b85ee6d63ac16f07e663d98bae3750bb825909f6c18faec4b34b45874a28b107",
+    "current": "b85ee6d63ac16f07e663d98bae3750bb825909f6c18faec4b34b45874a28b107"
   },
   "fonts": [
     "assets/font-logos.ttf",
@@ -102,6 +102,10 @@
     "kali-linux": {
       "codepoint": 61741,
       "source": "vectors/kali-linux.svg"
+    },
+    "kryztalarch": {
+      "codepoint": 61742,
+      "source": "vectors/kryztalarch.svg"
     },
     "linuxmint": {
       "codepoint": 61710,

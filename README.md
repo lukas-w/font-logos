@@ -48,6 +48,7 @@ Available logos are:
 | Gentoo        | `fl-gentoo`                | `<span class="fl-gentoo"></span>`       |
 | illumos       | `fl-illumos`               | `<span class="fl-illumos"></span>`      |
 | Kali Linux    | `fl-kali-linux`            | `<span class="fl-kali-linux"></span>`   |
+| KryztalArch OS| `fl-kryztalarch`           | `<span class="fl-kryztalarch"></span>`  |
 | Linux Mint    | `fl-linuxmint[-inverse]`   | `<span class="fl-linuxmint"></span>`    |
 | Mageia        | `fl-mageia`                | `<span class="fl-mageia"></span>`       |
 | Manjaro       | `fl-manjaro`               | `<span class="fl-manjaro"></span>`      |
@@ -84,3 +85,4 @@ To compile everything including the readme's `preview.png`, run:
 To stage the new revision:
 
 	git add assets .fontcustom-manifest.json
+

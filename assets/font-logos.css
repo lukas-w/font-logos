@@ -73,6 +73,7 @@
 .fl-gnu-guix:before,
 .fl-illumos:before,
 .fl-kali-linux:before,
+.fl-kryztalarch:before,
 .fl-linuxmint:before,
 .fl-linuxmint-inverse:before,
 .fl-mageia:before,
@@ -131,6 +132,7 @@
 .fl-gnu-guix:before { content: "\f11e"; }
 .fl-illumos:before { content: "\f124"; }
 .fl-kali-linux:before { content: "\f12d"; }
+.fl-kryztalarch:before { content: "\f12e"; }
 .fl-linuxmint:before { content: "\f10e"; }
 .fl-linuxmint-inverse:before { content: "\f10f"; }
 .fl-mageia:before { content: "\f110"; }
