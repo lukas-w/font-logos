@@ -28,6 +28,7 @@ Available logos are:
 
 | Distribution  | CSS class                  | Inclusion code                          |
 | ------------- | -------------------------- | --------------------------------------- |
+| Alma Linux    | `fl-almalinux`             | `<span class="fl-almalinux"></span>`    |
 | Alpine        | `fl-alpine`                | `<span class="fl-alpine"></span>`       |
 | AOSC OS       | `fl-aosc`                  | `<span class="fl-aosc"></span>`         |
 | Arch Linux    | `fl-archlinux`             | `<span class="fl-archlinux"></span>`    |

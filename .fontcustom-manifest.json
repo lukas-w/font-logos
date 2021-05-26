@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "a39cce0d59de20f2b890e6a479eff6f8cd168e265f9ef5c8163137cabb378f66",
-    "current": "a39cce0d59de20f2b890e6a479eff6f8cd168e265f9ef5c8163137cabb378f66"
+    "previous": "9d597305a22527b4f223208286d99fc4943b86a029b87641c3ce9036f45cffee",
+    "current": "9d597305a22527b4f223208286d99fc4943b86a029b87641c3ce9036f45cffee"
   },
   "fonts": [
     "assets/font-logos.ttf",
@@ -11,6 +11,10 @@
     "assets/font-logos.woff2"
   ],
   "glyphs": {
+    "almalinux": {
+      "codepoint": 61742,
+      "source": "vectors/almalinux.svg"
+    },
     "alpine": {
       "codepoint": 61696,
       "source": "vectors/alpine.svg"
