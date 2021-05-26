@@ -19,7 +19,7 @@ fonts in your project and use the CSS classes listed below.
 
 Alternatively just link to it using a CDN such as [jsDelivr](//jsdelivr.com):
 
-	<link href="//cdn.jsdelivr.net/gh/Lukas-W/font-logos@v0.16/assets/font-logos.css" rel="stylesheet">
+	<link href="//cdn.jsdelivr.net/gh/Lukas-W/font-logos@v0.17/assets/font-logos.css" rel="stylesheet">
 
 ## Usage ##
 
