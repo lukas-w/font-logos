@@ -59,6 +59,7 @@ Available logos are:
 | Pop!_OS       | `fl-pop-os`                | `<span class="fl-pop-os"></span>`       |
 | Raspberry Pi  | `fl-raspberry-pi`          | `<span class="fl-raspberry-pi"></span>` |
 | Red Hat       | `fl-redhat`                | `<span class="fl-redhat"></span>`       |
+| Rocky Linux   | `fl-rocky-linux`           | `<span class="fl-rocky-linux"></span>`  |
 | Sabayon       | `fl-sabayon`               | `<span class="fl-sabayon"></span>`      |
 | Slackware     | `fl-slackware[-inverse]`   | `<span class="fl-slackware"></span>`    |
 | Solus         | `fl-solus`                 | `<span class="fl-solus"></span>`        |
