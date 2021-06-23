@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "9d597305a22527b4f223208286d99fc4943b86a029b87641c3ce9036f45cffee",
-    "current": "9d597305a22527b4f223208286d99fc4943b86a029b87641c3ce9036f45cffee"
+    "previous": "ca01f92315941b4ce2ddb087e8cc7e6a45150dd80fb6c0ea4181f22f7708c981",
+    "current": "ca01f92315941b4ce2ddb087e8cc7e6a45150dd80fb6c0ea4181f22f7708c981"
   },
   "fonts": [
     "assets/font-logos.ttf",
@@ -150,6 +150,10 @@
     "redhat": {
       "codepoint": 61718,
       "source": "vectors/redhat.svg"
+    },
+    "rocky-linux": {
+      "codepoint": 61743,
+      "source": "vectors/rocky-linux.svg"
     },
     "sabayon": {
       "codepoint": 61719,
