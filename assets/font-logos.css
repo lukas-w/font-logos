@@ -85,6 +85,7 @@
 .fl-pop-os:before,
 .fl-raspberry-pi:before,
 .fl-redhat:before,
+.fl-rocky-linux:before,
 .fl-sabayon:before,
 .fl-slackware:before,
 .fl-slackware-inverse:before,
@@ -144,6 +145,7 @@
 .fl-pop-os:before { content: "\f12b"; }
 .fl-raspberry-pi:before { content: "\f115"; }
 .fl-redhat:before { content: "\f116"; }
+.fl-rocky-linux:before { content: "\f12f"; }
 .fl-sabayon:before { content: "\f117"; }
 .fl-slackware:before { content: "\f118"; }
 .fl-slackware-inverse:before { content: "\f119"; }
