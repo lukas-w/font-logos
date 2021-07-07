@@ -1,5 +1,6 @@
-assets/icon_preview.html
-.sass-cache
+assets/*
+!assets/preview.png
+.fontcustom-manifest.json
 *.zip
 *.tgz
 Gemfile.lock
