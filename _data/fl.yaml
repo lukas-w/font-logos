@@ -1,5 +1,6 @@
-version: "0.15"
+version: "0.18"
 icons:
+    - almalinux
     - alpine
     - aosc
     - apple
@@ -11,14 +12,18 @@ icons:
     - coreos
     - debian
     - deepin
+    - devuan
     - docker
     - elementary
     - fedora
     - fedora-inverse
     - ferris
+    - flathub
     - freebsd
     - gentoo
+    - gnu-guix
     - illumos
+    - kali-linux
     - linuxmint
     - linuxmint-inverse
     - mageia
@@ -30,15 +35,14 @@ icons:
     - pop-os
     - raspberry-pi
     - redhat
+    - rocky-linux
     - sabayon
     - slackware
     - slackware-inverse
+    - snappy
     - solus
     - tux
     - ubuntu
     - ubuntu-inverse
-    - gnu-guix
-    - snappy
-    - flathub
     - void
     - zorin
