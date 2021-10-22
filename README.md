@@ -31,10 +31,10 @@ Available logos are:
 | Alma Linux    | `fl-almalinux`             | `<span class="fl-almalinux"></span>`    |
 | Alpine        | `fl-alpine`                | `<span class="fl-alpine"></span>`       |
 | AOSC OS       | `fl-aosc`                  | `<span class="fl-aosc"></span>`         |
+| Apple         | `fl-apple`                 | `<span class="fl-apple"></span>`        |
 | Arch Linux    | `fl-archlinux`             | `<span class="fl-archlinux"></span>`    |
 | ArchLabs      | `fl-archlabs`              | `<span class="fl-archlabs"></span>`     |
 | Artix Linux   | `fl-artix`                 | `<span class="fl-artix"></span>`        |
-| Apple         | `fl-apple`                 | `<span class="fl-apple"></span>`        |
 | Budgie        | `fl-budgie`                | `<span class="fl-budgie"></span>`       |
 | CentOS        | `fl-centos`                | `<span class="fl-centos"></span>`       |
 | CoreOS        | `fl-coreos`                | `<span class="fl-coreos"></span>`       |
@@ -45,14 +45,16 @@ Available logos are:
 | elementary OS | `fl-elementary`            | `<span class="fl-elementary"></span>`   |
 | Fedora        | `fl-fedora[-inverse]`      | `<span class="fl-fedora"></span>`       |
 | Ferris        | `fl-ferris`                | `<span class="fl-ferris"></span>`       |
+| Flathub       | `fl-flathub`               | `<span class="fl-flathub"></span>`      |
 | FreeBSD       | `fl-freebsd`               | `<span class="fl-freebsd"></span>`      |
 | Gentoo        | `fl-gentoo`                | `<span class="fl-gentoo"></span>`       |
+| GNU Guix      | `fl-gnu-guix`              | `<span class="fl-gnu-guix"></span>`     |
 | illumos       | `fl-illumos`               | `<span class="fl-illumos"></span>`      |
 | Kali Linux    | `fl-kali-linux`            | `<span class="fl-kali-linux"></span>`   |
 | Linux Mint    | `fl-linuxmint[-inverse]`   | `<span class="fl-linuxmint"></span>`    |
 | Mageia        | `fl-mageia`                | `<span class="fl-mageia"></span>`       |
-| Manjaro       | `fl-manjaro`               | `<span class="fl-manjaro"></span>`      |
 | Mandriva      | `fl-mandriva`              | `<span class="fl-mandriva"></span>`     |
+| Manjaro       | `fl-manjaro`               | `<span class="fl-manjaro"></span>`      |
 | NixOS         | `fl-nixos`                 | `<span class="fl-nixos"></span>`        |
 | OpenBSD       | `fl-openbsd`               | `<span class="fl-openbsd"></span>`      |
 | OpenSUSE      | `fl-opensuse`              | `<span class="fl-opensuse"></span>`     |
@@ -62,6 +64,7 @@ Available logos are:
 | Rocky Linux   | `fl-rocky-linux`           | `<span class="fl-rocky-linux"></span>`  |
 | Sabayon       | `fl-sabayon`               | `<span class="fl-sabayon"></span>`      |
 | Slackware     | `fl-slackware[-inverse]`   | `<span class="fl-slackware"></span>`    |
+| Snappy        | `fl-snappy`                | `<span class="fl-snappy"></span>`       |
 | Solus         | `fl-solus`                 | `<span class="fl-solus"></span>`        |
 | Tux           | `fl-tux`                   | `<span class="fl-tux"></span>`          |
 | Ubuntu        | `fl-ubuntu[-inverse]`      | `<span class="fl-ubuntu"></span>`       |
