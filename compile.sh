@@ -15,6 +15,6 @@ mv .fontcustom-manifest.json~ .fontcustom-manifest.json
 fontcustom compile -F
 
 # Save used codepoint allocation (which can differ if glyphs were added/removed without updating glyphs.json)
-jq '.glyphs' .fontcustom-manifest.json > glyphs.json
+jq '.glyphs|to_entries|sort_by(.value)|from_entries' .fontcustom-manifest.json > glyphs.json
 
 wkhtmltoimage --enable-local-file-access --crop-w 888 ./assets/icon_preview.html ./assets/preview.png

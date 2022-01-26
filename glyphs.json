@@ -1,8 +1,4 @@
 {
-  "almalinux": {
-    "codepoint": 61738,
-    "source": "vectors/almalinux.svg"
-  },
   "alpine": {
     "codepoint": 61696,
     "source": "vectors/alpine.svg"
@@ -15,21 +11,9 @@
     "codepoint": 61698,
     "source": "vectors/apple.svg"
   },
-  "archlabs": {
-    "codepoint": 61735,
-    "source": "vectors/archlabs.svg"
-  },
   "archlinux": {
     "codepoint": 61699,
     "source": "vectors/archlinux.svg"
-  },
-  "artix": {
-    "codepoint": 61740,
-    "source": "vectors/artix.svg"
-  },
-  "budgie": {
-    "codepoint": 61730,
-    "source": "vectors/budgie.svg"
   },
   "centos": {
     "codepoint": 61700,
@@ -42,10 +26,6 @@
   "debian": {
     "codepoint": 61702,
     "source": "vectors/debian.svg"
-  },
-  "deepin": {
-    "codepoint": 61731,
-    "source": "vectors/deepin.svg"
   },
   "devuan": {
     "codepoint": 61703,
@@ -67,14 +47,6 @@
     "codepoint": 61707,
     "source": "vectors/fedora-inverse.svg"
   },
-  "ferris": {
-    "codepoint": 61736,
-    "source": "vectors/ferris.svg"
-  },
-  "flathub": {
-    "codepoint": 61725,
-    "source": "vectors/flathub.svg"
-  },
   "freebsd": {
     "codepoint": 61708,
     "source": "vectors/freebsd.svg"
@@ -82,18 +54,6 @@
   "gentoo": {
     "codepoint": 61709,
     "source": "vectors/gentoo.svg"
-  },
-  "gnu-guix": {
-    "codepoint": 61726,
-    "source": "vectors/gnu-guix.svg"
-  },
-  "illumos": {
-    "codepoint": 61732,
-    "source": "vectors/illumos.svg"
-  },
-  "kali-linux": {
-    "codepoint": 61741,
-    "source": "vectors/kali-linux.svg"
   },
   "linuxmint": {
     "codepoint": 61710,
@@ -119,17 +79,9 @@
     "codepoint": 61715,
     "source": "vectors/nixos.svg"
   },
-  "openbsd": {
-    "codepoint": 61733,
-    "source": "vectors/openbsd.svg"
-  },
   "opensuse": {
     "codepoint": 61716,
     "source": "vectors/opensuse.svg"
-  },
-  "pop-os": {
-    "codepoint": 61739,
-    "source": "vectors/pop-os.svg"
   },
   "raspberry-pi": {
     "codepoint": 61717,
@@ -138,10 +90,6 @@
   "redhat": {
     "codepoint": 61718,
     "source": "vectors/redhat.svg"
-  },
-  "rocky-linux": {
-    "codepoint": 61737,
-    "source": "vectors/rocky-linux.svg"
   },
   "sabayon": {
     "codepoint": 61719,
@@ -155,14 +103,6 @@
     "codepoint": 61721,
     "source": "vectors/slackware-inverse.svg"
   },
-  "snappy": {
-    "codepoint": 61727,
-    "source": "vectors/snappy.svg"
-  },
-  "solus": {
-    "codepoint": 61734,
-    "source": "vectors/solus.svg"
-  },
   "tux": {
     "codepoint": 61722,
     "source": "vectors/tux.svg"
@@ -175,6 +115,18 @@
     "codepoint": 61724,
     "source": "vectors/ubuntu-inverse.svg"
   },
+  "flathub": {
+    "codepoint": 61725,
+    "source": "vectors/flathub.svg"
+  },
+  "gnu-guix": {
+    "codepoint": 61726,
+    "source": "vectors/gnu-guix.svg"
+  },
+  "snappy": {
+    "codepoint": 61727,
+    "source": "vectors/snappy.svg"
+  },
   "void": {
     "codepoint": 61728,
     "source": "vectors/void.svg"
@@ -182,5 +134,53 @@
   "zorin": {
     "codepoint": 61729,
     "source": "vectors/zorin.svg"
+  },
+  "budgie": {
+    "codepoint": 61730,
+    "source": "vectors/budgie.svg"
+  },
+  "deepin": {
+    "codepoint": 61731,
+    "source": "vectors/deepin.svg"
+  },
+  "illumos": {
+    "codepoint": 61732,
+    "source": "vectors/illumos.svg"
+  },
+  "openbsd": {
+    "codepoint": 61733,
+    "source": "vectors/openbsd.svg"
+  },
+  "solus": {
+    "codepoint": 61734,
+    "source": "vectors/solus.svg"
+  },
+  "archlabs": {
+    "codepoint": 61735,
+    "source": "vectors/archlabs.svg"
+  },
+  "ferris": {
+    "codepoint": 61736,
+    "source": "vectors/ferris.svg"
+  },
+  "rocky-linux": {
+    "codepoint": 61737,
+    "source": "vectors/rocky-linux.svg"
+  },
+  "almalinux": {
+    "codepoint": 61738,
+    "source": "vectors/almalinux.svg"
+  },
+  "pop-os": {
+    "codepoint": 61739,
+    "source": "vectors/pop-os.svg"
+  },
+  "artix": {
+    "codepoint": 61740,
+    "source": "vectors/artix.svg"
+  },
+  "kali-linux": {
+    "codepoint": 61741,
+    "source": "vectors/kali-linux.svg"
   }
 }
