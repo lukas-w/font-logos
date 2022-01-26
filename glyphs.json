@@ -1,0 +1,186 @@
+{
+  "almalinux": {
+    "codepoint": 61742,
+    "source": "vectors/almalinux.svg"
+  },
+  "alpine": {
+    "codepoint": 61696,
+    "source": "vectors/alpine.svg"
+  },
+  "aosc": {
+    "codepoint": 61697,
+    "source": "vectors/aosc.svg"
+  },
+  "apple": {
+    "codepoint": 61698,
+    "source": "vectors/apple.svg"
+  },
+  "archlabs": {
+    "codepoint": 61735,
+    "source": "vectors/archlabs.svg"
+  },
+  "archlinux": {
+    "codepoint": 61699,
+    "source": "vectors/archlinux.svg"
+  },
+  "artix": {
+    "codepoint": 61740,
+    "source": "vectors/artix.svg"
+  },
+  "budgie": {
+    "codepoint": 61730,
+    "source": "vectors/budgie.svg"
+  },
+  "centos": {
+    "codepoint": 61700,
+    "source": "vectors/centos.svg"
+  },
+  "coreos": {
+    "codepoint": 61701,
+    "source": "vectors/coreos.svg"
+  },
+  "debian": {
+    "codepoint": 61702,
+    "source": "vectors/debian.svg"
+  },
+  "deepin": {
+    "codepoint": 61731,
+    "source": "vectors/deepin.svg"
+  },
+  "devuan": {
+    "codepoint": 61703,
+    "source": "vectors/devuan.svg"
+  },
+  "docker": {
+    "codepoint": 61704,
+    "source": "vectors/docker.svg"
+  },
+  "elementary": {
+    "codepoint": 61705,
+    "source": "vectors/elementary.svg"
+  },
+  "fedora": {
+    "codepoint": 61706,
+    "source": "vectors/fedora.svg"
+  },
+  "fedora-inverse": {
+    "codepoint": 61707,
+    "source": "vectors/fedora-inverse.svg"
+  },
+  "ferris": {
+    "codepoint": 61736,
+    "source": "vectors/ferris.svg"
+  },
+  "flathub": {
+    "codepoint": 61725,
+    "source": "vectors/flathub.svg"
+  },
+  "freebsd": {
+    "codepoint": 61708,
+    "source": "vectors/freebsd.svg"
+  },
+  "gentoo": {
+    "codepoint": 61709,
+    "source": "vectors/gentoo.svg"
+  },
+  "gnu-guix": {
+    "codepoint": 61726,
+    "source": "vectors/gnu-guix.svg"
+  },
+  "illumos": {
+    "codepoint": 61732,
+    "source": "vectors/illumos.svg"
+  },
+  "kali-linux": {
+    "codepoint": 61741,
+    "source": "vectors/kali-linux.svg"
+  },
+  "linuxmint": {
+    "codepoint": 61710,
+    "source": "vectors/linuxmint.svg"
+  },
+  "linuxmint-inverse": {
+    "codepoint": 61711,
+    "source": "vectors/linuxmint-inverse.svg"
+  },
+  "mageia": {
+    "codepoint": 61712,
+    "source": "vectors/mageia.svg"
+  },
+  "mandriva": {
+    "codepoint": 61713,
+    "source": "vectors/mandriva.svg"
+  },
+  "manjaro": {
+    "codepoint": 61714,
+    "source": "vectors/manjaro.svg"
+  },
+  "nixos": {
+    "codepoint": 61715,
+    "source": "vectors/nixos.svg"
+  },
+  "openbsd": {
+    "codepoint": 61733,
+    "source": "vectors/openbsd.svg"
+  },
+  "opensuse": {
+    "codepoint": 61716,
+    "source": "vectors/opensuse.svg"
+  },
+  "pop-os": {
+    "codepoint": 61739,
+    "source": "vectors/pop-os.svg"
+  },
+  "raspberry-pi": {
+    "codepoint": 61717,
+    "source": "vectors/raspberry-pi.svg"
+  },
+  "redhat": {
+    "codepoint": 61718,
+    "source": "vectors/redhat.svg"
+  },
+  "rocky-linux": {
+    "codepoint": 61743,
+    "source": "vectors/rocky-linux.svg"
+  },
+  "sabayon": {
+    "codepoint": 61719,
+    "source": "vectors/sabayon.svg"
+  },
+  "slackware": {
+    "codepoint": 61720,
+    "source": "vectors/slackware.svg"
+  },
+  "slackware-inverse": {
+    "codepoint": 61721,
+    "source": "vectors/slackware-inverse.svg"
+  },
+  "snappy": {
+    "codepoint": 61727,
+    "source": "vectors/snappy.svg"
+  },
+  "solus": {
+    "codepoint": 61734,
+    "source": "vectors/solus.svg"
+  },
+  "tux": {
+    "codepoint": 61722,
+    "source": "vectors/tux.svg"
+  },
+  "ubuntu": {
+    "codepoint": 61723,
+    "source": "vectors/ubuntu.svg"
+  },
+  "ubuntu-inverse": {
+    "codepoint": 61724,
+    "source": "vectors/ubuntu-inverse.svg"
+  },
+  "void": {
+    "codepoint": 61728,
+    "source": "vectors/void.svg"
+  },
+  "zorin": {
+    "codepoint": 61729,
+    "source": "vectors/zorin.svg"
+  }
+}
