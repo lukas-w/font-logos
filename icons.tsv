@@ -48,3 +48,7 @@ offset	name					id
 46		Void					void
 47		Zorin OS				zorin
 48		Codeberg			    codeberg
+49		KDE Neon				kde-neon
+50		KDE Plasma				kde-plasma
+51		Kubuntu					kubuntu
+52		Kubuntu (inverse)			kubuntu-inverse
