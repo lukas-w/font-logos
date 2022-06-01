@@ -59,6 +59,7 @@ Available logos are:
 | NixOS         | `fl-nixos`                 | `<span class="fl-nixos"></span>`        |
 | OpenBSD       | `fl-openbsd`               | `<span class="fl-openbsd"></span>`      |
 | OpenSUSE      | `fl-opensuse`              | `<span class="fl-opensuse"></span>`     |
+| Parrot OS     | `fl-parrot`                | `<span class="fl-parrot"></span>`       |
 | Pop!_OS       | `fl-pop-os`                | `<span class="fl-pop-os"></span>`       |
 | Raspberry Pi  | `fl-raspberry-pi`          | `<span class="fl-raspberry-pi"></span>` |
 | Red Hat       | `fl-redhat`                | `<span class="fl-redhat"></span>`       |
