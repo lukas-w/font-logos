@@ -43,6 +43,7 @@ Available logos are:
 | Devuan        | `fl-devuan`                | `<span class="fl-devuan"></span>`       |
 | Docker        | `fl-docker`                | `<span class="fl-docker"></span>`       |
 | elementary OS | `fl-elementary`            | `<span class="fl-elementary"></span>`   |
+| Endeavour OS  | `fl-endeavour`             | `<span class="fl-endeavour"></span>`    |
 | Fedora        | `fl-fedora[-inverse]`      | `<span class="fl-fedora"></span>`       |
 | Ferris        | `fl-ferris`                | `<span class="fl-ferris"></span>`       |
 | Flathub       | `fl-flathub`               | `<span class="fl-flathub"></span>`      |
