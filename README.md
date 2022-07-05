@@ -85,7 +85,7 @@ Available logos are:
 ## Building ##
 
 Make sure you have the following dependencies installed:
-* Node and Python to run the build scripts
+* Node, Python and jq to run the build scripts
 * [FontForge](//fontforge.org) to generate the fonts
 * [wkhtmltopdf](http://wkhtmltopdf.org/) to generate this readme's preview image
 
