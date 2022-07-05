@@ -1,14 +1,14 @@
 # font-logos #
 
-![Available logos](assets/preview.png)
+![Available logos](assets/readme-header.png)
 
-Font-logos is an icon font containing logos of popular linux distributions and other open source software for inclusion in websites.
+font-logos is an icon font containing logos of popular linux distributions and other open source software.
 
 *Note:* All brand icons are trademarks of their respective owners and should only be used to represent the company or product to which they refer.
 
 ## Installation ##
 
-Install the font by downloading and unpacking the latest release's zip manually or installing it from npm.
+Install the font by downloading and unpacking the latest release's zip manually or installing it from npm:
 
 	npm install font-logos
 
@@ -22,7 +22,6 @@ Alternatively just link to it using a CDN such as [jsDelivr](//jsdelivr.com):
 	<link href="//cdn.jsdelivr.net/npm/font-logos@0.18/assets/font-logos.css" rel="stylesheet">
 
 ## Usage ##
-
 
 Available logos are:
 
@@ -73,21 +72,10 @@ Available logos are:
 | Void          | `fl-void`                  | `<span class="fl-void"></span>`         |
 | Zorin OS      | `fl-zorin`                 | `<span class="fl-zorin"></span>`        |
 
-## Dependencies ##
-* This project uses [fontcustom](https://github.com/FontCustom/fontcustom) to compile vectors into fonts.
+## Building ##
+
+Make sure you have the following dependencies installed:
+* This project uses [FontForge](//fontforge.org) to generate the fonts.
 * [wkhtmltopdf](http://wkhtmltopdf.org/) is used to generate this readme's preview image.
 
-## Compilation of the vectors ##
-
-After making changes to one of the vectors, the fonts have to be recompiled.
-From the root directory, run:
-
-	fontcustom compile
-
-To compile everything including the readme's `preview.png`, run:
-
-	sh ./compile.sh
-
-To stage the new revision:
-
-	git add assets .fontcustom-manifest.json
+Then run `make`.

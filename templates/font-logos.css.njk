@@ -1,0 +1,36 @@
+@font-face {
+  font-display: auto;
+  font-family: "{{ fontName }}";
+  font-style: normal;
+  font-weight: normal;
+  src:
+  {%- for format in formats -%}
+    url("{{ fontName }}.{{ format.ext }}") format("{{ format.name }}"){% if not loop.last %},{% endif %}
+  {%- endfor -%}
+}
+
+{% for name, codepoint in glyphs -%}
+.{{ classPrefix }}{{ name }}::before{% if not loop.last %}, {% endif %}
+{% endfor %} {
+  display: inline-block;
+  font-family: "{{ fontName }}";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.{{ classPrefix }}fw {
+  text-align: center;
+  width: 1em;
+}
+
+{%- for name, codepoint in glyphs %}
+.{{ classPrefix }}{{ name }}::before {
+  content: "\{{ codepoint.toString(16) }}";
+}
+{%- endfor -%}

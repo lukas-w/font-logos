@@ -1,0 +1,35 @@
+<link href="font-logos.css" rel="stylesheet">
+
+{% set icons = uniqueIcons %} {# Don't include variants (...-inverse) #}
+{% set rows = 2 %}
+{% set n = icons|length %}
+{% set nPerRow = (n / rows) | round(0, "ceil") %}
+{% set paddingPx = 5 %}
+{% set widthPx = 888 %} {# Using GitHub's Readme width #}
+{% set spacingPx = 2 * paddingPx %}
+{% set totalSpacePx = spacingPx * (nPerRow - 1) %}
+{% set iconWidthPx = (widthPx - totalSpacePx) / nPerRow %}
+
+<style>
+	body {
+		margin: 0;
+		width: {{ widthPx }}px;
+		color: #333;
+		font-size: {{ iconWidthPx }}px;
+	}
+	div {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin: {{ - paddingPx }}px;
+	}
+	i {
+		padding: {{ paddingPx }}px;
+	}
+</style>
+
+<body>
+	<div>
+		{% for icon in icons|sort %}<i class="fl-{{icon}} fl-fw"></i>{% endfor %}
+	</div>
+</body>

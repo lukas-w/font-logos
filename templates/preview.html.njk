@@ -1,0 +1,40 @@
+<link href="font-logos.css" rel="stylesheet">
+
+<style>
+	body {
+		color: #333;
+	}
+	td {
+		text-align: center;
+		vertical-align: text-bottom;
+		padding: 10px;
+	}
+	td i {
+		display: block;
+	}
+	td i::before {
+		background-color: #eee;
+	}
+	small {
+		color: #888;
+		margin-top: 1em;
+	}
+</style>
+
+<body>
+	<table>
+		<tbody>
+			{% for icon in icons.sort() %}
+				<tr>
+						<td><code>fl-{{ icon }}</code></td>
+					{% for size in [12,14,16,18,20,24,28,32,36,42,48,54] %}
+						<td>
+							<i style="font-size: {{ size }}px" class="preview-icon fl-{{icon}}"></i>
+							<small>{{size}}px</small>
+						</td>
+					{% endfor %}
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</body>

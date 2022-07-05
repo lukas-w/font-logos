@@ -1,6 +1,7 @@
 assets/*
-!assets/preview.png
+!assets/readme-header.png
 .fontcustom-manifest.json
 *.zip
 *.tgz
 Gemfile.lock
+node_modules
