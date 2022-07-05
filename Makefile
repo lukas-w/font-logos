@@ -18,7 +18,7 @@ all_files=$(font_assets) $(dest)/$(name).css $(dest)/preview.html $(dest)/readme
 all: $(all_files)
 
 .PHONY: pack
-pack: $(dest)/$(name)-$(version).zip  $(dest)/$(name)-$(version).zip
+pack: $(dest)/$(name)-$(version).zip
 
 $(name)-$(version).tgz: $(all_files)
 	npm pack
@@ -29,7 +29,8 @@ $(dest)/$(name)-$(version).zip: $(name)-$(version).tgz
 	tar -xf $(name)-$(version).tgz -C $(dir)
 	cd $(dir) && \
 		mv $(dir)/package $(dir)/$(name)-$(version) && \
-		zip -r $(name)-$(version).zip $(name)-$(version)
+		zip -r $(shell pwd)/$(name)-$(version).zip $(name)-$(version)
+	rm -r $(dir)
 
 .SECONDEXPANSION:
 
