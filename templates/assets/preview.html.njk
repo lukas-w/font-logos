@@ -24,12 +24,13 @@
 <body>
 	<table>
 		<tbody>
-			{% for icon in icons.sort() %}
+			{% for icon in icons|sort(false, false, "id") %}
+				{% set id=icon.id %}
 				<tr>
-						<td><code>fl-{{ icon }}</code></td>
+						<td><code>fl-{{ id }}</code></td>
 					{% for size in [12,14,16,18,20,24,28,32,36,42,48,54] %}
 						<td>
-							<i style="font-size: {{ size }}px" class="preview-icon fl-{{icon}}"></i>
+							<i style="font-size: {{ size }}px" class="preview-icon fl-{{ id }}"></i>
 							<small>{{size}}px</small>
 						</td>
 					{% endfor %}

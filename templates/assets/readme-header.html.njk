@@ -30,6 +30,6 @@
 
 <body>
 	<div>
-		{% for icon in icons|sort %}<i class="fl-{{icon}} fl-fw"></i>{% endfor %}
+		{% for icon in icons|sort(false, false, "id") %}<i class="fl-{{icon.id}} fl-fw"></i>{% endfor %}
 	</div>
 </body>

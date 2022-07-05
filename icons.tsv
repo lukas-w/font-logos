@@ -1,49 +1,49 @@
-off	name
-0	alpine
-1	aosc
-2	apple
-3	archlinux
-4	centos
-5	coreos
-6	debian
-7	devuan
-8	docker
-9	elementary
-10	fedora
-11	fedora-inverse
-12	freebsd
-13	gentoo
-14	linuxmint
-15	linuxmint-inverse
-16	mageia
-17	mandriva
-18	manjaro
-19	nixos
-20	opensuse
-21	raspberry-pi
-22	redhat
-23	sabayon
-24	slackware
-25	slackware-inverse
-26	tux
-27	ubuntu
-28	ubuntu-inverse
-29	almalinux
-30	archlabs
-31	artix
-32	budgie
-33	deepin
-34	endeavour
-35	ferris
-36	flathub
-37	gnu-guix
-38	illumos
-39	kali-linux
-40	openbsd
-41	parrot
-42	pop-os
-43	rocky-linux
-44	snappy
-45	solus
-46	void
-47	zorin
+offset	name					id
+0		Alpine					alpine
+1		AOSC OS					aosc
+2		Apple					apple
+3		Arch Linux				archlinux
+4		CentOS					centos
+5		CoreOS					coreos
+6		Debian					debian
+7		Devuan					devuan
+8		Docker					docker
+9		elementary OS			elementary
+10		Fedora					fedora
+11		Fedora (inverse)		fedora-inverse
+12		FreeBSD					freebsd
+13		Gentoo					gentoo
+14		Linux Mint				linuxmint
+15		Linux Mint (inverse)	linuxmint-inverse
+16		Mageia					mageia
+17		Mandriva				mandriva
+18		Manjaro					manjaro
+19		NixOS					nixos
+20		OpenSUSE				opensuse
+21		Raspberry pi			raspberry-pi
+22		Red Hat					redhat
+23		Sabayon					sabayon
+24		Slackware				slackware
+25		Slackware (inverse)		slackware-inverse
+26		Tux						tux
+27		Ubuntu					ubuntu
+28		Ubuntu (inverse)		ubuntu-inverse
+29		Alma Linux				almalinux
+30		ArchLabs				archlabs
+31		Artix Linux				artix
+32		Budgie					budgie
+33		Deepin					deepin
+34		Endeavour OS			endeavour
+35		Ferris					ferris
+36		Flathub					flathub
+37		GNU Guix				gnu-guix
+38		illumos					illumos
+39		Kali Linux				kali-linux
+40		OpenBSD					openbsd
+41		Parrot OS				parrot
+42		Pop!_OS					pop-os
+43		Rocky Linux				rocky-linux
+44		Snappy					snappy
+45		Solus					solus
+46		Void					void
+47		Zorin OS				zorin

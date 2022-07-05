@@ -1,0 +1,54 @@
+# {{ font.name }} #
+
+![Available logos](assets/readme-header.png)
+
+{{ font.name }} is an icon font containing logos of popular linux distributions and other open source software.
+
+*Note:* All brand icons are trademarks of their respective owners and should only be used to represent the company or product to which they refer.
+
+## Installation ##
+
+Install the font by downloading and unpacking the latest release's zip manually or installing it from npm:
+
+	npm install {{ font.name }}
+
+To use the font, include `assets/{{ font.name }}.css` as well as the
+fonts in your project and use the CSS classes listed below.
+
+	<link href="/assets/{{ font.name }}.css" rel="stylesheet">
+
+Alternatively just link to it using a CDN such as [jsDelivr](//jsdelivr.com):
+
+	<link href="//cdn.jsdelivr.net/npm/{{ font.name }}@{{ font.version.stable }}/assets/{{ font.name }}.css" rel="stylesheet">
+
+## Usage ##
+
+Include an icon using the corresponding CSS class in an empty element:
+
+	<i class="fl-[icon]"></i>
+
+Add `fl-fw` as class for a fixed width icon.
+
+Available logos are:
+
+{%- macro class(id) %}`fl-{{ id }}`{% endmacro %}
+{%- macro code(id) %}<i class="fl-{{ id }}"></i>{% endmacro %}
+{%- set nameW = icons|column('name')|maxLength %}
+{%- set maxIdLength = icons|column('id')|maxLength %}
+{%- set classW = maxIdLength + class("")|length %}
+{%- set codeW = maxIdLength + code("")|length %}
+
+| {{ "Distribution"|center(nameW) }} | {{ "CSS class"|center(classW) }} | {{ "Code"|center(codeW) }} |
+| {{ "-".repeat(nameW) }} | {{ "-".repeat(classW) }} | {{ "-".repeat(codeW) }} |
+{%- for icon in icons %}
+| {{ icon.name.padEnd(nameW) }} | {{ class(icon.id).padEnd(classW) }} | {{ code(icon.id).padEnd(codeW)|safe }} |
+{%- endfor %}
+
+## Building ##
+
+Make sure you have the following dependencies installed:
+* Node and Python to run the build scripts
+* [FontForge](//fontforge.org) to generate the fonts
+* [wkhtmltopdf](http://wkhtmltopdf.org/) to generate this readme's preview image
+
+Then run `make`.

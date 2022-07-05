@@ -1,25 +1,26 @@
 import fs from 'node:fs';
 import nunjucks from 'nunjucks';
-import codepoints from './codepoints.mjs';
+import font from './data.mjs';
 
-const [templateName] = process.argv.slice(2);
+const [templateFile, outFile] = process.argv.slice(2);
 
 const context = {
-	fontName: process.env.FONT_NAME,
+	font,
 	classPrefix: 'fl-',
 	formats: [
 		{name: 'woff', ext: 'woff'}, 
 		{name: 'woff2', ext: 'woff2'}, 
 		{name: 'truetype', ext: 'ttf'}, 
 	],
-	icons: Object.keys(codepoints),
-	uniqueIcons: Object.keys(codepoints).filter(i => !i.endsWith('-inverse')),
-	glyphs: codepoints,
+	icons: font.icons,
+	uniqueIcons: font.icons.filter(i => !i.id.endsWith('-inverse')),
 };
 
-nunjucks.configure({throwOnUndefined: true});
+const env = new nunjucks.Environment(new nunjucks.FileSystemLoader(), {
+	throwOnUndefined: true,
+});
+env.addFilter('column', (objs, col) => objs.map(o => o[col]));
+env.addFilter('map', (array, fn) => array.map(fn));
+env.addFilter('maxLength', array => Math.max(...array.map(x => x.length)));
 
-fs.writeFileSync(
-	`${process.env.OUTPUT_DIR}/${templateName}`,
-	nunjucks.render(`./templates/${templateName}.njk`, context)
-);
+fs.writeFileSync(outFile, env.render(templateFile, context));

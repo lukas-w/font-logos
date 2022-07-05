@@ -1,7 +1,6 @@
-import csv
 import os
 import tempfile
-import subprocess
+import json
 import fontforge
 
 autowidth = False
@@ -35,10 +34,9 @@ def addGlyph(name, source, code):
 	glyph.left_side_bearing = 0
 	glyph.right_side_bearing = 0
 
-with open('icons.tsv') as f:
-	rd = csv.DictReader(f, delimiter='\t')
-	for icon in rd:
-		addGlyph(icon['name'], os.path.join(vectorsdir, (icon['name']+'.svg')), start_codepoint+int(icon['off']))
+with open(f'{outputdir}/{fontname}.json') as f:
+	for icon in json.load(f)['icons']:
+		addGlyph(icon['name'], os.path.join(vectorsdir, (icon['id']+'.svg')), start_codepoint+int(icon['offset']))
 
 font.generate(os.path.join(outputdir, fontname + '.ttf'))
 font.generate(os.path.join(outputdir, fontname + '.woff'))

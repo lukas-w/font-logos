@@ -1,19 +1,19 @@
 @font-face {
   font-display: auto;
-  font-family: "{{ fontName }}";
+  font-family: "{{ font.name }}";
   font-style: normal;
   font-weight: normal;
   src:
   {%- for format in formats -%}
-    url("{{ fontName }}.{{ format.ext }}") format("{{ format.name }}"){% if not loop.last %},{% endif %}
+    url("{{ font.name }}.{{ format.ext }}?v={{ font.version.string|urlencode }}") format("{{ format.name }}"){% if not loop.last %},{% endif %}
   {%- endfor -%}
 }
 
-{% for name, codepoint in glyphs -%}
-.{{ classPrefix }}{{ name }}::before{% if not loop.last %}, {% endif %}
+{% for icon in icons -%}
+.{{ classPrefix }}{{ icon.id }}::before{% if not loop.last %}, {% endif %}
 {% endfor %} {
   display: inline-block;
-  font-family: "{{ fontName }}";
+  font-family: "{{ font.name }}";
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -29,8 +29,8 @@
   width: 1em;
 }
 
-{%- for name, codepoint in glyphs %}
-.{{ classPrefix }}{{ name }}::before {
-  content: "\{{ codepoint.toString(16) }}";
+{%- for icon in icons %}
+.{{ classPrefix }}{{ icon.id }}::before {
+  content: "\{{ icon.codepoint.toString(16) }}";
 }
 {%- endfor -%}
