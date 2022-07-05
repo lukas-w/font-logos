@@ -32,16 +32,16 @@ Add `fl-fw` as class for a fixed width icon.
 Available logos are:
 
 {%- macro class(id) %}`fl-{{ id }}`{% endmacro %}
-{%- macro code(id) %}<i class="fl-{{ id }}"></i>{% endmacro %}
+{%- macro code(id) %}`<i class="fl-{{ id }}"></i>`{% endmacro %}
 {%- set nameW = icons|column('name')|maxLength %}
 {%- set maxIdLength = icons|column('id')|maxLength %}
 {%- set classW = maxIdLength + class("")|length %}
 {%- set codeW = maxIdLength + code("")|length %}
 
-| {{ "Distribution"|center(nameW) }} | {{ "CSS class"|center(classW) }} | {{ "Code"|center(codeW) }} |
-| {{ "-".repeat(nameW) }} | {{ "-".repeat(classW) }} | {{ "-".repeat(codeW) }} |
-{%- for icon in icons %}
-| {{ icon.name.padEnd(nameW) }} | {{ class(icon.id).padEnd(classW) }} | {{ code(icon.id).padEnd(codeW)|safe }} |
+| {{ "Distribution"|center(nameW) }} | {{ "CSS class"|center(classW) }} | {{ "Code"|center(codeW) }} | Code point
+| {{ "-".repeat(nameW) }} | {{ "-".repeat(classW) }} | {{ "-".repeat(codeW) }} | ---------
+{%- for icon in icons|sort(null, null, "id") %}
+| {{ icon.name.padEnd(nameW) }} | {{ class(icon.id).padEnd(classW) }} | {{ code(icon.id).padEnd(codeW)|safe }} | `0x{{ icon.codepoint.toString(16) }}`
 {%- endfor %}
 
 ## Building ##
