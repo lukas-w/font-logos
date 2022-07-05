@@ -4,38 +4,15 @@
    height="512"
    id="svg3037"
    version="1.1"
-   sodipodi:docname="tux.svg"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <sodipodi:namedview
-     id="namedview261"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="1.1946238"
-     inkscape:cx="279.58593"
-     inkscape:cy="319.76595"
-     inkscape:window-width="1920"
-     inkscape:window-height="1023"
-     inkscape:window-x="0"
-     inkscape:window-y="26"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg3037" />
   <defs
      id="defs5498">
     <linearGradient
-       id="linearGradient8856"
-       inkscape:swatch="solid">
+       id="linearGradient8856">
       <stop
          style="stop-color:#000000;stop-opacity:1;"
          offset="0"
@@ -50,41 +27,10 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     id="g390"
-     transform="matrix(3.7795276,0,0,4.0666226,-100.04425,-136.21355)">
-    <g
-       inkscape:label="Livello 1"
-       id="layer1"
-       transform="translate(-14.397736,-20.92775)">
-      <path
-         style="fill:#55ddff;fill-opacity:1;stroke:#55ddff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.941176"
-         d="m 62.903711,58.218316 -0.746246,23.879864 10.074319,-13.805547 13.805543,10.820563 12.313058,24.999224 16.790525,5.22373 1.11937,70.1471 8.2087,-35.8198 10.07432,19.77551 0.74625,-42.536 20.14863,11.93993 L 110.29031,66.80014 77.828626,54.860208 Z"
-         id="path8217"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cccccccccccccc"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95" />
-    </g>
-    <g
-       id="layer3-3"
-       inkscape:label="Livello 0">
-      <flowRoot
-         xml:space="preserve"
-         id="flowRoot10145"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         transform="matrix(0.3721784,0,0,0.31047784,-6.8135841,-16.980342)"><flowRegion
-           id="flowRegion10147"><rect
-             id="rect10149"
-             width="142.90314"
-             height="164.79956"
-             x="61.079563"
-             y="363.75677" /></flowRegion><flowPara
-           id="flowPara10151">ParrotOSpa</flowPara></flowRoot>
-    </g>
-  </g>
+  <path
+     d="m 83.285422,15.43311 -2.820457,97.11039 38.076165,-56.141945 52.17843,44.003145 46.53754,101.66241 63.46026,21.24294 4.23069,285.26178 31.02501,-145.66561 38.07617,80.41954 L 356.8697,270.3479 433.022,318.90309 262.38438,50.332149 139.69455,1.7769517 Z"
+     id="path8217" />
 </svg>

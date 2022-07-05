@@ -28,14 +28,12 @@
      id="layer1"
      transform="translate(222.41168,-236.90015)">
     <rect
-       style="opacity:1;fill:#35bf5c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7.07399988;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:21.222, 21.222;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4149-7"
        width="58.534939"
        height="200"
        x="-80.946617"
        y="236.90016" />
     <rect
-       style="opacity:1;fill:#35bf5c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7.07399988;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:21.222, 21.222;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4149-0-6"
        width="58.534939"
        height="129.26881"
@@ -44,7 +42,6 @@
     <path
        id="rect4149-0-4-9"
        transform="translate(-222.41168,236.90015)"
-       d="M 0 0 L 0 200 L 58.535156 200 L 58.535156 58.535156 L 129.26562 58.535156 L 129.26562 0 L 58.535156 0 L 20.765625 0 L 0 0 z "
-       style="opacity:1;fill:#35bf5c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7.07399988;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:21.222, 21.222;stroke-dashoffset:0;stroke-opacity:1" />
+       d="M 0 0 L 0 200 L 58.535156 200 L 58.535156 58.535156 L 129.26562 58.535156 L 129.26562 0 L 58.535156 0 L 20.765625 0 L 0 0 z " />
   </g>
 </svg>
