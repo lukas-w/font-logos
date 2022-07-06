@@ -89,4 +89,4 @@ Make sure you have the following dependencies installed:
 * [FontForge](//fontforge.org) to generate the fonts
 * [wkhtmltopdf](http://wkhtmltopdf.org/) to generate this readme's preview image
 
-Then run `make`.
+Then run `npm install`/`yarn install` and `make`.
