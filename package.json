@@ -21,6 +21,7 @@
     "README.md"
   ],
   "devDependencies": {
+    "lodash.merge": "^4.6.2",
     "nunjucks": "^3.2.3"
   }
 }

@@ -34,16 +34,18 @@ Available logos are:
 {%- macro img(id) %}<img src="vectors/{{ id }}.svg" width="24">{% endmacro %}
 {%- macro class(id) %}`fl-{{ id }}`{% endmacro %}
 {%- macro code(id) %}`<i class="fl-{{ id }}"></i>`{% endmacro %}
-{%- set nameW = icons|column('name')|maxLength %}
-{%- set maxIdLength = icons|column('id')|maxLength %}
+{%- set ids = icons|keys|sort %}
+{%- set nameW = icons|values|column('name')|maxLength %}
+{%- set maxIdLength = ids|maxLength %}
 {%- set imgW = maxIdLength + img("")|length %}
 {%- set classW = maxIdLength + class("")|length %}
 {%- set codeW = maxIdLength + code("")|length %}
 
 | {{ "Distribution"|center(nameW) }} | {{ "CSS class"|center(classW) }} | {{ "Code"|center(codeW) }} | Code point | Image
 | {{ "-".repeat(nameW) }} | {{ "-".repeat(classW) }} | {{ "-".repeat(codeW) }} | ---------- | -----------
-{%- for icon in icons|sort(null, null, "id") %}
-| {{ icon.name.padEnd(nameW) }} | {{ class(icon.id).padEnd(classW) }} | {{ code(icon.id).padEnd(codeW)|safe }} | `0x{{ icon.codepoint.toString(16) }}`   | {{ img(icon.id) }}
+{%- for id in ids %}
+{%- set icon=icons[id] %}
+| {{ icon.name.padEnd(nameW) }} | {{ class(id).padEnd(classW) }} | {{ code(id).padEnd(codeW)|safe }} | `0x{{ icon.codepoint.toString(16) }}`   | {{ img(id) }}
 {%- endfor %}
 
 ## Building ##

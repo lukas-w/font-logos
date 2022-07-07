@@ -1,6 +1,7 @@
 name := font-logos
 dest := assets
-font_exts := .ttf .woff .woff2
+out_json_ext := .out.json
+font_exts := .ttf .woff .woff2 $(out_json_ext)
 font_assets := $(foreach ext,$(font_exts),$(dest)/$(name)$(ext))
 json_file = $(dest)/$(name).json
 version = $(shell jq -r .version package.json)
@@ -11,6 +12,7 @@ preview_width := 888
 export START_CODEPOINT
 export FONT_NAME=$(name)
 export OUTPUT_DIR=$(dest)
+export JSON_FILE=$(json_file)
 
 all_files=$(font_assets) $(dest)/$(name).css $(dest)/preview.html $(dest)/readme-header.png README.md
 
@@ -40,7 +42,7 @@ $(json_file): scripts/generate-json.mjs icons.tsv package.json
 $(font_assets)&: scripts/generate-font.py icons.tsv $(shell find vectors) $(json_file)
 	python $<
 
-%: templates/$$*.njk icons.tsv scripts/render-template.mjs $(json_file)
+%: templates/$$*.njk icons.tsv scripts/render-template.mjs $(json_file) $(dest)/$(name)$(out_json_ext)
 	node scripts/render-template.mjs $< $@
 
 $(dest)/readme-header.png: $(dest)/readme-header.html $(font_assets) $(dest)/font-logos.css

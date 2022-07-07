@@ -24,8 +24,9 @@
 <body>
 	<table>
 		<tbody>
-			{% for icon in icons|sort(false, false, "id") %}
-				{% set id=icon.id %}
+			{% set ids=icons|keys|sort %}
+			{% for id in ids %}
+				{% set icon=icons[id] %}
 				<tr>
 						<td><code>fl-{{ id }}</code></td>
 					{% for size in [12,14,16,18,20,24,28,32,36,42,48,54] %}

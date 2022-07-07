@@ -1,21 +1,26 @@
-import fs from 'node:fs';
+import fs from 'node:fs/promises';
 import {tsvFileToObjects} from './tsv.mjs';
 const iconsFile = './icons.tsv';
 
-function getIcons() {
+async function getIcons() {
 	const startCodepoint = parseInt(process.env.START_CODEPOINT);
-	return tsvFileToObjects(iconsFile, {
+	let icons = tsvFileToObjects(iconsFile, {
 		'offset': parseInt,
+		'scale': s => s.toLowerCase() === 'true',
 	})
 		.map(r => ({...r, codepoint: startCodepoint + r.offset}))
+		.map(r => ({...r, variant: r.id.endsWith('-inverse')}))
+		.map(({id, ...r}) => [id, r])
 	;
+	icons = Object.fromEntries(icons);
+	return icons;
 }
 
-function readPackage() {
-	return JSON.parse(fs.readFileSync('package.json'));
+async function readPackage() {
+	return JSON.parse(await fs.readFile('package.json'));
 }
 
-const {version} = readPackage();
+const {version} = await readPackage();
 const [major, minor, patch] = version.match(/^(\d+)\.(\d+)\.(\d+)/).slice(1);
 
 const data = {
@@ -25,10 +30,10 @@ const data = {
 		major, minor, patch,
 		stable: parseInt(major) > 0 ? major : `${major}.${minor}.${patch}`,
 	},
-	icons: getIcons(),
+	icons: await getIcons(),
 };
 
-fs.writeFileSync(
+await fs.writeFile(
 	process.env.OUTPUT_DIR + '/' + process.env.FONT_NAME + '.json', 
 	JSON.stringify(data, null, 2)
 );

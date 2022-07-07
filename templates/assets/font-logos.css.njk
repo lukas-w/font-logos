@@ -1,3 +1,4 @@
+{% set fwClass = classPrefix+'fw' %}
 @font-face {
   font-display: auto;
   font-family: "{{ font.name }}";
@@ -9,8 +10,8 @@
   {%- endfor -%}
 }
 
-{% for icon in icons -%}
-.{{ classPrefix }}{{ icon.id }}::before{% if not loop.last %}, {% endif %}
+{% for id, icon in icons -%}
+.{{ classPrefix }}{{ id }}::before{% if not loop.last %}, {% endif %}
 {% endfor %} {
   display: inline-block;
   font-family: "{{ font.name }}";
@@ -24,13 +25,19 @@
   font-smoothing: antialiased;
 }
 
-.{{ classPrefix }}fw {
+.{{ fwClass }} {
   text-align: center;
   width: 1em;
 }
 
-{%- for icon in icons %}
-.{{ classPrefix }}{{ icon.id }}::before {
+{%- for id, icon in icons %}
+.{{ classPrefix }}{{ id }}::before {
   content: "\{{ icon.codepoint.toString(16) }}";
 }
+{%- if icon.width > font.em %}
+.{{ fwClass }}.{{ classPrefix }}{{ id }}::before {
+  font-size: {{ font.em/icon.width }}em;
+  line-height: {{ icon.width/font.em }}em;
+}
+{%- endif -%}
 {%- endfor -%}

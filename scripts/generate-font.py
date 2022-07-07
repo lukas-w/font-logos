@@ -6,12 +6,13 @@ import fontforge
 autowidth = False
 font_em = 512
 font_design_size = 16
+jsonfile = os.environ['JSON_FILE']
 fontname = os.environ['FONT_NAME']
 outputdir = os.environ['OUTPUT_DIR']
 vectorsdir = 'vectors'
 start_codepoint = int(os.environ['START_CODEPOINT'], base=0)
 design_px = font_em // font_design_size
-
+outjsonfile = os.path.join(outputdir, fontname+'.out.json')
 font = fontforge.font()
 # font.encoding = 'UnicodeFull'
 font.fontname = fontname
@@ -28,16 +29,30 @@ font.autoWidth(0, 0, font.em)
 glyph = font.createChar(32)
 glyph.width = 200
 
-def addGlyph(name, source, code):
-	glyph = font.createChar(code, name)
-	glyph.importOutlines(source)
+outputInfo = {
+	'em': font.em,
+	'icons': {},
+}
+
+def addIcon(iconId, icon):
+	glyph = font.createChar(icon['codepoint'], icon['name'])
+	glyph.importOutlines(
+		os.path.join(vectorsdir, (iconId+'.svg')),
+	)
 	glyph.left_side_bearing = 0
 	glyph.right_side_bearing = 0
 
-with open(f'{outputdir}/{fontname}.json') as f:
-	for icon in json.load(f)['icons']:
-		addGlyph(icon['name'], os.path.join(vectorsdir, (icon['id']+'.svg')), start_codepoint+int(icon['offset']))
+	outputInfo['icons'][iconId] = {
+		'width': glyph.width,
+	}
+
+with open(jsonfile) as f:
+	for iconId, icon in json.load(f)['icons'].items():
+		addIcon(iconId, icon)
 
 font.generate(os.path.join(outputdir, fontname + '.ttf'))
 font.generate(os.path.join(outputdir, fontname + '.woff'))
 font.generate(os.path.join(outputdir, fontname + '.woff2'))
+
+with open(outjsonfile, 'w') as f:
+	json.dump(outputInfo, f, indent=2)
