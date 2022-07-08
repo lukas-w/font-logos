@@ -47,8 +47,13 @@ def addIcon(iconId, icon):
 	}
 
 with open(jsonfile) as f:
-	for iconId, icon in json.load(f)['icons'].items():
-		addIcon(iconId, icon)
+	fontData = json.load(f)
+
+for iconId, icon in fontData['icons'].items():
+	addIcon(iconId, icon)
+
+font.appendSFNTName("English (US)", "Version", fontData['version']['string'])
+font.version = fontData['version']['string']
 
 font.generate(os.path.join(outputdir, fontname + '.ttf'))
 font.generate(os.path.join(outputdir, fontname + '.woff'))
