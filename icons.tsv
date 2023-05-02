@@ -1,4 +1,4 @@
-offset	name					id
+offset		name					id
 0		Alpine					alpine
 1		AOSC OS					aosc
 2		Apple					apple
@@ -8,32 +8,32 @@ offset	name					id
 6		Debian					debian
 7		Devuan					devuan
 8		Docker					docker
-9		elementary OS			elementary
+9		elementary OS				elementary
 10		Fedora					fedora
-11		Fedora (inverse)		fedora-inverse
+11		Fedora (inverse)			fedora-inverse
 12		FreeBSD					freebsd
 13		Gentoo					gentoo
 14		Linux Mint				linuxmint
-15		Linux Mint (inverse)	linuxmint-inverse
+15		Linux Mint (inverse)			linuxmint-inverse
 16		Mageia					mageia
 17		Mandriva				mandriva
 18		Manjaro					manjaro
 19		NixOS					nixos
 20		OpenSUSE				opensuse
-21		Raspberry pi			raspberry-pi
+21		Raspberry pi				raspberry-pi
 22		Red Hat					redhat
 23		Sabayon					sabayon
 24		Slackware				slackware
-25		Slackware (inverse)		slackware-inverse
-26		Tux						tux
+25		Slackware (inverse)			slackware-inverse
+26		Tux					tux
 27		Ubuntu					ubuntu
-28		Ubuntu (inverse)		ubuntu-inverse
+28		Ubuntu (inverse)			ubuntu-inverse
 29		Alma Linux				almalinux
 30		ArchLabs				archlabs
 31		Artix Linux				artix
 32		Budgie					budgie
 33		Deepin					deepin
-34		Endeavour OS			endeavour
+34		Endeavour OS				endeavour
 35		Ferris					ferris
 36		Flathub					flathub
 37		GNU Guix				gnu-guix
@@ -47,3 +47,13 @@ offset	name					id
 45		Solus					solus
 46		Void					void
 47		Zorin OS				zorin
+48		ArcoLinux				arcolinux
+49		BigLinux				biglinux
+50		Crystal Linux				crystal
+51		Garuda Linux				garuda
+52		GNOME					gnome
+53		Hyperbola GNU/Linux-libre		hyperbola
+54		LXLE Linux				lxle
+55		Parabola GNU/Linux-libre 		parabola
+56		Puppy Linux				puppy
+57		Trisquel GNU/Linux			trisquel
