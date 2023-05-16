@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <title>neovim-mark-flat@2x</title>
+ <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+ <g fill="none" fill-rule="evenodd">
+  <g transform="matrix(-.065844 0 0 -.065844 43.753 47.934)" fill="#000000">
+   <path id="a" d="m0 155.44 26.166-26.437 128.83 192v406l-155-154.8z"/>
+   <path id="b" transform="matrix(-1,0,0,1,1042,0)" d="m443.06 156.91 156.94-157.91v404.3l-131.3 197.7c0-2e-5 -26.705-29.029-26.705-29.029z"/>
+   <path id="c" d="m154.99 0 403.01 615.19-112.78 112.81-403.22-613.83z"/>
+  </g>
+ </g>
+</svg>
