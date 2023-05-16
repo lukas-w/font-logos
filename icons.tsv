@@ -48,12 +48,32 @@ offset		name					id
 46		Void					void
 47		Zorin OS				zorin
 48		ArcoLinux				arcolinux
-49		BigLinux				biglinux
-50		Crystal Linux				crystal
-51		Garuda Linux				garuda
-52		GNOME					gnome
-53		Hyperbola GNU/Linux-libre		hyperbola
-54		LXLE Linux				lxle
-55		Parabola GNU/Linux-libre 		parabola
-56		Puppy Linux				puppy
-57		Trisquel GNU/Linux			trisquel
+49		Awesome WM				awesome
+50		BigLinux				biglinux
+51		bspwm					bspwm
+52		Cinnamon				cinnamon
+53		Crystal Linux				crystal
+54		dwm					dwm
+55		Enlightenment				enlightenment
+56		Fluxbox					fluxbox
+57		Garuda Linux				garuda
+58		GNOME					gnome
+59		Hyperbola GNU/Linux-libre		hyperbola
+60		i3					i3
+61		JWM					jwm
+62		KDE neon				kde-neon
+63		KDE Plasma				kde-plasma
+64		Kubuntu					kubuntu
+65		LXDE					lxde
+66		LXLE Linux				lxle
+67		LXQt					lxqt
+68		MATE					mate
+69		Neovim					neovim
+70		Parabola GNU/Linux-libre 		parabola
+71		Puppy Linux				puppy
+72		Qtile					qtile
+73		Sway					sway
+74		Trisquel GNU/Linux			trisquel
+75		Vanilla OS				vanilla
+76		XFCE					xfce
+77		XMonad					xmonad
