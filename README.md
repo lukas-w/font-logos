@@ -70,31 +70,32 @@ Available logos are:
 | GNOME                     | `fl-gnome`             | `<i class="fl-gnome"></i>`             |  `0xf33a`  | <img src="vectors/gnome.svg" width="24">             |
 | GNU Guix                  | `fl-gnu-guix`          | `<i class="fl-gnu-guix"></i>`          |  `0xf325`  | <img src="vectors/gnu-guix.svg" width="24">          |
 | Hyperbola GNU/Linux-libre | `fl-hyperbola`         | `<i class="fl-hyperbola"></i>`         |  `0xf33b`  | <img src="vectors/hyperbola.svg" width="24">         |
-| i3                        | `fl-i3`                | `<i class="fl-i3"></i>`                |  `0xf33c`  | <img src="vectors/i3.svg" width="24">                |
+| Hyprland                  | `fl-hyprland`          | `<i class="fl-hyprland"></i>`          |  `0xf33c`  | <img src="vectors/hyprland.svg" width="24">          |
+| i3                        | `fl-i3`                | `<i class="fl-i3"></i>`                |  `0xf33d`  | <img src="vectors/i3.svg" width="24">                |
 | illumos                   | `fl-illumos`           | `<i class="fl-illumos"></i>`           |  `0xf326`  | <img src="vectors/illumos.svg" width="24">           |
-| JWM                       | `fl-jwm`               | `<i class="fl-jwm"></i>`               |  `0xf33d`  | <img src="vectors/jwm.svg" width="24">               |
+| JWM                       | `fl-jwm`               | `<i class="fl-jwm"></i>`               |  `0xf33e`  | <img src="vectors/jwm.svg" width="24">               |
 | Kali Linux                | `fl-kali-linux`        | `<i class="fl-kali-linux"></i>`        |  `0xf327`  | <img src="vectors/kali-linux.svg" width="24">        |
-| KDE neon                  | `fl-kde-neon`          | `<i class="fl-kde-neon"></i>`          |  `0xf33e`  | <img src="vectors/kde-neon.svg" width="24">          |
-| KDE Plasma                | `fl-kde-plasma`        | `<i class="fl-kde-plasma"></i>`        |  `0xf33f`  | <img src="vectors/kde-plasma.svg" width="24">        |
-| Kubuntu                   | `fl-kubuntu`           | `<i class="fl-kubuntu"></i>`           |  `0xf340`  | <img src="vectors/kubuntu.svg" width="24">           |
+| KDE neon                  | `fl-kde-neon`          | `<i class="fl-kde-neon"></i>`          |  `0xf33f`  | <img src="vectors/kde-neon.svg" width="24">          |
+| KDE Plasma                | `fl-kde-plasma`        | `<i class="fl-kde-plasma"></i>`        |  `0xf340`  | <img src="vectors/kde-plasma.svg" width="24">        |
+| Kubuntu                   | `fl-kubuntu`           | `<i class="fl-kubuntu"></i>`           |  `0xf341`  | <img src="vectors/kubuntu.svg" width="24">           |
 | Linux Mint                | `fl-linuxmint`         | `<i class="fl-linuxmint"></i>`         |  `0xf30e`  | <img src="vectors/linuxmint.svg" width="24">         |
 | Linux Mint (inverse)      | `fl-linuxmint-inverse` | `<i class="fl-linuxmint-inverse"></i>` |  `0xf30f`  | <img src="vectors/linuxmint-inverse.svg" width="24"> |
-| LXDE                      | `fl-lxde`              | `<i class="fl-lxde"></i>`              |  `0xf341`  | <img src="vectors/lxde.svg" width="24">              |
-| LXLE Linux                | `fl-lxle`              | `<i class="fl-lxle"></i>`              |  `0xf342`  | <img src="vectors/lxle.svg" width="24">              |
-| LXQt                      | `fl-lxqt`              | `<i class="fl-lxqt"></i>`              |  `0xf343`  | <img src="vectors/lxqt.svg" width="24">              |
+| LXDE                      | `fl-lxde`              | `<i class="fl-lxde"></i>`              |  `0xf342`  | <img src="vectors/lxde.svg" width="24">              |
+| LXLE Linux                | `fl-lxle`              | `<i class="fl-lxle"></i>`              |  `0xf343`  | <img src="vectors/lxle.svg" width="24">              |
+| LXQt                      | `fl-lxqt`              | `<i class="fl-lxqt"></i>`              |  `0xf344`  | <img src="vectors/lxqt.svg" width="24">              |
 | Mageia                    | `fl-mageia`            | `<i class="fl-mageia"></i>`            |  `0xf310`  | <img src="vectors/mageia.svg" width="24">            |
 | Mandriva                  | `fl-mandriva`          | `<i class="fl-mandriva"></i>`          |  `0xf311`  | <img src="vectors/mandriva.svg" width="24">          |
 | Manjaro                   | `fl-manjaro`           | `<i class="fl-manjaro"></i>`           |  `0xf312`  | <img src="vectors/manjaro.svg" width="24">           |
-| MATE                      | `fl-mate`              | `<i class="fl-mate"></i>`              |  `0xf344`  | <img src="vectors/mate.svg" width="24">              |
-| Neovim                    | `fl-neovim`            | `<i class="fl-neovim"></i>`            |  `0xf345`  | <img src="vectors/neovim.svg" width="24">            |
+| MATE                      | `fl-mate`              | `<i class="fl-mate"></i>`              |  `0xf345`  | <img src="vectors/mate.svg" width="24">              |
+| Neovim                    | `fl-neovim`            | `<i class="fl-neovim"></i>`            |  `0xf346`  | <img src="vectors/neovim.svg" width="24">            |
 | NixOS                     | `fl-nixos`             | `<i class="fl-nixos"></i>`             |  `0xf313`  | <img src="vectors/nixos.svg" width="24">             |
 | OpenBSD                   | `fl-openbsd`           | `<i class="fl-openbsd"></i>`           |  `0xf328`  | <img src="vectors/openbsd.svg" width="24">           |
 | OpenSUSE                  | `fl-opensuse`          | `<i class="fl-opensuse"></i>`          |  `0xf314`  | <img src="vectors/opensuse.svg" width="24">          |
-| Parabola GNU/Linux-libre  | `fl-parabola`          | `<i class="fl-parabola"></i>`          |  `0xf346`  | <img src="vectors/parabola.svg" width="24">          |
+| Parabola GNU/Linux-libre  | `fl-parabola`          | `<i class="fl-parabola"></i>`          |  `0xf347`  | <img src="vectors/parabola.svg" width="24">          |
 | Parrot OS                 | `fl-parrot`            | `<i class="fl-parrot"></i>`            |  `0xf329`  | <img src="vectors/parrot.svg" width="24">            |
 | Pop!_OS                   | `fl-pop-os`            | `<i class="fl-pop-os"></i>`            |  `0xf32a`  | <img src="vectors/pop-os.svg" width="24">            |
-| Puppy Linux               | `fl-puppy`             | `<i class="fl-puppy"></i>`             |  `0xf347`  | <img src="vectors/puppy.svg" width="24">             |
-| Qtile                     | `fl-qtile`             | `<i class="fl-qtile"></i>`             |  `0xf348`  | <img src="vectors/qtile.svg" width="24">             |
+| Puppy Linux               | `fl-puppy`             | `<i class="fl-puppy"></i>`             |  `0xf348`  | <img src="vectors/puppy.svg" width="24">             |
+| Qtile                     | `fl-qtile`             | `<i class="fl-qtile"></i>`             |  `0xf349`  | <img src="vectors/qtile.svg" width="24">             |
 | Raspberry pi              | `fl-raspberry-pi`      | `<i class="fl-raspberry-pi"></i>`      |  `0xf315`  | <img src="vectors/raspberry-pi.svg" width="24">      |
 | Red Hat                   | `fl-redhat`            | `<i class="fl-redhat"></i>`            |  `0xf316`  | <img src="vectors/redhat.svg" width="24">            |
 | Rocky Linux               | `fl-rocky-linux`       | `<i class="fl-rocky-linux"></i>`       |  `0xf32b`  | <img src="vectors/rocky-linux.svg" width="24">       |
@@ -103,15 +104,17 @@ Available logos are:
 | Slackware (inverse)       | `fl-slackware-inverse` | `<i class="fl-slackware-inverse"></i>` |  `0xf319`  | <img src="vectors/slackware-inverse.svg" width="24"> |
 | Snappy                    | `fl-snappy`            | `<i class="fl-snappy"></i>`            |  `0xf32c`  | <img src="vectors/snappy.svg" width="24">            |
 | Solus                     | `fl-solus`             | `<i class="fl-solus"></i>`             |  `0xf32d`  | <img src="vectors/solus.svg" width="24">             |
-| Sway                      | `fl-sway`              | `<i class="fl-sway"></i>`              |  `0xf349`  | <img src="vectors/sway.svg" width="24">              |
-| Trisquel GNU/Linux        | `fl-trisquel`          | `<i class="fl-trisquel"></i>`          |  `0xf34a`  | <img src="vectors/trisquel.svg" width="24">          |
+| Sway                      | `fl-sway`              | `<i class="fl-sway"></i>`              |  `0xf34a`  | <img src="vectors/sway.svg" width="24">              |
+| Trisquel GNU/Linux        | `fl-trisquel`          | `<i class="fl-trisquel"></i>`          |  `0xf34b`  | <img src="vectors/trisquel.svg" width="24">          |
 | Tux                       | `fl-tux`               | `<i class="fl-tux"></i>`               |  `0xf31a`  | <img src="vectors/tux.svg" width="24">               |
 | Ubuntu                    | `fl-ubuntu`            | `<i class="fl-ubuntu"></i>`            |  `0xf31b`  | <img src="vectors/ubuntu.svg" width="24">            |
 | Ubuntu (inverse)          | `fl-ubuntu-inverse`    | `<i class="fl-ubuntu-inverse"></i>`    |  `0xf31c`  | <img src="vectors/ubuntu-inverse.svg" width="24">    |
-| Vanilla OS                | `fl-vanilla`           | `<i class="fl-vanilla"></i>`           |  `0xf34b`  | <img src="vectors/vanilla.svg" width="24">           |
+| Vanilla OS                | `fl-vanilla`           | `<i class="fl-vanilla"></i>`           |  `0xf34c`  | <img src="vectors/vanilla.svg" width="24">           |
 | Void                      | `fl-void`              | `<i class="fl-void"></i>`              |  `0xf32e`  | <img src="vectors/void.svg" width="24">              |
-| XFCE                      | `fl-xfce`              | `<i class="fl-xfce"></i>`              |  `0xf34c`  | <img src="vectors/xfce.svg" width="24">              |
-| XMonad                    | `fl-xmonad`            | `<i class="fl-xmonad"></i>`            |  `0xf34d`  | <img src="vectors/xmonad.svg" width="24">            |
+| Wayland                   | `fl-wayland`           | `<i class="fl-wayland"></i>`           |  `0xf34d`  | <img src="vectors/wayland.svg" width="24">           |
+| XFCE                      | `fl-xfce`              | `<i class="fl-xfce"></i>`              |  `0xf34e`  | <img src="vectors/xfce.svg" width="24">              |
+| XMonad                    | `fl-xmonad`            | `<i class="fl-xmonad"></i>`            |  `0xf34f`  | <img src="vectors/xmonad.svg" width="24">            |
+| Xorg                      | `fl-xorg`              | `<i class="fl-xorg"></i>`              |  `0xf350`  | <img src="vectors/xorg.svg" width="24">              |
 | Zorin OS                  | `fl-zorin`             | `<i class="fl-zorin"></i>`             |  `0xf32f`  | <img src="vectors/zorin.svg" width="24">             |
 
 ## Building ##

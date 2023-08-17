@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <style type="text/css">#P1 {fill:url(#a)}
+rect {opacity:.40740739;fill:#000cff;width:.50507629;height:0}</style>
+ <defs>
+  <linearGradient id="a" x1="319" x2="658" y1="235" y2="269" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#e54c18" offset="0"/>
+   <stop stop-color="#fec350" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="matrix(.13 0 0 .13 14 -2.2)">
+  <g transform="translate(-413,-41)">
+   <path d="m342 391 111-145-114-160 74 0.061 91 126-136 179zm217 0.1-91-126 137-179h24l-112 146 114 159z"/>
+   <path d="m486 144c-8.9 0-18 0.69-27 1.5 15 20 28 37 42 56-8.1-17-25-34-19-43 5.7-8.5 16-7.1 17-7.1 17 0 33 1.9 48 5.4l3.6-4.9c-20-5.2-42-7.6-65-7.6zm91 16-3.3 4.7c47 18 78 53 78 93 0 59-69 107-153 107-85-1e-5 -153-48-153-107 1e-5 -32 20-61 53-81l-9.9-15c-51 21-84 59-84 102 0 67 81 121 181 121s181-54 181-121c0-44-36-83-90-104z" fill="none" stroke="#000000" stroke-width="6.2"/>
+  </g>
+  <rect x="322" y="181" width=".51" height="0" display="none"/>
+ </g>
+</svg>

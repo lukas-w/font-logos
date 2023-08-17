@@ -59,21 +59,24 @@ offset		name					id
 57		Garuda Linux				garuda
 58		GNOME					gnome
 59		Hyperbola GNU/Linux-libre		hyperbola
-60		i3					i3
-61		JWM					jwm
-62		KDE neon				kde-neon
-63		KDE Plasma				kde-plasma
-64		Kubuntu					kubuntu
-65		LXDE					lxde
-66		LXLE Linux				lxle
-67		LXQt					lxqt
-68		MATE					mate
-69		Neovim					neovim
-70		Parabola GNU/Linux-libre 		parabola
-71		Puppy Linux				puppy
-72		Qtile					qtile
-73		Sway					sway
-74		Trisquel GNU/Linux			trisquel
-75		Vanilla OS				vanilla
-76		XFCE					xfce
-77		XMonad					xmonad
+60		Hyprland				hyprland
+61		i3					i3
+62		JWM					jwm
+63		KDE neon				kde-neon
+64		KDE Plasma				kde-plasma
+65		Kubuntu					kubuntu
+66		LXDE					lxde
+67		LXLE Linux				lxle
+68		LXQt					lxqt
+69		MATE					mate
+70		Neovim					neovim
+71		Parabola GNU/Linux-libre 		parabola
+72		Puppy Linux				puppy
+73		Qtile					qtile
+74		Sway					sway
+75		Trisquel GNU/Linux			trisquel
+76		Vanilla OS				vanilla
+77		Wayland					wayland
+78		XFCE					xfce
+79		XMonad					xmonad
+80		Xorg					xorg
