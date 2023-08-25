@@ -69,14 +69,15 @@ offset		name					id
 67		LXLE Linux				lxle
 68		LXQt					lxqt
 69		MATE					mate
-70		Neovim					neovim
-71		Parabola GNU/Linux-libre 		parabola
-72		Puppy Linux				puppy
-73		Qtile					qtile
-74		Sway					sway
-75		Trisquel GNU/Linux			trisquel
-76		Vanilla OS				vanilla
-77		Wayland					wayland
-78		XFCE					xfce
-79		XMonad					xmonad
-80		Xorg					xorg
+70		MX Linux				mxlinux
+71		Neovim					neovim
+72		Parabola GNU/Linux-libre 		parabola
+73		Puppy Linux				puppy
+74		Qtile					qtile
+75		Sway					sway
+76		Trisquel GNU/Linux			trisquel
+77		Vanilla OS				vanilla
+78		Wayland					wayland
+79		XFCE					xfce
+80		XMonad					xmonad
+81		Xorg					xorg
