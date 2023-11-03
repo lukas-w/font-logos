@@ -48,36 +48,78 @@ offset		name					id
 46		Void					void
 47		Zorin OS				zorin
 48		ArcoLinux				arcolinux
-49		Awesome WM				awesome
-50		BigLinux				biglinux
-51		bspwm					bspwm
-52		Cinnamon				cinnamon
-53		Crystal Linux				crystal
-54		dwm					dwm
-55		Enlightenment				enlightenment
-56		Fluxbox					fluxbox
-57		Garuda Linux				garuda
-58		GNOME					gnome
-59		Hyperbola GNU/Linux-libre		hyperbola
-60		Hyprland				hyprland
-61		i3					i3
-62		JWM					jwm
-63		KDE neon				kde-neon
-64		KDE Plasma				kde-plasma
-65		Kubuntu					kubuntu
-66		LXDE					lxde
-67		LXLE Linux				lxle
-68		LXQt					lxqt
-69		MATE					mate
-70		MX Linux				mxlinux
-71		Neovim					neovim
-72		Parabola GNU/Linux-libre 		parabola
-73		Puppy Linux				puppy
-74		Qtile					qtile
-75		Sway					sway
-76		Trisquel GNU/Linux			trisquel
-77		Vanilla OS				vanilla
-78		Wayland					wayland
-79		XFCE					xfce
-80		XMonad					xmonad
-81		Xorg					xorg
+49		Arduino					arduino
+50		Awesome WM				awesome
+51		BigLinux				biglinux
+52		bspwm					bspwm
+53		Cinnamon				cinnamon
+54		Codeberg				codeberg
+55		Crystal Linux				crystal
+56		Deluge					deluge
+57		dwm					dwm
+58		Enlightenment				enlightenment
+59		F-droid					fdroid
+60		Fediverse				fediverse
+61		Fluxbox					fluxbox
+62		Forgejo					forgejo
+63		FOSDEM					fosdem
+64		FreeCAD					freecad
+65		freedesktop.org				freedesktop
+66		Garuda Linux				garuda
+67		GIMP					gimp
+68		Gitea					gitea
+69		GNOME					gnome
+70		GTK					gtk
+71		Hyperbola GNU/Linux-libre		hyperbola
+72		Hyprland				hyprland
+73		i3					i3
+74		Inkscape				inkscape
+75		Jellyfin				jellyfin
+76		JWM					jwm
+77		KDE neon				kde-neon
+78		KDE Plasma				kde-plasma
+79		KiCad					kicad
+80 		Krita					krita
+81      	Kubuntu					kubuntu
+82      	Lemmy					lemmy
+83      	Librewolf				librewolf
+84      	LXDE					lxde
+85      	LXLE Linux				lxle
+86      	LXQt					lxqt
+87      	Mariadb					mariadb
+88      	MATE					mate
+89      	mpv					mpv
+90      	MX Linux				mxlinux
+91      	Neovim					neovim
+92      	Nextcloud				nextcloud
+93      	Octoprint				octoprint
+94      	Open Source Initiative			osi
+95      	OpenCascade				osi
+96      	OpenCV					opencv
+97      	OpenMediaVault				openmediavault
+98      	OpenSCAD				openscad
+99      	Open-source hardware			osh
+100     	OSHWA					oshwa
+101       	Parabola GNU/Linux-libre 		parabola
+102       	PeerTube				peertube
+103       	Pixelfed				pixelfed
+104       	Pleroma					pleroma
+105       	Prusa Slicer				prusaslicer
+106       	Puppy Linux				puppy
+107       	Qtile					qtile
+108       	QubeOS					qubesos
+109       	RepRap					reprap
+110       	Sway					sway
+111       	Tails					tails
+112       	Thunderbird				thunderbird
+113       	Tor Browser				tor
+114       	Trisquel GNU/Linux			trisquel
+115       	Vanilla OS				vanilla
+116       	VSCodium				vscodium
+117       	Wayland					wayland
+118       	Weblate					weblate
+119       	WikiMedia				wikimedia
+120       	XeroLinux				xerolinux
+121       	XFCE					xfce
+122       	XMonad					xmonad
+123       	Xorg					xorg
