@@ -59,6 +59,10 @@ Available logos are:
 | GNU Guix             | `fl-gnu-guix`          | `<i class="fl-gnu-guix"></i>`          | `0xf325`   | <img src="vectors/gnu-guix.svg" width="24">
 | illumos              | `fl-illumos`           | `<i class="fl-illumos"></i>`           | `0xf326`   | <img src="vectors/illumos.svg" width="24">
 | Kali Linux           | `fl-kali-linux`        | `<i class="fl-kali-linux"></i>`        | `0xf327`   | <img src="vectors/kali-linux.svg" width="24">
+| KDE Neon *           | `fl-kde-neon`          | `<i class="fl-kde-neon"></i>`          | `0xf331`   | <img src="vectors/kde-neon.svg" width="24">
+| KDE Plasma *         | `fl-kde-plasma`        | `<i class="fl-kde-plasma"></i>`        | `0xf332`   | <img src="vectors/kde-plasma.svg" width="24">
+| Kubuntu *            | `fl-kubuntu`           | `<i class="fl-kubuntu"></i>`           | `0xf333`   | <img src="vectors/kubuntu.svg" width="24">
+| Kubuntu (inverse) *  | `fl-kubuntu-inverse`   | `<i class="fl-kubuntu-inverse"></i>`   | `0xf334`   | <img src="vectors/kubuntu-inverse.svg" width="24">
 | Linux Mint           | `fl-linuxmint`         | `<i class="fl-linuxmint"></i>`         | `0xf30e`   | <img src="vectors/linuxmint.svg" width="24">
 | Linux Mint (inverse) | `fl-linuxmint-inverse` | `<i class="fl-linuxmint-inverse"></i>` | `0xf30f`   | <img src="vectors/linuxmint-inverse.svg" width="24">
 | Mageia               | `fl-mageia`            | `<i class="fl-mageia"></i>`            | `0xf310`   | <img src="vectors/mageia.svg" width="24">
