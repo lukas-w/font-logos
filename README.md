@@ -42,7 +42,7 @@ Available logos are:
 | Artix Linux          | `fl-artix`             | `<i class="fl-artix"></i>`             | `0xf31f`   | <img src="vectors/artix.svg" width="24">
 | Budgie               | `fl-budgie`            | `<i class="fl-budgie"></i>`            | `0xf320`   | <img src="vectors/budgie.svg" width="24">
 | CentOS               | `fl-centos`            | `<i class="fl-centos"></i>`            | `0xf304`   | <img src="vectors/centos.svg" width="24">
-| Codeberg             | `fl-codeberg`          | `<i class="fl-codeberg"></i>`          | `0xf330`   | <img src="vectors/codeberg.svg" width="24">
+| Codeberg *           | `fl-codeberg`          | `<i class="fl-codeberg"></i>`          | `0xf330`   | <img src="vectors/codeberg.svg" width="24">
 | CoreOS               | `fl-coreos`            | `<i class="fl-coreos"></i>`            | `0xf305`   | <img src="vectors/coreos.svg" width="24">
 | Debian               | `fl-debian`            | `<i class="fl-debian"></i>`            | `0xf306`   | <img src="vectors/debian.svg" width="24">
 | Deepin               | `fl-deepin`            | `<i class="fl-deepin"></i>`            | `0xf321`   | <img src="vectors/deepin.svg" width="24">
@@ -82,6 +82,8 @@ Available logos are:
 | Ubuntu (inverse)     | `fl-ubuntu-inverse`    | `<i class="fl-ubuntu-inverse"></i>`    | `0xf31c`   | <img src="vectors/ubuntu-inverse.svg" width="24">
 | Void                 | `fl-void`              | `<i class="fl-void"></i>`              | `0xf32e`   | <img src="vectors/void.svg" width="24">
 | Zorin OS             | `fl-zorin`             | `<i class="fl-zorin"></i>`             | `0xf32f`   | <img src="vectors/zorin.svg" width="24">
+
+_* = will come with the next release_
 
 ## Building ##
 
