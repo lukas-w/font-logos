@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 4.2333332 4.2333335"
+   version="1.1"
+   id="svg1468"
+   sodipodi:docname="codeberg-logo_special_no-halftone.svg"
+   inkscape:version="1.2-alpha1 (b6a15bb, 2022-02-23)"
+   inkscape:export-filename="/home/mray/Projects/Codeberg/codeberg_.png"
+   inkscape:export-xdpi="1536"
+   inkscape:export-ydpi="1536"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title2230">Codeberg logo special version</title>
+  <defs
+     id="defs1462" />
+  <sodipodi:namedview
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox="true"
+     showborder="false"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="5.7452425"
+     inkscape:cy="32.261747"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:snap-global="false"
+     inkscape:snap-page="true"
+     showguides="true"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2067" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1465">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Codeberg logo special version</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Robert Martinez</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:description>Special single color version with fake halftone</dc:description>
+        <dc:date>2020-04-09</dc:date>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Codeberg and the Codeberg Logo are trademarks of Codeberg e.V.</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:source>codeberg.org</dc:source>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Codeberg e.V.</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="opacity:1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-44.867463,-75.990641)">
+    <g
+       id="g1542-5-7-2"
+       style="opacity:1"
+       transform="matrix(0.62731857,0,0,0.30231784,25.415003,63.342477)" />
+    <path
+       id="rect60043"
+       style="fill-opacity:1;stroke:none;stroke-width:0.0660874;paint-order:markers fill stroke;stop-color:#000000"
+       d="m 46.983886,76.122471 c -1.172544,0 -2.116423,0.944367 -2.116423,2.116911 -5.6e-5,0.397554 0.112002,0.787589 0.323326,1.124632 l 1.764533,-2.281439 c 0.01275,-0.01632 0.04434,-0.01632 0.05708,0 l 0.736954,0.952848 h -0.527804 l 0.01143,0.04204 h 0.549083 l 0.155695,0.200846 h -0.648209 l 0.01818,0.06591 h 0.680903 l 0.137012,0.176972 h -0.768612 l 0.02386,0.08511 h 0.810129 l 0.122481,0.157769 H 47.42501 l 0.02906,0.103797 h 0.939356 l 0.10743,0.138567 h -1.008381 l 0.03218,0.114695 h 1.064947 l 0.09912,0.128189 h -1.128265 l 0.03218,0.114694 h 1.184832 c 0.211323,-0.337043 0.323393,-0.727078 0.323326,-1.12463 1e-6,-1.172544 -0.944364,-2.116911 -2.116909,-2.116911 z m 0.644552,3.369732 0.03218,0.114695 h 0.939339 c 0.03063,-0.03616 0.06232,-0.07645 0.09055,-0.114695 z m 0.06799,0.242882 0.03166,0.114695 h 0.628487 c 0.04111,-0.03504 0.08566,-0.07553 0.125654,-0.114694 z m 0.06747,0.242883 0.03218,0.114176 h 0.212225 c 0.06271,-0.03599 0.120816,-0.07262 0.183679,-0.114176 z"
+       sodipodi:nodetypes="scccccccccccccccccccccccccccccsccccccccccccccc" />
+  </g>
+</svg>
