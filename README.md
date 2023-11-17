@@ -42,6 +42,7 @@ Available logos are:
 | Artix Linux          | `fl-artix`             | `<i class="fl-artix"></i>`             | `0xf31f`   | <img src="vectors/artix.svg" width="24">
 | Budgie               | `fl-budgie`            | `<i class="fl-budgie"></i>`            | `0xf320`   | <img src="vectors/budgie.svg" width="24">
 | CentOS               | `fl-centos`            | `<i class="fl-centos"></i>`            | `0xf304`   | <img src="vectors/centos.svg" width="24">
+| Codeberg *           | `fl-codeberg`          | `<i class="fl-codeberg"></i>`          | `0xf330`   | <img src="vectors/codeberg.svg" width="24">
 | CoreOS               | `fl-coreos`            | `<i class="fl-coreos"></i>`            | `0xf305`   | <img src="vectors/coreos.svg" width="24">
 | Debian               | `fl-debian`            | `<i class="fl-debian"></i>`            | `0xf306`   | <img src="vectors/debian.svg" width="24">
 | Deepin               | `fl-deepin`            | `<i class="fl-deepin"></i>`            | `0xf321`   | <img src="vectors/deepin.svg" width="24">
@@ -58,6 +59,10 @@ Available logos are:
 | GNU Guix             | `fl-gnu-guix`          | `<i class="fl-gnu-guix"></i>`          | `0xf325`   | <img src="vectors/gnu-guix.svg" width="24">
 | illumos              | `fl-illumos`           | `<i class="fl-illumos"></i>`           | `0xf326`   | <img src="vectors/illumos.svg" width="24">
 | Kali Linux           | `fl-kali-linux`        | `<i class="fl-kali-linux"></i>`        | `0xf327`   | <img src="vectors/kali-linux.svg" width="24">
+| KDE Neon *           | `fl-kde-neon`          | `<i class="fl-kde-neon"></i>`          | `0xf331`   | <img src="vectors/kde-neon.svg" width="24">
+| KDE Plasma *         | `fl-kde-plasma`        | `<i class="fl-kde-plasma"></i>`        | `0xf332`   | <img src="vectors/kde-plasma.svg" width="24">
+| Kubuntu *            | `fl-kubuntu`           | `<i class="fl-kubuntu"></i>`           | `0xf333`   | <img src="vectors/kubuntu.svg" width="24">
+| Kubuntu (inverse) *  | `fl-kubuntu-inverse`   | `<i class="fl-kubuntu-inverse"></i>`   | `0xf334`   | <img src="vectors/kubuntu-inverse.svg" width="24">
 | Linux Mint           | `fl-linuxmint`         | `<i class="fl-linuxmint"></i>`         | `0xf30e`   | <img src="vectors/linuxmint.svg" width="24">
 | Linux Mint (inverse) | `fl-linuxmint-inverse` | `<i class="fl-linuxmint-inverse"></i>` | `0xf30f`   | <img src="vectors/linuxmint-inverse.svg" width="24">
 | Mageia               | `fl-mageia`            | `<i class="fl-mageia"></i>`            | `0xf310`   | <img src="vectors/mageia.svg" width="24">
@@ -81,6 +86,8 @@ Available logos are:
 | Ubuntu (inverse)     | `fl-ubuntu-inverse`    | `<i class="fl-ubuntu-inverse"></i>`    | `0xf31c`   | <img src="vectors/ubuntu-inverse.svg" width="24">
 | Void                 | `fl-void`              | `<i class="fl-void"></i>`              | `0xf32e`   | <img src="vectors/void.svg" width="24">
 | Zorin OS             | `fl-zorin`             | `<i class="fl-zorin"></i>`             | `0xf32f`   | <img src="vectors/zorin.svg" width="24">
+
+_* = will come with the next release_
 
 ## Building ##
 
