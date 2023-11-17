@@ -29,6 +29,8 @@ Include an icon using the corresponding CSS class in an empty element:
 
 Add `fl-fw` as class for a fixed width icon.
 
+If you want to insert a glyph of this font on a GNU/Linux system press `Ctrl + Shift + u`, release the keys and then type the code point, for instance: `Ctrl + Shift + u` and `f31a` will insert the `Tux` glyph.
+
 Available logos are:
 
 {%- macro img(id) %}<img src="vectors/{{ id }}.svg" width="24">{% endmacro %}
@@ -41,11 +43,11 @@ Available logos are:
 {%- set classW = maxIdLength + class("")|length %}
 {%- set codeW = maxIdLength + code("")|length %}
 
-| {{ "Distribution"|center(nameW) }} | {{ "CSS class"|center(classW) }} | {{ "Code"|center(codeW) }} | Code point | Image
-| {{ "-".repeat(nameW) }} | {{ "-".repeat(classW) }} | {{ "-".repeat(codeW) }} | ---------- | -----------
+| {{ "Distribution"|center(nameW) }} | {{ "CSS class"|center(classW) }} | {{ "Code"|center(codeW) }} | Code point | {{ "Image"|center(imgW) }} |
+| {{ "-".repeat(nameW) }} | {{ "-".repeat(classW) }} | {{ "-".repeat(codeW) }} | :--------: | :{{ "-".repeat(imgW-2) }}: |
 {%- for id in ids %}
 {%- set icon=icons[id] %}
-| {{ icon.name.padEnd(nameW) }} | {{ class(id).padEnd(classW) }} | {{ code(id).padEnd(codeW)|safe }} | `0x{{ icon.codepoint.toString(16) }}`   | {{ img(id) }}
+| {{ icon.name.padEnd(nameW) }} | {{ class(id).padEnd(classW) }} | {{ code(id).padEnd(codeW)|safe }} |  `0x{{ icon.codepoint.toString(16) }}`  | {{ img(id).padEnd(imgW)|safe }} |
 {%- endfor %}
 
 ## Building ##

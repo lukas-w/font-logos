@@ -52,3 +52,19 @@ offset	name					id
 50		KDE Plasma				kde-plasma
 51		Kubuntu					kubuntu
 52		Kubuntu (inverse)			kubuntu-inverse
+53		Forgejo					forgejo
+54		FreeCAD					freecad
+55		Garuda Linux				garuda
+56		GIMP					gimp
+57		Gitea					gitea
+58		Hyperbola GNU/Linux-libre		hyperbola
+59		Inkscape				inkscape
+60		Kdenlive				kdenlive
+61		Krita					krita
+62		LXLE Linux				lxle
+63		MX Linux				mxlinux
+64		Parabola GNU/Linux-libre		parabola
+65		Puppy Linux				puppy
+66		QubesOS					qubesos
+67		Tails					tails
+68		Trisquel GNU/Linux			trisquel
