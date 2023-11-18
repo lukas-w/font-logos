@@ -1,5 +1,6 @@
 assets/*
 !assets/readme-header.png
+!assets/README.md
 .fontcustom-manifest.json
 *.zip
 *.tgz
