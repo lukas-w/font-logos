@@ -1,0 +1,51 @@
+# This creates a Release Draft
+# Adjust the release message in the web GUI and publish the release there.
+
+name: Draft a Release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  setup-release-draft:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch repo
+        uses: actions/checkout@v3
+
+      - name: Fetch dependencies
+        run: |
+          sudo apt update -y -q
+          sudo apt install python3-fontforge jq nodejs wkhtmltopdf -y -q
+          npm install nunjucks
+
+      - name: Determine version
+        run: |
+          REL_VERSION=$(jq -r '.version' package.json)
+          echo "Release version ${REL_VERSION}"
+          echo "RELEASE_VERSION=${REL_VERSION}" >> $GITHUB_ENV
+
+      - name: Create the assets
+        run: |
+          make
+
+      - name: Adjust release tag
+        uses: EndBug/latest-tag@v1.5.1
+        with:
+          ref: "v${{ env.RELEASE_VERSION }}"
+
+      - name: Create release draft
+        uses: softprops/action-gh-release@v0.1.15
+        with:
+          draft: true
+          tag_name: "v${{ env.RELEASE_VERSION }}"
+          files: |
+            LICENSE
+            package.json
+            README.md
+            assets/*.css
+            assets/*.ttf
+            assets/*.woff
+            assets/*.woff2
+            vectors/*.svg
+          generate_release_notes: true
