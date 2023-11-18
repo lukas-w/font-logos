@@ -5,6 +5,7 @@ on:
     branches: [ master ]
     paths:
       - icons.tsv
+      - vectors/*
   workflow_dispatch:
 
 jobs:
