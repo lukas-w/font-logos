@@ -1,4 +1,4 @@
-offset	name					id
+offset		name					id
 0		Alpine					alpine
 1		AOSC OS					aosc
 2		Apple					apple
@@ -8,32 +8,32 @@ offset	name					id
 6		Debian					debian
 7		Devuan					devuan
 8		Docker					docker
-9		elementary OS			elementary
+9		elementary OS				elementary
 10		Fedora					fedora
-11		Fedora (inverse)		fedora-inverse
+11		Fedora (inverse)			fedora-inverse
 12		FreeBSD					freebsd
 13		Gentoo					gentoo
 14		Linux Mint				linuxmint
-15		Linux Mint (inverse)	linuxmint-inverse
+15		Linux Mint (inverse)			linuxmint-inverse
 16		Mageia					mageia
 17		Mandriva				mandriva
 18		Manjaro					manjaro
 19		NixOS					nixos
 20		OpenSUSE				opensuse
-21		Raspberry pi			raspberry-pi
+21		Raspberry pi				raspberry-pi
 22		Red Hat					redhat
 23		Sabayon					sabayon
 24		Slackware				slackware
-25		Slackware (inverse)		slackware-inverse
-26		Tux						tux
+25		Slackware (inverse)			slackware-inverse
+26		Tux					tux
 27		Ubuntu					ubuntu
-28		Ubuntu (inverse)		ubuntu-inverse
+28		Ubuntu (inverse)			ubuntu-inverse
 29		Alma Linux				almalinux
 30		ArchLabs				archlabs
 31		Artix Linux				artix
 32		Budgie					budgie
 33		Deepin					deepin
-34		Endeavour OS			endeavour
+34		Endeavour OS				endeavour
 35		Ferris					ferris
 36		Flathub					flathub
 37		GNU Guix				gnu-guix
@@ -68,3 +68,80 @@ offset	name					id
 66		QubesOS					qubesos
 67		Tails					tails
 68		Trisquel GNU/Linux			trisquel
+=======
+48		ArcoLinux				arcolinux
+49		Arduino					arduino
+50		Awesome WM				awesome
+51		BigLinux				biglinux
+52		bspwm					bspwm
+53		Cinnamon				cinnamon
+54		Codeberg				codeberg
+55		Crystal Linux				crystal
+56		Deluge					deluge
+57		dwm					dwm
+58		Enlightenment				enlightenment
+59		F-droid					fdroid
+60		Fediverse				fediverse
+61		Fluxbox					fluxbox
+62		Forgejo					forgejo
+63		FOSDEM					fosdem
+64		FreeCAD					freecad
+65		freedesktop.org				freedesktop
+66		Garuda Linux				garuda
+67		GIMP					gimp
+68		Gitea					gitea
+69		GNOME					gnome
+70		GTK					gtk
+71		Hyperbola GNU/Linux-libre		hyperbola
+72		Hyprland				hyprland
+73		i3					i3
+74		Inkscape				inkscape
+75		Jellyfin				jellyfin
+76		JWM					jwm
+77		KDE neon				kde-neon
+78		KDE Plasma				kde-plasma
+79		KiCad					kicad
+80 		Krita					krita
+81      	Kubuntu					kubuntu
+82      	Lemmy					lemmy
+83      	Librewolf				librewolf
+84      	LXDE					lxde
+85      	LXLE Linux				lxle
+86      	LXQt					lxqt
+87      	Mariadb					mariadb
+88      	MATE					mate
+89      	mpv					mpv
+90      	MX Linux				mxlinux
+91      	Neovim					neovim
+92      	Nextcloud				nextcloud
+93      	Octoprint				octoprint
+94      	Open Source Initiative			osi
+95      	OpenCascade				osi
+96      	OpenCV					opencv
+97      	OpenMediaVault				openmediavault
+98      	OpenSCAD				openscad
+99      	Open-source hardware			osh
+100     	OSHWA					oshwa
+101       	Parabola GNU/Linux-libre 		parabola
+102       	PeerTube				peertube
+103       	Pixelfed				pixelfed
+104       	Pleroma					pleroma
+105       	Prusa Slicer				prusaslicer
+106       	Puppy Linux				puppy
+107       	Qtile					qtile
+108       	QubeOS					qubesos
+109       	RepRap					reprap
+110       	Sway					sway
+111       	Tails					tails
+112       	Thunderbird				thunderbird
+113       	Tor Browser				tor
+114       	Trisquel GNU/Linux			trisquel
+115       	Vanilla OS				vanilla
+116       	VSCodium				vscodium
+117       	Wayland					wayland
+118       	Weblate					weblate
+119       	WikiMedia				wikimedia
+120       	XeroLinux				xerolinux
+121       	XFCE					xfce
+122       	XMonad					xmonad
+123       	Xorg					xorg
