@@ -1,0 +1,45 @@
+name: Update assets
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - icons.tsv
+      - vectors/*
+  workflow_dispatch:
+
+jobs:
+  update_assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch repo
+        uses: actions/checkout@v3
+
+      - name: Fetch dependencies
+        run: |
+          sudo apt update -y -q
+          sudo apt install python3-fontforge jq nodejs wkhtmltopdf -y -q
+          npm install nunjucks
+
+      - name: Create the assets
+        run: |
+          make
+
+      - name: Commit preview image back to repo
+        uses: EndBug/add-and-commit@v9
+        with:
+          fetch: false
+          add: 'assets/readme-header.png'
+          message: "[ci] Update preview image"
+          committer_name: GitHub Actions
+          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
+
+      - name: Deploy assets to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: assets
+          target-folder: assets
+          commit-message: "[ci] Update assets"
+          git-config-name: GitHub Actions
+          git-config-email: 41898282+github-actions[bot]@users.noreply.github.com
+          clean: false
