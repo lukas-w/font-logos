@@ -29,6 +29,21 @@ jobs:
         run: |
           make
 
+      - name: Crate archive
+        run: |
+          PKGDIR=font-logos-${{ env.RELEASE_VERSION }}
+          ZIPFILE="${PKGDIR}.zip"
+          rsync --info=name LICENSE "${PKGDIR}/"
+          rsync --info=name package.json "${PKGDIR}/"
+          rsync --info=name README.md "${PKGDIR}/"
+          rsync --info=name -R assets/*.css "${PKGDIR}/"
+          rsync --info=name -R assets/*.ttf "${PKGDIR}/"
+          rsync --info=name -R assets/*.woff "${PKGDIR}/"
+          rsync --info=name -R assets/*.woff2 "${PKGDIR}/"
+          rsync --info=name -R vectors/*.svg "${PKGDIR}/"
+          zip -r "${ZIPFILE}" "${PKGDIR}"
+          echo "ZIPFILE=${ZIPFILE}" >> $GITHUB_ENV
+
       - name: Adjust release tag
         uses: EndBug/latest-tag@v1.5.1
         with:
@@ -40,12 +55,5 @@ jobs:
           draft: true
           tag_name: "v${{ env.RELEASE_VERSION }}"
           files: |
-            LICENSE
-            package.json
-            README.md
-            assets/*.css
-            assets/*.ttf
-            assets/*.woff
-            assets/*.woff2
-            vectors/*.svg
+            ${{ env.ZIPFILE }}
           generate_release_notes: true
