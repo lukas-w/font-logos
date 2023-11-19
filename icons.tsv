@@ -83,3 +83,14 @@ offset	name					id
 81		Prusa Slicer				prusaslicer
 82		RepRap					reprap
 83		RISC-V					riscv
+84		Awesome WM				awesome
+85		bspwm					bspwm
+86		dwm					dwm
+87		Enlightenment				enlightenment
+88		Fluxbox					fluxbox
+89		Hyprland				hyprland
+90		i3					i3
+91		JWM					jwm
+92		Qtile					qtile
+93		Sway					sway
+94		Xmonad					xmonad
