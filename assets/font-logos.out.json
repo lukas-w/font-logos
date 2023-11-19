@@ -285,6 +285,39 @@
     },
     "xmonad": {
       "width": 512
+    },
+    "cinnamon": {
+      "width": 512
+    },
+    "freedesktop": {
+      "width": 514
+    },
+    "gnome": {
+      "width": 410
+    },
+    "gtk": {
+      "width": 474
+    },
+    "lxde": {
+      "width": 512
+    },
+    "lxqt": {
+      "width": 511
+    },
+    "mate": {
+      "width": 507
+    },
+    "vanilla": {
+      "width": 512
+    },
+    "wayland": {
+      "width": 512
+    },
+    "xfce": {
+      "width": 491
+    },
+    "xorg": {
+      "width": 512
     }
   }
 }

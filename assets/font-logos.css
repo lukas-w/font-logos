@@ -100,7 +100,18 @@
 .fl-jwm::before, 
 .fl-qtile::before, 
 .fl-sway::before, 
-.fl-xmonad::before
+.fl-xmonad::before, 
+.fl-cinnamon::before, 
+.fl-freedesktop::before, 
+.fl-gnome::before, 
+.fl-gtk::before, 
+.fl-lxde::before, 
+.fl-lxqt::before, 
+.fl-mate::before, 
+.fl-vanilla::before, 
+.fl-wayland::before, 
+.fl-xfce::before, 
+.fl-xorg::before
  {
   display: inline-block;
   font-family: "font-logos";
@@ -418,4 +429,41 @@
 }
 .fl-xmonad::before {
   content: "\f35e";
+}
+.fl-cinnamon::before {
+  content: "\f35f";
+}
+.fl-freedesktop::before {
+  content: "\f360";
+}
+.fl-fw.fl-freedesktop::before {
+  font-size: 0.9961089494163424em;
+  line-height: 1.00390625em;
+}
+.fl-gnome::before {
+  content: "\f361";
+}
+.fl-gtk::before {
+  content: "\f362";
+}
+.fl-lxde::before {
+  content: "\f363";
+}
+.fl-lxqt::before {
+  content: "\f364";
+}
+.fl-mate::before {
+  content: "\f365";
+}
+.fl-vanilla::before {
+  content: "\f366";
+}
+.fl-wayland::before {
+  content: "\f367";
+}
+.fl-xfce::before {
+  content: "\f368";
+}
+.fl-xorg::before {
+  content: "\f369";
 }

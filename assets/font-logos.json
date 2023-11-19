@@ -577,6 +577,72 @@
       "name": "Xmonad",
       "codepoint": 62302,
       "variant": false
+    },
+    "cinnamon": {
+      "offset": 95,
+      "name": "Cinnamon",
+      "codepoint": 62303,
+      "variant": false
+    },
+    "freedesktop": {
+      "offset": 96,
+      "name": "freedesktop.org",
+      "codepoint": 62304,
+      "variant": false
+    },
+    "gnome": {
+      "offset": 97,
+      "name": "GNOME",
+      "codepoint": 62305,
+      "variant": false
+    },
+    "gtk": {
+      "offset": 98,
+      "name": "GTK",
+      "codepoint": 62306,
+      "variant": false
+    },
+    "lxde": {
+      "offset": 99,
+      "name": "LXDE",
+      "codepoint": 62307,
+      "variant": false
+    },
+    "lxqt": {
+      "offset": 100,
+      "name": "LXQt",
+      "codepoint": 62308,
+      "variant": false
+    },
+    "mate": {
+      "offset": 101,
+      "name": "MATE",
+      "codepoint": 62309,
+      "variant": false
+    },
+    "vanilla": {
+      "offset": 102,
+      "name": "Vanilla OS",
+      "codepoint": 62310,
+      "variant": false
+    },
+    "wayland": {
+      "offset": 103,
+      "name": "Wayland",
+      "codepoint": 62311,
+      "variant": false
+    },
+    "xfce": {
+      "offset": 104,
+      "name": "XFCE",
+      "codepoint": 62312,
+      "variant": false
+    },
+    "xorg": {
+      "offset": 105,
+      "name": "Xorg",
+      "codepoint": 62313,
+      "variant": false
     }
   }
 }
