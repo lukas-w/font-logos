@@ -252,6 +252,39 @@
     },
     "riscv": {
       "width": 511
+    },
+    "awesome": {
+      "width": 512
+    },
+    "bspwm": {
+      "width": 512
+    },
+    "dwm": {
+      "width": 512
+    },
+    "enlightenment": {
+      "width": 379
+    },
+    "fluxbox": {
+      "width": 513
+    },
+    "hyprland": {
+      "width": 386
+    },
+    "i3": {
+      "width": 512
+    },
+    "jwm": {
+      "width": 512
+    },
+    "qtile": {
+      "width": 509
+    },
+    "sway": {
+      "width": 512
+    },
+    "xmonad": {
+      "width": 512
     }
   }
 }

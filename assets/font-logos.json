@@ -511,6 +511,72 @@
       "name": "RISC-V",
       "codepoint": 62291,
       "variant": false
+    },
+    "awesome": {
+      "offset": 84,
+      "name": "Awesome WM",
+      "codepoint": 62292,
+      "variant": false
+    },
+    "bspwm": {
+      "offset": 85,
+      "name": "bspwm",
+      "codepoint": 62293,
+      "variant": false
+    },
+    "dwm": {
+      "offset": 86,
+      "name": "dwm",
+      "codepoint": 62294,
+      "variant": false
+    },
+    "enlightenment": {
+      "offset": 87,
+      "name": "Enlightenment",
+      "codepoint": 62295,
+      "variant": false
+    },
+    "fluxbox": {
+      "offset": 88,
+      "name": "Fluxbox",
+      "codepoint": 62296,
+      "variant": false
+    },
+    "hyprland": {
+      "offset": 89,
+      "name": "Hyprland",
+      "codepoint": 62297,
+      "variant": false
+    },
+    "i3": {
+      "offset": 90,
+      "name": "i3",
+      "codepoint": 62298,
+      "variant": false
+    },
+    "jwm": {
+      "offset": 91,
+      "name": "JWM",
+      "codepoint": 62299,
+      "variant": false
+    },
+    "qtile": {
+      "offset": 92,
+      "name": "Qtile",
+      "codepoint": 62300,
+      "variant": false
+    },
+    "sway": {
+      "offset": 93,
+      "name": "Sway",
+      "codepoint": 62301,
+      "variant": false
+    },
+    "xmonad": {
+      "offset": 94,
+      "name": "Xmonad",
+      "codepoint": 62302,
+      "variant": false
     }
   }
 }

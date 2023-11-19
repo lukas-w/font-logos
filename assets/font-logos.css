@@ -89,7 +89,18 @@
 .fl-oshwa::before, 
 .fl-prusaslicer::before, 
 .fl-reprap::before, 
-.fl-riscv::before
+.fl-riscv::before, 
+.fl-awesome::before, 
+.fl-bspwm::before, 
+.fl-dwm::before, 
+.fl-enlightenment::before, 
+.fl-fluxbox::before, 
+.fl-hyprland::before, 
+.fl-i3::before, 
+.fl-jwm::before, 
+.fl-qtile::before, 
+.fl-sway::before, 
+.fl-xmonad::before
  {
   display: inline-block;
   font-family: "font-logos";
@@ -370,4 +381,41 @@
 }
 .fl-riscv::before {
   content: "\f353";
+}
+.fl-awesome::before {
+  content: "\f354";
+}
+.fl-bspwm::before {
+  content: "\f355";
+}
+.fl-dwm::before {
+  content: "\f356";
+}
+.fl-enlightenment::before {
+  content: "\f357";
+}
+.fl-fluxbox::before {
+  content: "\f358";
+}
+.fl-fw.fl-fluxbox::before {
+  font-size: 0.9980506822612085em;
+  line-height: 1.001953125em;
+}
+.fl-hyprland::before {
+  content: "\f359";
+}
+.fl-i3::before {
+  content: "\f35a";
+}
+.fl-jwm::before {
+  content: "\f35b";
+}
+.fl-qtile::before {
+  content: "\f35c";
+}
+.fl-sway::before {
+  content: "\f35d";
+}
+.fl-xmonad::before {
+  content: "\f35e";
 }
