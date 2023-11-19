@@ -74,14 +74,23 @@ offset	name					id
 72		Crystal Linux				crystal
 73		Loc-OS					locos
 74		XeroLinux				xerolinux
-75		Cinnamon				cinnamon
-76		freedesktop.org				freedesktop
-77		GNOME					gnome
-78		GTK					gtk
-79		LXDE					lxde
-80		LXQt					lxqt
-81		MATE					mate
-82		Vanilla OS				vanilla
-83		Wayland					wayland
-84		XFCE					xfce
-85		Xorg					xorg
+75		Arduino					arduino
+76		KiCad					kicad
+77		Octoprint				octoprint
+78		OpenSCAD				openscad
+79		OSH					osh
+80		OSHWA					oshwa
+81		Prusa Slicer				prusaslicer
+82		RepRap					reprap
+83		RISC-V					riscv
+84		Cinnamon				cinnamon
+85		freedesktop.org				freedesktop
+86		GNOME					gnome
+87		GTK					gtk
+88		LXDE					lxde
+89		LXQt					lxqt
+90		MATE					mate
+91		Vanilla OS				vanilla
+92		Wayland					wayland
+93		XFCE					xfce
+94		Xorg					xorg

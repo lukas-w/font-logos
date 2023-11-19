@@ -43,6 +43,7 @@ Available logos are:
 | ArchLabs                  | `fl-archlabs`          | `<i class="fl-archlabs"></i>`          |  `0xf31e`  | <img src="vectors/archlabs.svg" width="24">          |
 | Arch Linux                | `fl-archlinux`         | `<i class="fl-archlinux"></i>`         |  `0xf303`  | <img src="vectors/archlinux.svg" width="24">         |
 | ArcoLinux *               | `fl-arcolinux`         | `<i class="fl-arcolinux"></i>`         |  `0xf346`  | <img src="vectors/arcolinux.svg" width="24">         |
+| Arduino *                 | `fl-arduino`           | `<i class="fl-arduino"></i>`           |  `0xf34b`  | <img src="vectors/arduino.svg" width="24">           |
 | Artix Linux               | `fl-artix`             | `<i class="fl-artix"></i>`             |  `0xf31f`  | <img src="vectors/artix.svg" width="24">             |
 | BigLinux *                | `fl-biglinux`          | `<i class="fl-biglinux"></i>`          |  `0xf347`  | <img src="vectors/biglinux.svg" width="24">          |
 | Budgie                    | `fl-budgie`            | `<i class="fl-budgie"></i>`            |  `0xf320`  | <img src="vectors/budgie.svg" width="24">            |
@@ -75,6 +76,7 @@ Available logos are:
 | KDE Neon *                | `fl-kde-neon`          | `<i class="fl-kde-neon"></i>`          |  `0xf331`  | <img src="vectors/kde-neon.svg" width="24">          |
 | KDE Plasma *              | `fl-kde-plasma`        | `<i class="fl-kde-plasma"></i>`        |  `0xf332`  | <img src="vectors/kde-plasma.svg" width="24">        |
 | Kdenlive *                | `fl-kdenlive`          | `<i class="fl-kdenlive"></i>`          |  `0xf33c`  | <img src="vectors/kdenlive.svg" width="24">          |
+| KiCad *                   | `fl-kicad`             | `<i class="fl-kicad"></i>`             |  `0xf34c`  | <img src="vectors/kicad.svg" width="24">             |
 | Krita *                   | `fl-krita`             | `<i class="fl-krita"></i>`             |  `0xf33d`  | <img src="vectors/krita.svg" width="24">             |
 | Kubuntu *                 | `fl-kubuntu`           | `<i class="fl-kubuntu"></i>`           |  `0xf333`  | <img src="vectors/kubuntu.svg" width="24">           |
 | Kubuntu (inverse) *       | `fl-kubuntu-inverse`   | `<i class="fl-kubuntu-inverse"></i>`   |  `0xf334`  | <img src="vectors/kubuntu-inverse.svg" width="24">   |
@@ -87,15 +89,22 @@ Available logos are:
 | Manjaro                   | `fl-manjaro`           | `<i class="fl-manjaro"></i>`           |  `0xf312`  | <img src="vectors/manjaro.svg" width="24">           |
 | MX Linux *                | `fl-mxlinux`           | `<i class="fl-mxlinux"></i>`           |  `0xf33f`  | <img src="vectors/mxlinux.svg" width="24">           |
 | NixOS                     | `fl-nixos`             | `<i class="fl-nixos"></i>`             |  `0xf313`  | <img src="vectors/nixos.svg" width="24">             |
+| Octoprint *               | `fl-octoprint`         | `<i class="fl-octoprint"></i>`         |  `0xf34d`  | <img src="vectors/octoprint.svg" width="24">         |
 | OpenBSD                   | `fl-openbsd`           | `<i class="fl-openbsd"></i>`           |  `0xf328`  | <img src="vectors/openbsd.svg" width="24">           |
+| OpenSCAD *                | `fl-openscad`          | `<i class="fl-openscad"></i>`          |  `0xf34e`  | <img src="vectors/openscad.svg" width="24">          |
 | OpenSUSE                  | `fl-opensuse`          | `<i class="fl-opensuse"></i>`          |  `0xf314`  | <img src="vectors/opensuse.svg" width="24">          |
+| OSH *                     | `fl-osh`               | `<i class="fl-osh"></i>`               |  `0xf34f`  | <img src="vectors/osh.svg" width="24">               |
+| OSHWA *                   | `fl-oshwa`             | `<i class="fl-oshwa"></i>`             |  `0xf350`  | <img src="vectors/oshwa.svg" width="24">             |
 | Parabola GNU/Linux-libre *| `fl-parabola`          | `<i class="fl-parabola"></i>`          |  `0xf340`  | <img src="vectors/parabola.svg" width="24">          |
 | Parrot OS                 | `fl-parrot`            | `<i class="fl-parrot"></i>`            |  `0xf329`  | <img src="vectors/parrot.svg" width="24">            |
 | Pop!_OS                   | `fl-pop-os`            | `<i class="fl-pop-os"></i>`            |  `0xf32a`  | <img src="vectors/pop-os.svg" width="24">            |
+| Prusa Slicer *            | `fl-prusaslicer`       | `<i class="fl-prusaslicer"></i>`       |  `0xf351`  | <img src="vectors/prusaslicer.svg" width="24">       |
 | Puppy Linux *             | `fl-puppy`             | `<i class="fl-puppy"></i>`             |  `0xf341`  | <img src="vectors/puppy.svg" width="24">             |
 | QubesOS *                 | `fl-qubesos`           | `<i class="fl-qubesos"></i>`           |  `0xf342`  | <img src="vectors/qubesos.svg" width="24">           |
 | Raspberry pi              | `fl-raspberry-pi`      | `<i class="fl-raspberry-pi"></i>`      |  `0xf315`  | <img src="vectors/raspberry-pi.svg" width="24">      |
 | Red Hat                   | `fl-redhat`            | `<i class="fl-redhat"></i>`            |  `0xf316`  | <img src="vectors/redhat.svg" width="24">            |
+| RepRap *                  | `fl-reprap`            | `<i class="fl-reprap"></i>`            |  `0xf352`  | <img src="vectors/reprap.svg" width="24">            |
+| RISC-V *                  | `fl-riscv`             | `<i class="fl-riscv"></i>`             |  `0xf353`  | <img src="vectors/riscv.svg" width="24">             |
 | Rocky Linux               | `fl-rocky-linux`       | `<i class="fl-rocky-linux"></i>`       |  `0xf32b`  | <img src="vectors/rocky-linux.svg" width="24">       |
 | Sabayon                   | `fl-sabayon`           | `<i class="fl-sabayon"></i>`           |  `0xf317`  | <img src="vectors/sabayon.svg" width="24">           |
 | Slackware                 | `fl-slackware`         | `<i class="fl-slackware"></i>`         |  `0xf318`  | <img src="vectors/slackware.svg" width="24">         |
@@ -121,3 +130,22 @@ Make sure you have the following dependencies installed:
 * [wkhtmltopdf](http://wkhtmltopdf.org/) to generate this readme's preview image
 
 Then run `npm install`/`yarn install` and `make`.
+
+## Releasing ##
+
+If you are a maintainer of this repository and a new release is to be published
+* Make shure all PRs (that shall be pulled) are pulled
+  * The PRs add new `svg`s in `vectors/`
+  * The `icons.tsv` is ammended (i.e. new icons added at the bottom)
+* Every time the `svg`s or `icons.tsv` is touched in the `master` brauch (i.e. through pulling) the preview image is updated
+* Note that the `README.md` is NOT updated. You can manually modify it do indicate/add recently added but not released icons.
+* One the release seems ready:
+* Edit the version number in `package.json` (and push that change to `master`)
+* Trigger the "Draft a Release" workflow manually on the Actions page (on the `master` branch)
+  * The workflow will add a git tag for the release
+* Go to the releases list and find the draft release
+  * Edit the description etc pp and finally
+  * Push "publish release"
+  * The release is published on Github
+* Automatically the "Publish release to npm" workflow is triggered
+  * If the npm token is not expired the release is pushed to nodejs
