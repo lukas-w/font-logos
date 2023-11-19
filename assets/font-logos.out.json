@@ -1,0 +1,257 @@
+{
+  "em": 512,
+  "icons": {
+    "alpine": {
+      "width": 489
+    },
+    "aosc": {
+      "width": 497
+    },
+    "apple": {
+      "width": 431
+    },
+    "archlinux": {
+      "width": 512
+    },
+    "centos": {
+      "width": 512
+    },
+    "coreos": {
+      "width": 496
+    },
+    "debian": {
+      "width": 409
+    },
+    "devuan": {
+      "width": 488
+    },
+    "docker": {
+      "width": 507
+    },
+    "elementary": {
+      "width": 512
+    },
+    "fedora": {
+      "width": 512
+    },
+    "fedora-inverse": {
+      "width": 512
+    },
+    "freebsd": {
+      "width": 452
+    },
+    "gentoo": {
+      "width": 489
+    },
+    "linuxmint": {
+      "width": 491
+    },
+    "linuxmint-inverse": {
+      "width": 512
+    },
+    "mageia": {
+      "width": 326
+    },
+    "mandriva": {
+      "width": 512
+    },
+    "manjaro": {
+      "width": 512
+    },
+    "nixos": {
+      "width": 512
+    },
+    "opensuse": {
+      "width": 512
+    },
+    "raspberry-pi": {
+      "width": 401
+    },
+    "redhat": {
+      "width": 512
+    },
+    "sabayon": {
+      "width": 512
+    },
+    "slackware": {
+      "width": 512
+    },
+    "slackware-inverse": {
+      "width": 512
+    },
+    "tux": {
+      "width": 438
+    },
+    "ubuntu": {
+      "width": 479
+    },
+    "ubuntu-inverse": {
+      "width": 512
+    },
+    "almalinux": {
+      "width": 512
+    },
+    "archlabs": {
+      "width": 512
+    },
+    "artix": {
+      "width": 499
+    },
+    "budgie": {
+      "width": 512
+    },
+    "deepin": {
+      "width": 512
+    },
+    "endeavour": {
+      "width": 509
+    },
+    "ferris": {
+      "width": 512
+    },
+    "flathub": {
+      "width": 512
+    },
+    "gnu-guix": {
+      "width": 500
+    },
+    "illumos": {
+      "width": 394
+    },
+    "kali-linux": {
+      "width": 683
+    },
+    "openbsd": {
+      "width": 512
+    },
+    "parrot": {
+      "width": 353
+    },
+    "pop-os": {
+      "width": 512
+    },
+    "rocky-linux": {
+      "width": 512
+    },
+    "snappy": {
+      "width": 500
+    },
+    "solus": {
+      "width": 497
+    },
+    "void": {
+      "width": 499
+    },
+    "zorin": {
+      "width": 500
+    },
+    "codeberg": {
+      "width": 512
+    },
+    "kde-neon": {
+      "width": 512
+    },
+    "kde-plasma": {
+      "width": 372
+    },
+    "kubuntu": {
+      "width": 510
+    },
+    "kubuntu-inverse": {
+      "width": 512
+    },
+    "forgejo": {
+      "width": 328
+    },
+    "freecad": {
+      "width": 512
+    },
+    "garuda": {
+      "width": 499
+    },
+    "gimp": {
+      "width": 510
+    },
+    "gitea": {
+      "width": 511
+    },
+    "hyperbola": {
+      "width": 502
+    },
+    "inkscape": {
+      "width": 511
+    },
+    "kdenlive": {
+      "width": 512
+    },
+    "krita": {
+      "width": 679
+    },
+    "lxle": {
+      "width": 509
+    },
+    "mxlinux": {
+      "width": 508
+    },
+    "parabola": {
+      "width": 512
+    },
+    "puppy": {
+      "width": 505
+    },
+    "qubesos": {
+      "width": 451
+    },
+    "tails": {
+      "width": 398
+    },
+    "trisquel": {
+      "width": 513
+    },
+    "archcraft": {
+      "width": 512
+    },
+    "arcolinux": {
+      "width": 510
+    },
+    "biglinux": {
+      "width": 502
+    },
+    "crystal": {
+      "width": 327
+    },
+    "locos": {
+      "width": 511
+    },
+    "xerolinux": {
+      "width": 505
+    },
+    "arduino": {
+      "width": 512
+    },
+    "kicad": {
+      "width": 482
+    },
+    "octoprint": {
+      "width": 509
+    },
+    "openscad": {
+      "width": 449
+    },
+    "osh": {
+      "width": 512
+    },
+    "oshwa": {
+      "width": 424
+    },
+    "prusaslicer": {
+      "width": 383
+    },
+    "reprap": {
+      "width": 425
+    },
+    "riscv": {
+      "width": 511
+    }
+  }
+}

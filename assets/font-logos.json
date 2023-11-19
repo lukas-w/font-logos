@@ -1,0 +1,516 @@
+{
+  "name": "font-logos",
+  "version": {
+    "string": "1.0.2",
+    "major": "1",
+    "minor": "0",
+    "patch": "2",
+    "stable": "1"
+  },
+  "icons": {
+    "alpine": {
+      "offset": 0,
+      "name": "Alpine",
+      "codepoint": 62208,
+      "variant": false
+    },
+    "aosc": {
+      "offset": 1,
+      "name": "AOSC OS",
+      "codepoint": 62209,
+      "variant": false
+    },
+    "apple": {
+      "offset": 2,
+      "name": "Apple",
+      "codepoint": 62210,
+      "variant": false
+    },
+    "archlinux": {
+      "offset": 3,
+      "name": "Arch Linux",
+      "codepoint": 62211,
+      "variant": false
+    },
+    "centos": {
+      "offset": 4,
+      "name": "CentOS",
+      "codepoint": 62212,
+      "variant": false
+    },
+    "coreos": {
+      "offset": 5,
+      "name": "CoreOS",
+      "codepoint": 62213,
+      "variant": false
+    },
+    "debian": {
+      "offset": 6,
+      "name": "Debian",
+      "codepoint": 62214,
+      "variant": false
+    },
+    "devuan": {
+      "offset": 7,
+      "name": "Devuan",
+      "codepoint": 62215,
+      "variant": false
+    },
+    "docker": {
+      "offset": 8,
+      "name": "Docker",
+      "codepoint": 62216,
+      "variant": false
+    },
+    "elementary": {
+      "offset": 9,
+      "name": "elementary OS",
+      "codepoint": 62217,
+      "variant": false
+    },
+    "fedora": {
+      "offset": 10,
+      "name": "Fedora",
+      "codepoint": 62218,
+      "variant": false
+    },
+    "fedora-inverse": {
+      "offset": 11,
+      "name": "Fedora (inverse)",
+      "codepoint": 62219,
+      "variant": true
+    },
+    "freebsd": {
+      "offset": 12,
+      "name": "FreeBSD",
+      "codepoint": 62220,
+      "variant": false
+    },
+    "gentoo": {
+      "offset": 13,
+      "name": "Gentoo",
+      "codepoint": 62221,
+      "variant": false
+    },
+    "linuxmint": {
+      "offset": 14,
+      "name": "Linux Mint",
+      "codepoint": 62222,
+      "variant": false
+    },
+    "linuxmint-inverse": {
+      "offset": 15,
+      "name": "Linux Mint (inverse)",
+      "codepoint": 62223,
+      "variant": true
+    },
+    "mageia": {
+      "offset": 16,
+      "name": "Mageia",
+      "codepoint": 62224,
+      "variant": false
+    },
+    "mandriva": {
+      "offset": 17,
+      "name": "Mandriva",
+      "codepoint": 62225,
+      "variant": false
+    },
+    "manjaro": {
+      "offset": 18,
+      "name": "Manjaro",
+      "codepoint": 62226,
+      "variant": false
+    },
+    "nixos": {
+      "offset": 19,
+      "name": "NixOS",
+      "codepoint": 62227,
+      "variant": false
+    },
+    "opensuse": {
+      "offset": 20,
+      "name": "OpenSUSE",
+      "codepoint": 62228,
+      "variant": false
+    },
+    "raspberry-pi": {
+      "offset": 21,
+      "name": "Raspberry pi",
+      "codepoint": 62229,
+      "variant": false
+    },
+    "redhat": {
+      "offset": 22,
+      "name": "Red Hat",
+      "codepoint": 62230,
+      "variant": false
+    },
+    "sabayon": {
+      "offset": 23,
+      "name": "Sabayon",
+      "codepoint": 62231,
+      "variant": false
+    },
+    "slackware": {
+      "offset": 24,
+      "name": "Slackware",
+      "codepoint": 62232,
+      "variant": false
+    },
+    "slackware-inverse": {
+      "offset": 25,
+      "name": "Slackware (inverse)",
+      "codepoint": 62233,
+      "variant": true
+    },
+    "tux": {
+      "offset": 26,
+      "name": "Tux",
+      "codepoint": 62234,
+      "variant": false
+    },
+    "ubuntu": {
+      "offset": 27,
+      "name": "Ubuntu",
+      "codepoint": 62235,
+      "variant": false
+    },
+    "ubuntu-inverse": {
+      "offset": 28,
+      "name": "Ubuntu (inverse)",
+      "codepoint": 62236,
+      "variant": true
+    },
+    "almalinux": {
+      "offset": 29,
+      "name": "Alma Linux",
+      "codepoint": 62237,
+      "variant": false
+    },
+    "archlabs": {
+      "offset": 30,
+      "name": "ArchLabs",
+      "codepoint": 62238,
+      "variant": false
+    },
+    "artix": {
+      "offset": 31,
+      "name": "Artix Linux",
+      "codepoint": 62239,
+      "variant": false
+    },
+    "budgie": {
+      "offset": 32,
+      "name": "Budgie",
+      "codepoint": 62240,
+      "variant": false
+    },
+    "deepin": {
+      "offset": 33,
+      "name": "Deepin",
+      "codepoint": 62241,
+      "variant": false
+    },
+    "endeavour": {
+      "offset": 34,
+      "name": "Endeavour OS",
+      "codepoint": 62242,
+      "variant": false
+    },
+    "ferris": {
+      "offset": 35,
+      "name": "Ferris",
+      "codepoint": 62243,
+      "variant": false
+    },
+    "flathub": {
+      "offset": 36,
+      "name": "Flathub",
+      "codepoint": 62244,
+      "variant": false
+    },
+    "gnu-guix": {
+      "offset": 37,
+      "name": "GNU Guix",
+      "codepoint": 62245,
+      "variant": false
+    },
+    "illumos": {
+      "offset": 38,
+      "name": "illumos",
+      "codepoint": 62246,
+      "variant": false
+    },
+    "kali-linux": {
+      "offset": 39,
+      "name": "Kali Linux",
+      "codepoint": 62247,
+      "variant": false
+    },
+    "openbsd": {
+      "offset": 40,
+      "name": "OpenBSD",
+      "codepoint": 62248,
+      "variant": false
+    },
+    "parrot": {
+      "offset": 41,
+      "name": "Parrot OS",
+      "codepoint": 62249,
+      "variant": false
+    },
+    "pop-os": {
+      "offset": 42,
+      "name": "Pop!_OS",
+      "codepoint": 62250,
+      "variant": false
+    },
+    "rocky-linux": {
+      "offset": 43,
+      "name": "Rocky Linux",
+      "codepoint": 62251,
+      "variant": false
+    },
+    "snappy": {
+      "offset": 44,
+      "name": "Snappy",
+      "codepoint": 62252,
+      "variant": false
+    },
+    "solus": {
+      "offset": 45,
+      "name": "Solus",
+      "codepoint": 62253,
+      "variant": false
+    },
+    "void": {
+      "offset": 46,
+      "name": "Void",
+      "codepoint": 62254,
+      "variant": false
+    },
+    "zorin": {
+      "offset": 47,
+      "name": "Zorin OS",
+      "codepoint": 62255,
+      "variant": false
+    },
+    "codeberg": {
+      "offset": 48,
+      "name": "Codeberg",
+      "codepoint": 62256,
+      "variant": false
+    },
+    "kde-neon": {
+      "offset": 49,
+      "name": "KDE Neon",
+      "codepoint": 62257,
+      "variant": false
+    },
+    "kde-plasma": {
+      "offset": 50,
+      "name": "KDE Plasma",
+      "codepoint": 62258,
+      "variant": false
+    },
+    "kubuntu": {
+      "offset": 51,
+      "name": "Kubuntu",
+      "codepoint": 62259,
+      "variant": false
+    },
+    "kubuntu-inverse": {
+      "offset": 52,
+      "name": "Kubuntu (inverse)",
+      "codepoint": 62260,
+      "variant": true
+    },
+    "forgejo": {
+      "offset": 53,
+      "name": "Forgejo",
+      "codepoint": 62261,
+      "variant": false
+    },
+    "freecad": {
+      "offset": 54,
+      "name": "FreeCAD",
+      "codepoint": 62262,
+      "variant": false
+    },
+    "garuda": {
+      "offset": 55,
+      "name": "Garuda Linux",
+      "codepoint": 62263,
+      "variant": false
+    },
+    "gimp": {
+      "offset": 56,
+      "name": "GIMP",
+      "codepoint": 62264,
+      "variant": false
+    },
+    "gitea": {
+      "offset": 57,
+      "name": "Gitea",
+      "codepoint": 62265,
+      "variant": false
+    },
+    "hyperbola": {
+      "offset": 58,
+      "name": "Hyperbola GNU/Linux-libre",
+      "codepoint": 62266,
+      "variant": false
+    },
+    "inkscape": {
+      "offset": 59,
+      "name": "Inkscape",
+      "codepoint": 62267,
+      "variant": false
+    },
+    "kdenlive": {
+      "offset": 60,
+      "name": "Kdenlive",
+      "codepoint": 62268,
+      "variant": false
+    },
+    "krita": {
+      "offset": 61,
+      "name": "Krita",
+      "codepoint": 62269,
+      "variant": false
+    },
+    "lxle": {
+      "offset": 62,
+      "name": "LXLE Linux",
+      "codepoint": 62270,
+      "variant": false
+    },
+    "mxlinux": {
+      "offset": 63,
+      "name": "MX Linux",
+      "codepoint": 62271,
+      "variant": false
+    },
+    "parabola": {
+      "offset": 64,
+      "name": "Parabola GNU/Linux-libre",
+      "codepoint": 62272,
+      "variant": false
+    },
+    "puppy": {
+      "offset": 65,
+      "name": "Puppy Linux",
+      "codepoint": 62273,
+      "variant": false
+    },
+    "qubesos": {
+      "offset": 66,
+      "name": "QubesOS",
+      "codepoint": 62274,
+      "variant": false
+    },
+    "tails": {
+      "offset": 67,
+      "name": "Tails",
+      "codepoint": 62275,
+      "variant": false
+    },
+    "trisquel": {
+      "offset": 68,
+      "name": "Trisquel GNU/Linux",
+      "codepoint": 62276,
+      "variant": false
+    },
+    "archcraft": {
+      "offset": 69,
+      "name": "Archcraft",
+      "codepoint": 62277,
+      "variant": false
+    },
+    "arcolinux": {
+      "offset": 70,
+      "name": "ArcoLinux",
+      "codepoint": 62278,
+      "variant": false
+    },
+    "biglinux": {
+      "offset": 71,
+      "name": "BigLinux",
+      "codepoint": 62279,
+      "variant": false
+    },
+    "crystal": {
+      "offset": 72,
+      "name": "Crystal Linux",
+      "codepoint": 62280,
+      "variant": false
+    },
+    "locos": {
+      "offset": 73,
+      "name": "Loc-OS",
+      "codepoint": 62281,
+      "variant": false
+    },
+    "xerolinux": {
+      "offset": 74,
+      "name": "XeroLinux",
+      "codepoint": 62282,
+      "variant": false
+    },
+    "arduino": {
+      "offset": 75,
+      "name": "Arduino",
+      "codepoint": 62283,
+      "variant": false
+    },
+    "kicad": {
+      "offset": 76,
+      "name": "KiCad",
+      "codepoint": 62284,
+      "variant": false
+    },
+    "octoprint": {
+      "offset": 77,
+      "name": "Octoprint",
+      "codepoint": 62285,
+      "variant": false
+    },
+    "openscad": {
+      "offset": 78,
+      "name": "OpenSCAD",
+      "codepoint": 62286,
+      "variant": false
+    },
+    "osh": {
+      "offset": 79,
+      "name": "OSH",
+      "codepoint": 62287,
+      "variant": false
+    },
+    "oshwa": {
+      "offset": 80,
+      "name": "OSHWA",
+      "codepoint": 62288,
+      "variant": false
+    },
+    "prusaslicer": {
+      "offset": 81,
+      "name": "Prusa Slicer",
+      "codepoint": 62289,
+      "variant": false
+    },
+    "reprap": {
+      "offset": 82,
+      "name": "RepRap",
+      "codepoint": 62290,
+      "variant": false
+    },
+    "riscv": {
+      "offset": 83,
+      "name": "RISC-V",
+      "codepoint": 62291,
+      "variant": false
+    }
+  }
+}
