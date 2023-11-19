@@ -1,7 +1,7 @@
 {
   "name": "font-logos",
   "description": "An icon font providing popular linux distros' logos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "style": "assets/font-logos.css",
   "authors": [
     "Lukas W (https://github.com/Lukas-W)"
