@@ -74,3 +74,14 @@ offset	name					id
 72		Crystal Linux				crystal
 73		Loc-OS					locos
 74		XeroLinux				xerolinux
+75		Cinnamon				cinnamon
+76		freedesktop.org				freedesktop
+77		GNOME					gnome
+78		GTK					gtk
+79		LXDE					lxde
+80		LXQt					lxqt
+81		MATE					mate
+82		Vanilla OS				vanilla
+83		Wayland					wayland
+84		XFCE					xfce
+85		Xorg					xorg
