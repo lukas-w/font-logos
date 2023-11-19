@@ -74,3 +74,12 @@ offset	name					id
 72		Crystal Linux				crystal
 73		Loc-OS					locos
 74		XeroLinux				xerolinux
+75		Arduino					arduino
+76		KiCad					kicad
+77		Octoprint				octoprint
+78		OpenSCAD				openscad
+79		OSH					osh
+80		OSHWA					oshwa
+81		Prusa Slicer				prusaslicer
+82		RepRap					reprap
+83		RISC-V					riscv
