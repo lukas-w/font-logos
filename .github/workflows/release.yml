@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Fetch dependencies
         run: |
@@ -45,7 +45,7 @@ jobs:
           echo "ZIPFILE=${ZIPFILE}" >> $GITHUB_ENV
 
       - name: Adjust release tag
-        uses: EndBug/latest-tag@v1.5.1
+        uses: EndBug/latest-tag@v1.6.1
         with:
           ref: "v${{ env.RELEASE_VERSION }}"
 
