@@ -44,6 +44,7 @@ jobs:
       - name: Build the artifacts
         run: |
           npm ci
+          make
 
       - name: Publish to npm
         run: |
