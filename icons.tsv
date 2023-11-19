@@ -94,3 +94,14 @@ offset	name					id
 92		Qtile					qtile
 93		Sway					sway
 94		Xmonad					xmonad
+95		Cinnamon				cinnamon
+96		freedesktop.org				freedesktop
+97		GNOME					gnome
+98		GTK					gtk
+99		LXDE					lxde
+100		LXQt					lxqt
+101		MATE					mate
+102		Vanilla OS				vanilla
+103		Wayland					wayland
+104		XFCE					xfce
+105		Xorg					xorg
