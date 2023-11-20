@@ -33,18 +33,8 @@ jobs:
       - name: Crate archive
         id: archive
         run: |
-          PKGDIR=font-logos-${{ steps.rel_ver.outputs.ver }}
-          ZIPFILE="${PKGDIR}.zip"
-          rsync --info=name LICENSE "${PKGDIR}/"
-          rsync --info=name package.json "${PKGDIR}/"
-          rsync --info=name README.md "${PKGDIR}/"
-          rsync --info=name -R assets/*.css "${PKGDIR}/"
-          rsync --info=name -R assets/*.ttf "${PKGDIR}/"
-          rsync --info=name -R assets/*.woff "${PKGDIR}/"
-          rsync --info=name -R assets/*.woff2 "${PKGDIR}/"
-          rsync --info=name -R vectors/*.svg "${PKGDIR}/"
-          zip -r "${ZIPFILE}" "${PKGDIR}"
-          echo "ZIPFILE=${ZIPFILE}" >> $GITHUB_ENV
+          make pack
+          ZIPFILE=$(ls font-logos-*zip )
           echo "ZIPFILE=${ZIPFILE}"
           echo "filename=${ZIPFILE}" >> $GITHUB_OUTPUT
 
