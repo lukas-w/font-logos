@@ -20,18 +20,20 @@ jobs:
           npm install nunjucks
 
       - name: Determine version
+        id: rel_ver
         run: |
           REL_VERSION=$(jq -r '.version' package.json)
           echo "Release version ${REL_VERSION}"
-          echo "RELEASE_VERSION=${REL_VERSION}" >> $GITHUB_ENV
+          echo "ver=${REL_VERSION}" >> $GITHUB_OUTPUT
 
       - name: Create the assets
         run: |
           make
 
       - name: Crate archive
+        id: archive
         run: |
-          PKGDIR=font-logos-${{ env.RELEASE_VERSION }}
+          PKGDIR=font-logos-${{ steps.rel_ver.outputs.ver }}
           ZIPFILE="${PKGDIR}.zip"
           rsync --info=name LICENSE "${PKGDIR}/"
           rsync --info=name package.json "${PKGDIR}/"
@@ -43,17 +45,19 @@ jobs:
           rsync --info=name -R vectors/*.svg "${PKGDIR}/"
           zip -r "${ZIPFILE}" "${PKGDIR}"
           echo "ZIPFILE=${ZIPFILE}" >> $GITHUB_ENV
+          echo "ZIPFILE=${ZIPFILE}"
+          echo "filename=${ZIPFILE}" >> $GITHUB_OUTPUT
 
       - name: Adjust release tag
         uses: EndBug/latest-tag@v1.6.1
         with:
-          ref: "v${{ env.RELEASE_VERSION }}"
+          ref: "v${{ steps.rel_ver.outputs.ver }}"
 
       - name: Create release draft
         uses: softprops/action-gh-release@v0.1.15
         with:
           draft: true
-          tag_name: "v${{ env.RELEASE_VERSION }}"
+          tag_name: "v${{ steps.rel_ver.outputs.ver }}"
           files: |
-            ${{ env.ZIPFILE }}
+            ${{ steps.archive.outputs.filename }}
           generate_release_notes: true
