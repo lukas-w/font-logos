@@ -20,6 +20,7 @@ font.familyname = fontname
 font.fullname = fontname
 font.design_size = font_design_size
 font.em = font_em
+font.copyright = os.environ['COPYRIGHT']
 
 # if autowidth:
 # font.autoWidth(0, 0, font.em)
