@@ -328,6 +328,10 @@
 .fl-krita::before {
   content: "\f33d";
 }
+.fl-fw.fl-krita::before {
+  font-size: 0.9941747572815534em;
+  line-height: 1.005859375em;
+}
 .fl-lxle::before {
   content: "\f33e";
 }
