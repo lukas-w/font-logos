@@ -1,0 +1,53 @@
+# This pushes out a new npm release
+# It will be triggered once the release draft is published
+
+name: Publish release to npm
+
+on:
+  release:
+    types:
+      - released
+  workflow_dispatch:
+
+jobs:
+  npm-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check if we are on correct commit
+        run: |
+          REL_VERSION=v$(jq -r '.version' package.json)
+          GIT_VERSION=$(git describe --tags)
+          echo "Release version ${REL_VERSION}"
+          echo "Git tag version ${GIT_VERSION}"
+          if [ "${REL_VERSION}" != "${GIT_VERSION}" ]; then \
+              echo "This is probably not what you want"; \
+              exit 1; \
+          fi
+
+      - name: Fetch dependencies
+        run: |
+          sudo apt update -y -q
+          sudo apt install python3-fontforge jq nodejs wkhtmltopdf -y -q
+          npm install nunjucks
+
+      - name: Setup .npmrc file to publish to npm
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Build the artifacts
+        run: |
+          npm ci
+          make
+
+      - name: Publish to npm
+        run: |
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
