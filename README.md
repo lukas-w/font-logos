@@ -178,3 +178,4 @@ If you are a maintainer of this repository and a new release is to be published
   * The release is published on Github
 * Automatically the "Publish release to npm" workflow is triggered
   * If the npm token is not expired the release is pushed to NPM
+  * The `README.md` is regenerated (the preview should already be up to date, see above)
