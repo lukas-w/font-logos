@@ -111,7 +111,16 @@
 .fl-vanilla::before, 
 .fl-wayland::before, 
 .fl-xfce::before, 
-.fl-xorg::before
+.fl-xorg::before, 
+.fl-fdroid::before, 
+.fl-fosdem::before, 
+.fl-osi::before, 
+.fl-wikimedia::before, 
+.fl-mpv::before, 
+.fl-neovim::before, 
+.fl-thunderbird::before, 
+.fl-tor::before, 
+.fl-vscodium::before
  {
   display: inline-block;
   font-family: "font-logos";
@@ -466,4 +475,31 @@
 }
 .fl-xorg::before {
   content: "\f369";
+}
+.fl-fdroid::before {
+  content: "\f36a";
+}
+.fl-fosdem::before {
+  content: "\f36b";
+}
+.fl-osi::before {
+  content: "\f36c";
+}
+.fl-wikimedia::before {
+  content: "\f36d";
+}
+.fl-mpv::before {
+  content: "\f36e";
+}
+.fl-neovim::before {
+  content: "\f36f";
+}
+.fl-thunderbird::before {
+  content: "\f370";
+}
+.fl-tor::before {
+  content: "\f371";
+}
+.fl-vscodium::before {
+  content: "\f372";
 }

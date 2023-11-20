@@ -643,6 +643,60 @@
       "name": "Xorg",
       "codepoint": 62313,
       "variant": false
+    },
+    "fdroid": {
+      "offset": 106,
+      "name": "F-droid",
+      "codepoint": 62314,
+      "variant": false
+    },
+    "fosdem": {
+      "offset": 107,
+      "name": "FOSDEM",
+      "codepoint": 62315,
+      "variant": false
+    },
+    "osi": {
+      "offset": 108,
+      "name": "OSI",
+      "codepoint": 62316,
+      "variant": false
+    },
+    "wikimedia": {
+      "offset": 109,
+      "name": "Wikimedia",
+      "codepoint": 62317,
+      "variant": false
+    },
+    "mpv": {
+      "offset": 110,
+      "name": "mpv",
+      "codepoint": 62318,
+      "variant": false
+    },
+    "neovim": {
+      "offset": 111,
+      "name": "Neovim",
+      "codepoint": 62319,
+      "variant": false
+    },
+    "thunderbird": {
+      "offset": 112,
+      "name": "Thunderbird",
+      "codepoint": 62320,
+      "variant": false
+    },
+    "tor": {
+      "offset": 113,
+      "name": "Tor Browser",
+      "codepoint": 62321,
+      "variant": false
+    },
+    "vscodium": {
+      "offset": 114,
+      "name": "VS Codium",
+      "codepoint": 62322,
+      "variant": false
     }
   }
 }

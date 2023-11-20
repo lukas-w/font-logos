@@ -318,6 +318,33 @@
     },
     "xorg": {
       "width": 512
+    },
+    "fdroid": {
+      "width": 512
+    },
+    "fosdem": {
+      "width": 509
+    },
+    "osi": {
+      "width": 512
+    },
+    "wikimedia": {
+      "width": 504
+    },
+    "mpv": {
+      "width": 512
+    },
+    "neovim": {
+      "width": 421
+    },
+    "thunderbird": {
+      "width": 512
+    },
+    "tor": {
+      "width": 512
+    },
+    "vscodium": {
+      "width": 511
     }
   }
 }
