@@ -54,6 +54,7 @@ for iconId, icon in fontData['icons'].items():
 	addIcon(iconId, icon)
 
 font.appendSFNTName("English (US)", "Version", fontData['version']['string'])
+font.appendSFNTName("English (US)", "Vendor URL", os.environ['VENDORURL'])
 font.version = fontData['version']['string']
 
 font.generate(os.path.join(outputdir, fontname + '.ttf'))

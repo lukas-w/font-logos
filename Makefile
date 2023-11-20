@@ -14,6 +14,7 @@ export FONT_NAME=$(name)
 export OUTPUT_DIR=$(dest)
 export JSON_FILE=$(json_file)
 export COPYRIGHT=Copyright (c) $(date '+%Y'), Lukas W
+export VENDORURL=https://github.com/lukas-w/font-logos
 
 all_files=$(font_assets) $(dest)/$(name).css $(dest)/preview.html $(dest)/readme-header.png README.md
 
