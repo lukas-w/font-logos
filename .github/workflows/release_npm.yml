@@ -67,3 +67,12 @@ jobs:
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Commit new README back to repo
+        uses: EndBug/add-and-commit@v9
+        with:
+          fetch: false
+          add: 'README.md'
+          message: "[ci] Update README.md"
+          committer_name: GitHub Actions
+          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
