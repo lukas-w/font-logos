@@ -19,6 +19,22 @@ jobs:
           sudo apt install python3-fontforge jq nodejs wkhtmltopdf -y -q
           npm install nunjucks
 
+      # Ubuntu 20.04 has only fontforge release 2020, but there are some vital bugfixes in the 2023 release
+      # This can be replaced with the ordinary apt package when Ubuntu updates, probably with 23.10
+      # On the other hand ... why not be on the latest release always?
+      - name: Fetch FontForge
+        run: |
+          sudo apt install fuse -y -q
+          curl -L "https://github.com/fontforge/fontforge/releases/download/20230101/FontForge-2023-01-01-a1dad3e-x86_64.AppImage" \
+            --output fontforge
+          chmod u+x fontforge
+          echo Try appimage
+          ./fontforge --version
+          export PATH=`pwd`:$PATH
+          echo "PATH=$PATH" >> $GITHUB_ENV
+          echo Try appimage with path
+          fontforge --version
+
       - name: Determine version
         id: rel_ver
         run: |

@@ -1,7 +1,11 @@
 import os
+import sys
 import tempfile
 import json
 import fontforge
+
+# Need to change working directory in case we run via AppImage
+os.chdir(os.path.join(os.path.dirname(sys.argv[0]), '..'))
 
 autowidth = False
 font_em = 512

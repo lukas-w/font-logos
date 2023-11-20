@@ -42,7 +42,11 @@ $(json_file): scripts/generate-json.mjs icons.tsv package.json
 	node scripts/generate-json.mjs
 
 $(font_assets)&: scripts/generate-font.py icons.tsv $(shell find vectors) $(json_file)
-	python $<
+	if command -v fontforge; then \
+		fontforge --script $(shell pwd)/$< ; \
+	else \
+		python $< ;\
+	fi
 
 %: templates/$$*.njk icons.tsv scripts/render-template.mjs $(json_file) $(dest)/$(name)$(out_json_ext)
 	node scripts/render-template.mjs $< $@
