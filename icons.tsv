@@ -105,3 +105,12 @@ offset	name					id
 103		Wayland					wayland
 104		XFCE					xfce
 105		Xorg					xorg
+106		F-droid					fdroid
+107		FOSDEM					fosdem
+108		OSI					osi
+109		Wikimedia				wikimedia
+110		mpv					mpv
+111		Neovim					neovim
+112		Thunderbird				thunderbird
+113		Tor Browser				tor
+114		VS Codium				vscodium
