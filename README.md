@@ -115,6 +115,7 @@ Available logos are:
 | OSH                       | `fl-osh`               | `<i class="fl-osh"></i>`               |  `0xf34f`  | <img src="vectors/osh.svg" width="24">               |
 | OSHWA                     | `fl-oshwa`             | `<i class="fl-oshwa"></i>`             |  `0xf350`  | <img src="vectors/oshwa.svg" width="24">             |
 | OSI                       | `fl-osi`               | `<i class="fl-osi"></i>`               |  `0xf36c`  | <img src="vectors/osi.svg" width="24">               |
+| Parch Linux               | `fl-parchlinux`        | `<i class="fl-parchlinux"></i>`        |  `0xf373`  | <img src="vectors/Parchlinux.svg" width="24">        |
 | Parabola GNU/Linux-libre  | `fl-parabola`          | `<i class="fl-parabola"></i>`          |  `0xf340`  | <img src="vectors/parabola.svg" width="24">          |
 | Parrot OS                 | `fl-parrot`            | `<i class="fl-parrot"></i>`            |  `0xf329`  | <img src="vectors/parrot.svg" width="24">            |
 | Pop!_OS                   | `fl-pop-os`            | `<i class="fl-pop-os"></i>`            |  `0xf32a`  | <img src="vectors/pop-os.svg" width="24">            |
