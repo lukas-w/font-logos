@@ -117,3 +117,10 @@ offset	name					id
 115		KDE					kde
 116		PostmarketOS				postmarketos
 117		Qt 					qt
+118		LibreOffice				libreoffice
+119		LibreOffice Base			libreofficebase
+120		LibreOffice Calc			libreofficecalc
+121		LibreOffice Draw			libreofficedraw
+122		LibreOffice Impress			libreofficeimpress
+123		LibreOffice Math			libreofficemath
+124		LibreOffice Writer			libreofficewriter
