@@ -117,7 +117,8 @@ Available logos are:
 | OSI                       | `fl-osi`               | `<i class="fl-osi"></i>`               |  `0xf36c`  | <img src="vectors/osi.svg" width="24">               |
 | Parabola GNU/Linux-libre  | `fl-parabola`          | `<i class="fl-parabola"></i>`          |  `0xf340`  | <img src="vectors/parabola.svg" width="24">          |
 | Parrot OS                 | `fl-parrot`            | `<i class="fl-parrot"></i>`            |  `0xf329`  | <img src="vectors/parrot.svg" width="24">            |
-| Pop!_OS                   | `fl-pop-os`            | `<i class="fl-pop-os"></i>`            |  `0xf32a`  | <img src="vectors/pop-os.svg" width="24">            |
+| Pop!\_OS                  | `fl-pop-os`            | `<i class="fl-pop-os"></i>`            |  `0xf32a`  | <img src="vectors/pop-os.svg" width="24">            |
+| PostmarketOS (\*)         | `fl-postmarketos`      | `<i class="fl-postmarketos"></i>`      |  `0xf373`  | <img src="vectors/postmarketos.svg" width="24">      |
 | Prusa Slicer              | `fl-prusaslicer`       | `<i class="fl-prusaslicer"></i>`       |  `0xf351`  | <img src="vectors/prusaslicer.svg" width="24">       |
 | Puppy Linux               | `fl-puppy`             | `<i class="fl-puppy"></i>`             |  `0xf341`  | <img src="vectors/puppy.svg" width="24">             |
 | Qtile                     | `fl-qtile`             | `<i class="fl-qtile"></i>`             |  `0xf35c`  | <img src="vectors/qtile.svg" width="24">             |
@@ -150,6 +151,8 @@ Available logos are:
 | Xmonad                    | `fl-xmonad`            | `<i class="fl-xmonad"></i>`            |  `0xf35e`  | <img src="vectors/xmonad.svg" width="24">            |
 | Xorg                      | `fl-xorg`              | `<i class="fl-xorg"></i>`              |  `0xf369`  | <img src="vectors/xorg.svg" width="24">              |
 | Zorin OS                  | `fl-zorin`             | `<i class="fl-zorin"></i>`             |  `0xf32f`  | <img src="vectors/zorin.svg" width="24">             |
+
+_\* = will come with the next release_
 
 ## Building ##
 
