@@ -51,10 +51,10 @@ offset	name					id
 49		KDE Neon				kde-neon
 50		KDE Plasma				kde-plasma
 51		Kubuntu					kubuntu
-52		Kubuntu (inverse)			kubuntu-inverse
+52		Kubuntu (inverse)		kubuntu-inverse
 53		Forgejo					forgejo
 54		FreeCAD					freecad
-55		Garuda Linux				garuda
+55		Garuda Linux			garuda
 56		GIMP					gimp
 57		Gitea					gitea
 58		Hyperbola GNU/Linux-libre		hyperbola
@@ -67,37 +67,37 @@ offset	name					id
 65		Puppy Linux				puppy
 66		QubesOS					qubesos
 67		Tails					tails
-68		Trisquel GNU/Linux			trisquel
+68		Trisquel GNU/Linux		trisquel
 69		Archcraft				archcraft
 70		ArcoLinux				arcolinux
 71		BigLinux				biglinux
-72		Crystal Linux				crystal
+72		Crystal Linux			crystal
 73		Loc-OS					locos
 74		XeroLinux				xerolinux
 75		Arduino					arduino
 76		KiCad					kicad
 77		Octoprint				octoprint
 78		OpenSCAD				openscad
-79		OSH					osh
+79		OSH						osh
 80		OSHWA					oshwa
-81		Prusa Slicer				prusaslicer
+81		Prusa Slicer			prusaslicer
 82		RepRap					reprap
 83		RISC-V					riscv
 84		Awesome WM				awesome
 85		bspwm					bspwm
-86		dwm					dwm
-87		Enlightenment				enlightenment
+86		dwm						dwm
+87		Enlightenment			enlightenment
 88		Fluxbox					fluxbox
 89		Hyprland				hyprland
-90		i3					i3
-91		JWM					jwm
+90		i3						i3
+91		JWM						jwm
 92		Qtile					qtile
 93		Sway					sway
 94		Xmonad					xmonad
 95		Cinnamon				cinnamon
-96		freedesktop.org				freedesktop
+96		freedesktop.org			freedesktop
 97		GNOME					gnome
-98		GTK					gtk
+98		GTK						gtk
 99		LXDE					lxde
 100		LXQt					lxqt
 101		MATE					mate
@@ -107,10 +107,15 @@ offset	name					id
 105		Xorg					xorg
 106		F-droid					fdroid
 107		FOSDEM					fosdem
-108		OSI					osi
+108		OSI						osi
 109		Wikimedia				wikimedia
-110		mpv					mpv
+110		mpv						mpv
 111		Neovim					neovim
 112		Thunderbird				thunderbird
 113		Tor Browser				tor
 114		VS Codium				vscodium
+115		Agarim OS				agarimos
+116		DietPi					dietpi
+117		Haiku					haiku
+118		netboot.xyz				netboot
+119		Slitaz					slitaz
