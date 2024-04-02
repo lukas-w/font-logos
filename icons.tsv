@@ -114,8 +114,11 @@ offset	name					id
 112		Thunderbird				thunderbird
 113		Tor Browser				tor
 114		VS Codium				vscodium
-115		Agarim OS				agarimos
-116		DietPi					dietpi
-117		Haiku					haiku
-118		netboot.xyz				netboot
-119		Slitaz					slitaz
+115		KDE					kde
+116		PostmarketOS				postmarketos
+117		Qt 					qt
+118		Agarim OS				agarimos
+119		DietPi					dietpi
+120		Haiku					haiku
+121		netboot.xyz				netboot
+122		Slitaz					slitaz

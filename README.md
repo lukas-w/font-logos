@@ -87,6 +87,7 @@ Available logos are:
 | Inkscape                  | `fl-inkscape`          | `<i class="fl-inkscape"></i>`          |  `0xf33b`  | <img src="vectors/inkscape.svg" width="24">          |
 | JWM                       | `fl-jwm`               | `<i class="fl-jwm"></i>`               |  `0xf35b`  | <img src="vectors/jwm.svg" width="24">               |
 | Kali Linux                | `fl-kali-linux`        | `<i class="fl-kali-linux"></i>`        |  `0xf327`  | <img src="vectors/kali-linux.svg" width="24">        |
+| KDE                       | `fl-kde`               | `<i class="fl-kde"></i>`               |  `0xf373`  | <img src="vectors/kde.svg" width="24">               |
 | KDE Neon                  | `fl-kde-neon`          | `<i class="fl-kde-neon"></i>`          |  `0xf331`  | <img src="vectors/kde-neon.svg" width="24">          |
 | KDE Plasma                | `fl-kde-plasma`        | `<i class="fl-kde-plasma"></i>`        |  `0xf332`  | <img src="vectors/kde-plasma.svg" width="24">        |
 | Kdenlive                  | `fl-kdenlive`          | `<i class="fl-kdenlive"></i>`          |  `0xf33c`  | <img src="vectors/kdenlive.svg" width="24">          |
@@ -118,8 +119,10 @@ Available logos are:
 | Parabola GNU/Linux-libre  | `fl-parabola`          | `<i class="fl-parabola"></i>`          |  `0xf340`  | <img src="vectors/parabola.svg" width="24">          |
 | Parrot OS                 | `fl-parrot`            | `<i class="fl-parrot"></i>`            |  `0xf329`  | <img src="vectors/parrot.svg" width="24">            |
 | Pop!_OS                   | `fl-pop-os`            | `<i class="fl-pop-os"></i>`            |  `0xf32a`  | <img src="vectors/pop-os.svg" width="24">            |
+| PostmarketOS              | `fl-postmarketos`      | `<i class="fl-postmarketos"></i>`      |  `0xf374`  | <img src="vectors/postmarketos.svg" width="24">      |
 | Prusa Slicer              | `fl-prusaslicer`       | `<i class="fl-prusaslicer"></i>`       |  `0xf351`  | <img src="vectors/prusaslicer.svg" width="24">       |
 | Puppy Linux               | `fl-puppy`             | `<i class="fl-puppy"></i>`             |  `0xf341`  | <img src="vectors/puppy.svg" width="24">             |
+| Qt                        | `fl-qt`                | `<i class="fl-qt"></i>`                |  `0xf375`  | <img src="vectors/qt.svg" width="24">                |
 | Qtile                     | `fl-qtile`             | `<i class="fl-qtile"></i>`             |  `0xf35c`  | <img src="vectors/qtile.svg" width="24">             |
 | QubesOS                   | `fl-qubesos`           | `<i class="fl-qubesos"></i>`           |  `0xf342`  | <img src="vectors/qubesos.svg" width="24">           |
 | Raspberry pi              | `fl-raspberry-pi`      | `<i class="fl-raspberry-pi"></i>`      |  `0xf315`  | <img src="vectors/raspberry-pi.svg" width="24">      |
