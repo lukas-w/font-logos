@@ -697,6 +697,12 @@
       "name": "VS Codium",
       "codepoint": 62322,
       "variant": false
+    },
+    "kde": {
+      "offset": 115,
+      "name": "KDE",
+      "codepoint": 62323,
+      "variant": false
     }
   }
 }

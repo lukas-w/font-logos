@@ -120,7 +120,8 @@
 .fl-neovim::before, 
 .fl-thunderbird::before, 
 .fl-tor::before, 
-.fl-vscodium::before
+.fl-vscodium::before, 
+.fl-kde::before
  {
   display: inline-block;
   font-family: "font-logos";
@@ -506,4 +507,7 @@
 }
 .fl-vscodium::before {
   content: "\f372";
+}
+.fl-kde::before {
+  content: "\f373";
 }
