@@ -703,6 +703,12 @@
       "name": "KDE",
       "codepoint": 62323,
       "variant": false
+    },
+    "postmarketos": {
+      "offset": 116,
+      "name": "PostmarketOS",
+      "codepoint": 62324,
+      "variant": false
     }
   }
 }

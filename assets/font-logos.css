@@ -121,7 +121,8 @@
 .fl-thunderbird::before, 
 .fl-tor::before, 
 .fl-vscodium::before, 
-.fl-kde::before
+.fl-kde::before, 
+.fl-postmarketos::before
  {
   display: inline-block;
   font-family: "font-logos";
@@ -510,4 +511,7 @@
 }
 .fl-kde::before {
   content: "\f373";
+}
+.fl-postmarketos::before {
+  content: "\f374";
 }
