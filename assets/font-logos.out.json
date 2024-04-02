@@ -351,6 +351,9 @@
     },
     "postmarketos": {
       "width": 512
+    },
+    "qt": {
+      "width": 512
     }
   }
 }

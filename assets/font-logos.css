@@ -122,7 +122,8 @@
 .fl-tor::before, 
 .fl-vscodium::before, 
 .fl-kde::before, 
-.fl-postmarketos::before
+.fl-postmarketos::before, 
+.fl-qt::before
  {
   display: inline-block;
   font-family: "font-logos";
@@ -514,4 +515,7 @@
 }
 .fl-postmarketos::before {
   content: "\f374";
+}
+.fl-qt::before {
+  content: "\f375";
 }

@@ -709,6 +709,12 @@
       "name": "PostmarketOS",
       "codepoint": 62324,
       "variant": false
+    },
+    "qt": {
+      "offset": 117,
+      "name": "Qt",
+      "codepoint": 62325,
+      "variant": false
     }
   }
 }
