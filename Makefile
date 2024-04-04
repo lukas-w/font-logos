@@ -13,7 +13,7 @@ export START_CODEPOINT
 export FONT_NAME=$(name)
 export OUTPUT_DIR=$(dest)
 export JSON_FILE=$(json_file)
-export COPYRIGHT=Copyright (c) $(date '+%Y'), Lukas W
+export COPYRIGHT=Copyright (c) 2014-$(shell date '+%Y'), Lukas W
 export VENDORURL=$(shell jq -r .homepage package.json)
 
 all_files=$(font_assets) $(dest)/$(name).css $(dest)/preview.html $(dest)/readme-header.png README.md
