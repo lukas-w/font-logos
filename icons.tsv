@@ -47,57 +47,57 @@ offset	name					id
 45		Solus					solus
 46		Void					void
 47		Zorin OS				zorin
-48		Codeberg			    codeberg
+48		Codeberg				codeberg
 49		KDE Neon				kde-neon
 50		KDE Plasma				kde-plasma
 51		Kubuntu					kubuntu
-52		Kubuntu (inverse)			kubuntu-inverse
+52		Kubuntu (inverse)		kubuntu-inverse
 53		Forgejo					forgejo
 54		FreeCAD					freecad
-55		Garuda Linux				garuda
+55		Garuda Linux			garuda
 56		GIMP					gimp
 57		Gitea					gitea
-58		Hyperbola GNU/Linux-libre		hyperbola
+58		Hyperbola GNU/Linux-libre	hyperbola
 59		Inkscape				inkscape
 60		Kdenlive				kdenlive
 61		Krita					krita
 62		LXLE Linux				lxle
 63		MX Linux				mxlinux
-64		Parabola GNU/Linux-libre		parabola
+64		Parabola GNU/Linux-libre	parabola
 65		Puppy Linux				puppy
 66		QubesOS					qubesos
 67		Tails					tails
-68		Trisquel GNU/Linux			trisquel
+68		Trisquel GNU/Linux		trisquel
 69		Archcraft				archcraft
 70		ArcoLinux				arcolinux
 71		BigLinux				biglinux
-72		Crystal Linux				crystal
+72		Crystal Linux			crystal
 73		Loc-OS					locos
 74		XeroLinux				xerolinux
 75		Arduino					arduino
 76		KiCad					kicad
 77		Octoprint				octoprint
 78		OpenSCAD				openscad
-79		OSH					osh
+79		OSH						osh
 80		OSHWA					oshwa
-81		Prusa Slicer				prusaslicer
+81		Prusa Slicer			prusaslicer
 82		RepRap					reprap
 83		RISC-V					riscv
 84		Awesome WM				awesome
 85		bspwm					bspwm
-86		dwm					dwm
-87		Enlightenment				enlightenment
+86		dwm						dwm
+87		Enlightenment			enlightenment
 88		Fluxbox					fluxbox
 89		Hyprland				hyprland
-90		i3					i3
-91		JWM					jwm
+90		i3						i3
+91		JWM						jwm
 92		Qtile					qtile
 93		Sway					sway
 94		Xmonad					xmonad
 95		Cinnamon				cinnamon
-96		freedesktop.org				freedesktop
+96		freedesktop.org			freedesktop
 97		GNOME					gnome
-98		GTK					gtk
+98		GTK						gtk
 99		LXDE					lxde
 100		LXQt					lxqt
 101		MATE					mate
@@ -107,13 +107,65 @@ offset	name					id
 105		Xorg					xorg
 106		F-droid					fdroid
 107		FOSDEM					fosdem
-108		OSI					osi
+108		OSI						osi
 109		Wikimedia				wikimedia
-110		mpv					mpv
+110		mpv						mpv
 111		Neovim					neovim
 112		Thunderbird				thunderbird
 113		Tor Browser				tor
 114		VS Codium				vscodium
-115		KDE					kde
-116		PostmarketOS				postmarketos
-117		Qt 					qt
+115		KDE						kde
+116		PostmarketOS			postmarketos
+117		Qt 						qt
+118		Agarim OS				agarimos
+119		aix						aix
+120		Android					android
+121		Antix					antix
+122		Archbang				archbang
+123		Arya Linux				aryalinux
+124		Athena OS				athenaos
+125		BackBox					backbox
+126		Big Linux				biglinux
+127		Bodhi Linux				bodhi
+128		bunsenlabs				bunsenlabs
+129		Cereus Linux			cereus
+130		DietPi					dietpi
+131		/e/ OS					eos
+132		FreeDOS					freedos
+133		GhostBSD				ghostbsd
+134		Haiku					haiku
+135		Linux Lite				linux-lite
+136		Linux Lite				linux-lite-inverse
+137		Linux Mint				linuxmint2
+138		Linux Mint Debian Edition	lmde
+139		Lubuntu					lubuntu
+140		Mabox					mabox
+141		macOS					macos
+142		Mandriva				mandriva
+143		MidnightBSD				midnightbsd
+144		netboot.xyz				netboot
+145		netBSD					netbsd
+146		NitruX					nitrux
+147		Nobara					nobara
+148		Open Mandriva			openmandriva
+149		PCLinuxOS				pclinuxos
+150		PureOS					pureos
+160		Q4OS					q4os
+161		RebornOS				rebornos
+162		Regolith				regolith
+163		siduction				siduction
+164		Slitaz					slitaz
+165		smartos					smartos
+166		SteamOS					steamos
+167		TrueNAS core			truenas-core
+168		TrueOS					trueos
+169		Tuxedo OS				tuxedoos
+170		Ubuntu Budgie			ubuntu-budgie
+171		Ubuntu Kylin			ubuntu-kylin
+172		Ubuntu Mate				ubuntu-mate
+173		Ubuntu Studio			ubuntu-studio
+174		Ultimate Edition		ultimate-edition
+175		Ultramarine				ultramarine
+176		VXlinux					vxlinux
+177		Windows					windows
+178		Xubuntu					xubuntu
