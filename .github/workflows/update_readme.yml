@@ -1,7 +1,7 @@
-# This pushes out a new npm release
+# This creates and commits an updated readme
 # It will be triggered once the release draft is published
 
-name: Publish release to npm
+name: Update README
 
 on:
   release:
@@ -51,19 +51,16 @@ jobs:
           echo Try appimage with path
           fontforge --version
 
-      - name: Setup .npmrc file to publish to npm
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20.x'
-          registry-url: 'https://registry.npmjs.org'
-
       - name: Build the artifacts
         run: |
           npm ci
           make
 
-      - name: Publish to npm
-        run: |
-          npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Commit new README back to repo
+        uses: EndBug/add-and-commit@v9
+        with:
+          fetch: false
+          add: 'README.md'
+          message: "[ci] Update README.md"
+          committer_name: GitHub Actions
+          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
