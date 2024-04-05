@@ -44,7 +44,6 @@ jobs:
       - name: Commit preview image back to repo
         uses: EndBug/add-and-commit@v9
         with:
-          fetch: false
           add: 'assets/readme-header.png'
           message: "[ci] Update preview image"
           committer_name: GitHub Actions
