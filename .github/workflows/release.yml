@@ -55,7 +55,7 @@ jobs:
           echo "filename=${ZIPFILE}" >> $GITHUB_OUTPUT
 
       - name: Adjust release tag
-        uses: EndBug/latest-tag@v1.6.2
+        uses: EndBug/latest-tag@v1
         with:
           ref: "v${{ steps.rel_ver.outputs.ver }}"
 
