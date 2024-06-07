@@ -354,6 +354,27 @@
     },
     "qt": {
       "width": 512
+    },
+    "libreoffice": {
+      "width": 416
+    },
+    "libreofficebase": {
+      "width": 416
+    },
+    "libreofficecalc": {
+      "width": 416
+    },
+    "libreofficedraw": {
+      "width": 416
+    },
+    "libreofficeimpress": {
+      "width": 416
+    },
+    "libreofficemath": {
+      "width": 416
+    },
+    "libreofficewriter": {
+      "width": 416
     }
   }
 }

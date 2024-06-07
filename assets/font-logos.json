@@ -715,6 +715,48 @@
       "name": "Qt",
       "codepoint": 62325,
       "variant": false
+    },
+    "libreoffice": {
+      "offset": 118,
+      "name": "LibreOffice",
+      "codepoint": 62326,
+      "variant": false
+    },
+    "libreofficebase": {
+      "offset": 119,
+      "name": "LibreOffice Base",
+      "codepoint": 62327,
+      "variant": false
+    },
+    "libreofficecalc": {
+      "offset": 120,
+      "name": "LibreOffice Calc",
+      "codepoint": 62328,
+      "variant": false
+    },
+    "libreofficedraw": {
+      "offset": 121,
+      "name": "LibreOffice Draw",
+      "codepoint": 62329,
+      "variant": false
+    },
+    "libreofficeimpress": {
+      "offset": 122,
+      "name": "LibreOffice Impress",
+      "codepoint": 62330,
+      "variant": false
+    },
+    "libreofficemath": {
+      "offset": 123,
+      "name": "LibreOffice Math",
+      "codepoint": 62331,
+      "variant": false
+    },
+    "libreofficewriter": {
+      "offset": 124,
+      "name": "LibreOffice Writer",
+      "codepoint": 62332,
+      "variant": false
     }
   }
 }

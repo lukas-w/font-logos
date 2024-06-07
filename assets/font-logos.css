@@ -123,7 +123,14 @@
 .fl-vscodium::before, 
 .fl-kde::before, 
 .fl-postmarketos::before, 
-.fl-qt::before
+.fl-qt::before, 
+.fl-libreoffice::before, 
+.fl-libreofficebase::before, 
+.fl-libreofficecalc::before, 
+.fl-libreofficedraw::before, 
+.fl-libreofficeimpress::before, 
+.fl-libreofficemath::before, 
+.fl-libreofficewriter::before
  {
   display: inline-block;
   font-family: "font-logos";
@@ -518,4 +525,25 @@
 }
 .fl-qt::before {
   content: "\f375";
+}
+.fl-libreoffice::before {
+  content: "\f376";
+}
+.fl-libreofficebase::before {
+  content: "\f377";
+}
+.fl-libreofficecalc::before {
+  content: "\f378";
+}
+.fl-libreofficedraw::before {
+  content: "\f379";
+}
+.fl-libreofficeimpress::before {
+  content: "\f37a";
+}
+.fl-libreofficemath::before {
+  content: "\f37b";
+}
+.fl-libreofficewriter::before {
+  content: "\f37c";
 }
