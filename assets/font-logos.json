@@ -757,6 +757,18 @@
       "name": "LibreOffice Writer",
       "codepoint": 62332,
       "variant": false
+    },
+    "leap": {
+      "offset": 125,
+      "name": "openSUSE Tumbleweed",
+      "codepoint": 62333,
+      "variant": false
+    },
+    "tumbleweed": {
+      "offset": 126,
+      "name": "openSUSE Leap",
+      "codepoint": 62334,
+      "variant": false
     }
   }
 }
