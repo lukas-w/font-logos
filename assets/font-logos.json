@@ -769,6 +769,12 @@
       "name": "openSUSE Leap",
       "codepoint": 62334,
       "variant": false
+    },
+    "typst": {
+      "offset": 127,
+      "name": "Typst",
+      "codepoint": 62335,
+      "variant": false
     }
   }
 }

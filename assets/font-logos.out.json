@@ -381,6 +381,9 @@
     },
     "tumbleweed": {
       "width": 512
+    },
+    "typst": {
+      "width": 303
     }
   }
 }

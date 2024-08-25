@@ -132,7 +132,8 @@
 .fl-libreofficemath::before, 
 .fl-libreofficewriter::before, 
 .fl-leap::before, 
-.fl-tumbleweed::before
+.fl-tumbleweed::before, 
+.fl-typst::before
  {
   display: inline-block;
   font-family: "font-logos";
@@ -554,4 +555,7 @@
 }
 .fl-tumbleweed::before {
   content: "\f37e";
+}
+.fl-typst::before {
+  content: "\f37f";
 }
