@@ -15,7 +15,7 @@ file_path="$(
 # Read the tsv file excluding the header
 sed '1d' "${file_path}" | while IFS=$'\t' read -r offset _ classname; do
 	# Calculate the codepoint, font-logos starts at 0xF300
-	codepoint=$((62208 + offset))
+	codepoint=$((0xF300 + offset))
 	# Get the glyph from the codepoint
 	glyph=$(printf "\\U%x" "${codepoint}" 2>/dev/null)
 	# Print line using the Nerd Fonts lib's format
