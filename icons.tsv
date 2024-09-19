@@ -124,6 +124,6 @@ offset	name					id
 122		LibreOffice Impress			libreofficeimpress
 123		LibreOffice Math			libreofficemath
 124		LibreOffice Writer			libreofficewriter
-125		openSUSE Tumbleweed			leap
-126		openSUSE Leap				tumbleweed
+125		openSUSE Tumbleweed			tumbleweed
+126		openSUSE Leap				leap
 127		Typst 					typst
