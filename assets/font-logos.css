@@ -131,8 +131,8 @@
 .fl-libreofficeimpress::before, 
 .fl-libreofficemath::before, 
 .fl-libreofficewriter::before, 
-.fl-leap::before, 
 .fl-tumbleweed::before, 
+.fl-leap::before, 
 .fl-typst::before
  {
   display: inline-block;
@@ -550,10 +550,10 @@
 .fl-libreofficewriter::before {
   content: "\f37c";
 }
-.fl-leap::before {
+.fl-tumbleweed::before {
   content: "\f37d";
 }
-.fl-tumbleweed::before {
+.fl-leap::before {
   content: "\f37e";
 }
 .fl-typst::before {

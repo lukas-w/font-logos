@@ -758,13 +758,13 @@
       "codepoint": 62332,
       "variant": false
     },
-    "leap": {
+    "tumbleweed": {
       "offset": 125,
       "name": "openSUSE Tumbleweed",
       "codepoint": 62333,
       "variant": false
     },
-    "tumbleweed": {
+    "leap": {
       "offset": 126,
       "name": "openSUSE Leap",
       "codepoint": 62334,

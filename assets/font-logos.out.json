@@ -376,11 +376,11 @@
     "libreofficewriter": {
       "width": 416
     },
-    "leap": {
-      "width": 396
-    },
     "tumbleweed": {
       "width": 512
+    },
+    "leap": {
+      "width": 396
     },
     "typst": {
       "width": 303
