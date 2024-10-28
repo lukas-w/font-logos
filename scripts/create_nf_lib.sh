@@ -2,7 +2,7 @@
 
 # Convert the icons.tsv file's data to Nerd Font lib's format
 # to update their lib file with the new glyphs.
-# Usage: ./create_lib.sh
+# Usage: ./create_nf_lib.sh
 # 	Copy missing glyphs from the output to the
 # 	<PATH>/nerd-fonts/bin/scripts/lib/i_logos.sh file.
 
@@ -19,5 +19,5 @@ sed '1d' "${file_path}" | while IFS=$'\t' read -r offset _ classname; do
 	# Get the glyph from the codepoint
 	glyph=$(printf "\\u%x" "${codepoint}" 2>/dev/null)
 	# Print line using the Nerd Fonts lib's format
-	printf "i='%b' i_linux_%s=\$i\n" "${glyph}" "${classname}"
+	printf "i='%b' i_linux_%s=\$i\n" "${glyph}" "$(echo "${classname}" | tr '-' '_')"
 done
