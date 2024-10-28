@@ -182,7 +182,7 @@ If you are a maintainer of this repository and a new release is to be published
   * The PRs add new `svg`s in `vectors/`
   * The `icons.tsv` is ammended (i.e. new icons added at the bottom)
 * Every time the `svg`s or `icons.tsv` is touched in the `master` branch (i.e. through pulling) the preview image is updated
-* Note that the `README.md` is NOT updated. You can manually modify it do indicate/add recently added but not released icons.
+* Note that the `README.md` is NOT updated. You can manually modify it to indicate/add recently added but not released icons.
 * Once the release seems ready:
 * Edit the version number in `package.json` (and push that change to `master`)
 * Trigger the "Draft a Release" workflow manually on the Actions page (on the `master` branch)
@@ -193,6 +193,10 @@ If you are a maintainer of this repository and a new release is to be published
   * The release is published on Github
 * Automatically the "Update README" workflow is triggered
   * The `README.md` is regenerated (the preview should already be up to date, see above)
+  * Maybe the autotriggered workflow does not work, then manually trigger
 * Automatically the "Publish release to npm" workflow is triggered
   * If the npm token is not expired the release is pushed to NPM
   * You need to publish on NPM manually if token is expired (expected)
+    * `npm update` (and commit/push updates if there were any)
+    * `npm adduser` to log into npm with MFA
+    * `npm publish`
