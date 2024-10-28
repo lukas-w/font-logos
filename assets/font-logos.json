@@ -775,6 +775,12 @@
       "name": "Typst",
       "codepoint": 62335,
       "variant": false
+    },
+    "river": {
+      "offset": 129,
+      "name": "River",
+      "codepoint": 62337,
+      "variant": false
     }
   }
 }
