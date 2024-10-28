@@ -776,6 +776,12 @@
       "codepoint": 62335,
       "variant": false
     },
+    "nobara": {
+      "offset": 128,
+      "name": "Nobara Linux",
+      "codepoint": 62336,
+      "variant": false
+    },
     "river": {
       "offset": 129,
       "name": "River",

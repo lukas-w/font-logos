@@ -134,6 +134,7 @@
 .fl-tumbleweed::before, 
 .fl-leap::before, 
 .fl-typst::before, 
+.fl-nobara::before, 
 .fl-river::before
  {
   display: inline-block;
@@ -559,6 +560,9 @@
 }
 .fl-typst::before {
   content: "\f37f";
+}
+.fl-nobara::before {
+  content: "\f380";
 }
 .fl-river::before {
   content: "\f381";
