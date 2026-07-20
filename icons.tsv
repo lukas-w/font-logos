@@ -132,3 +132,4 @@ offset	name					id
 130		OpenWrt					openwrt
 131		WireGuard				wireguard
 132		FFmpeg					ffmpeg
+133		CachyOS					cachyos
