@@ -77,6 +77,10 @@ If you are a maintainer of this repository and a new release is to be published
   * The release is published on Github
 * Automatically the "Update README" workflow is triggered
   * The `README.md` is regenerated (the preview should already be up to date, see above)
+  * Maybe the autotriggered workflow does not work, then manually trigger
 * Automatically the "Publish release to npm" workflow is triggered
   * If the npm token is not expired the release is pushed to NPM
   * You need to publish on NPM manually if token is expired (expected)
+    * `npm update` (and commit/push updates if there were any)
+    * `npm adduser` to log into npm with MFA
+    * `npm publish`
