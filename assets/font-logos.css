@@ -136,7 +136,8 @@
 .fl-typst::before, 
 .fl-nobara::before, 
 .fl-river::before, 
-.fl-openwrt::before
+.fl-openwrt::before, 
+.fl-wireguard::before
  {
   display: inline-block;
   font-family: "font-logos";
@@ -570,4 +571,7 @@
 }
 .fl-openwrt::before {
   content: "\f382";
+}
+.fl-wireguard::before {
+  content: "\f383";
 }

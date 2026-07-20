@@ -393,6 +393,9 @@
     },
     "openwrt": {
       "width": 427
+    },
+    "wireguard": {
+      "width": 512
     }
   }
 }

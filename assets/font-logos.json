@@ -793,6 +793,12 @@
       "name": "OpenWrt",
       "codepoint": 62338,
       "variant": false
+    },
+    "wireguard": {
+      "offset": 131,
+      "name": "WireGuard",
+      "codepoint": 62339,
+      "variant": false
     }
   }
 }
