@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Fetch dependencies
         run: |
@@ -25,7 +25,7 @@ jobs:
       - name: Fetch FontForge
         run: |
           sudo apt install fuse -y -q
-          curl -L "https://github.com/fontforge/fontforge/releases/download/20230101/FontForge-2023-01-01-a1dad3e-x86_64.AppImage" \
+          curl -L "https://github.com/fontforge/fontforge/releases/download/20251009/FontForge-2025-10-09-Linux-x86_64.AppImage" \
             --output fontforge
           chmod u+x fontforge
           echo Try appimage
@@ -60,7 +60,7 @@ jobs:
           ref: "v${{ steps.rel_ver.outputs.ver }}"
 
       - name: Create release draft
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           draft: true
           tag_name: "v${{ steps.rel_ver.outputs.ver }}"
