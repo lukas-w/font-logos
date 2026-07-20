@@ -49,6 +49,7 @@ Available logos are:
 | BigLinux                  | `fl-biglinux`           | `<i class="fl-biglinux"></i>`           |  `0xf347`  | <img src="vectors/biglinux.svg" width="24">           |
 | bspwm                     | `fl-bspwm`              | `<i class="fl-bspwm"></i>`              |  `0xf355`  | <img src="vectors/bspwm.svg" width="24">              |
 | Budgie                    | `fl-budgie`             | `<i class="fl-budgie"></i>`             |  `0xf320`  | <img src="vectors/budgie.svg" width="24">             |
+| CachyOS                   | `fl-cachyos`            | `<i class="fl-cachyos"></i>`            |  `0xf385`  | <img src="vectors/cachyos.svg" width="24">            |
 | CentOS                    | `fl-centos`             | `<i class="fl-centos"></i>`             |  `0xf304`  | <img src="vectors/centos.svg" width="24">             |
 | Cinnamon                  | `fl-cinnamon`           | `<i class="fl-cinnamon"></i>`           |  `0xf35f`  | <img src="vectors/cinnamon.svg" width="24">           |
 | Codeberg                  | `fl-codeberg`           | `<i class="fl-codeberg"></i>`           |  `0xf330`  | <img src="vectors/codeberg.svg" width="24">           |
@@ -66,6 +67,7 @@ Available logos are:
 | Fedora                    | `fl-fedora`             | `<i class="fl-fedora"></i>`             |  `0xf30a`  | <img src="vectors/fedora.svg" width="24">             |
 | Fedora (inverse)          | `fl-fedora-inverse`     | `<i class="fl-fedora-inverse"></i>`     |  `0xf30b`  | <img src="vectors/fedora-inverse.svg" width="24">     |
 | Ferris                    | `fl-ferris`             | `<i class="fl-ferris"></i>`             |  `0xf323`  | <img src="vectors/ferris.svg" width="24">             |
+| FFmpeg                    | `fl-ffmpeg`             | `<i class="fl-ffmpeg"></i>`             |  `0xf384`  | <img src="vectors/ffmpeg.svg" width="24">             |
 | Flathub                   | `fl-flathub`            | `<i class="fl-flathub"></i>`            |  `0xf324`  | <img src="vectors/flathub.svg" width="24">            |
 | Fluxbox                   | `fl-fluxbox`            | `<i class="fl-fluxbox"></i>`            |  `0xf358`  | <img src="vectors/fluxbox.svg" width="24">            |
 | Forgejo                   | `fl-forgejo`            | `<i class="fl-forgejo"></i>`            |  `0xf335`  | <img src="vectors/forgejo.svg" width="24">            |
@@ -122,6 +124,7 @@ Available logos are:
 | OpenBSD                   | `fl-openbsd`            | `<i class="fl-openbsd"></i>`            |  `0xf328`  | <img src="vectors/openbsd.svg" width="24">            |
 | OpenSCAD                  | `fl-openscad`           | `<i class="fl-openscad"></i>`           |  `0xf34e`  | <img src="vectors/openscad.svg" width="24">           |
 | OpenSUSE                  | `fl-opensuse`           | `<i class="fl-opensuse"></i>`           |  `0xf314`  | <img src="vectors/opensuse.svg" width="24">           |
+| OpenWrt                   | `fl-openwrt`            | `<i class="fl-openwrt"></i>`            |  `0xf382`  | <img src="vectors/openwrt.svg" width="24">            |
 | OSH                       | `fl-osh`                | `<i class="fl-osh"></i>`                |  `0xf34f`  | <img src="vectors/osh.svg" width="24">                |
 | OSHWA                     | `fl-oshwa`              | `<i class="fl-oshwa"></i>`              |  `0xf350`  | <img src="vectors/oshwa.svg" width="24">              |
 | OSI                       | `fl-osi`                | `<i class="fl-osi"></i>`                |  `0xf36c`  | <img src="vectors/osi.svg" width="24">                |
@@ -160,6 +163,7 @@ Available logos are:
 | VS Codium                 | `fl-vscodium`           | `<i class="fl-vscodium"></i>`           |  `0xf372`  | <img src="vectors/vscodium.svg" width="24">           |
 | Wayland                   | `fl-wayland`            | `<i class="fl-wayland"></i>`            |  `0xf367`  | <img src="vectors/wayland.svg" width="24">            |
 | Wikimedia                 | `fl-wikimedia`          | `<i class="fl-wikimedia"></i>`          |  `0xf36d`  | <img src="vectors/wikimedia.svg" width="24">          |
+| WireGuard                 | `fl-wireguard`          | `<i class="fl-wireguard"></i>`          |  `0xf383`  | <img src="vectors/wireguard.svg" width="24">          |
 | XeroLinux                 | `fl-xerolinux`          | `<i class="fl-xerolinux"></i>`          |  `0xf34a`  | <img src="vectors/xerolinux.svg" width="24">          |
 | XFCE                      | `fl-xfce`               | `<i class="fl-xfce"></i>`               |  `0xf368`  | <img src="vectors/xfce.svg" width="24">               |
 | Xmonad                    | `fl-xmonad`             | `<i class="fl-xmonad"></i>`             |  `0xf35e`  | <img src="vectors/xmonad.svg" width="24">             |
@@ -182,7 +186,7 @@ If you are a maintainer of this repository and a new release is to be published
   * The PRs add new `svg`s in `vectors/`
   * The `icons.tsv` is ammended (i.e. new icons added at the bottom)
 * Every time the `svg`s or `icons.tsv` is touched in the `master` branch (i.e. through pulling) the preview image is updated
-* Note that the `README.md` is NOT updated. You can manually modify it to indicate/add recently added but not released icons.
+* Note that the `README.md` is NOT updated. You can manually modify it do indicate/add recently added but not released icons.
 * Once the release seems ready:
 * Edit the version number in `package.json` (and push that change to `master`)
 * Trigger the "Draft a Release" workflow manually on the Actions page (on the `master` branch)
@@ -193,10 +197,6 @@ If you are a maintainer of this repository and a new release is to be published
   * The release is published on Github
 * Automatically the "Update README" workflow is triggered
   * The `README.md` is regenerated (the preview should already be up to date, see above)
-  * Maybe the autotriggered workflow does not work, then manually trigger
 * Automatically the "Publish release to npm" workflow is triggered
   * If the npm token is not expired the release is pushed to NPM
   * You need to publish on NPM manually if token is expired (expected)
-    * `npm update` (and commit/push updates if there were any)
-    * `npm adduser` to log into npm with MFA
-    * `npm publish`
