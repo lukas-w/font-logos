@@ -399,6 +399,9 @@
     },
     "ffmpeg": {
       "width": 512
+    },
+    "cachyos": {
+      "width": 486
     }
   }
 }

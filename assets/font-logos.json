@@ -805,6 +805,12 @@
       "name": "FFmpeg",
       "codepoint": 62340,
       "variant": false
+    },
+    "cachyos": {
+      "offset": 133,
+      "name": "CachyOS",
+      "codepoint": 62341,
+      "variant": false
     }
   }
 }

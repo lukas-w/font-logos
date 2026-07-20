@@ -138,7 +138,8 @@
 .fl-river::before, 
 .fl-openwrt::before, 
 .fl-wireguard::before, 
-.fl-ffmpeg::before
+.fl-ffmpeg::before, 
+.fl-cachyos::before
  {
   display: inline-block;
   font-family: "font-logos";
@@ -578,4 +579,7 @@
 }
 .fl-ffmpeg::before {
   content: "\f384";
+}
+.fl-cachyos::before {
+  content: "\f385";
 }
