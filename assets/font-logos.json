@@ -799,6 +799,12 @@
       "name": "WireGuard",
       "codepoint": 62339,
       "variant": false
+    },
+    "ffmpeg": {
+      "offset": 132,
+      "name": "FFmpeg",
+      "codepoint": 62340,
+      "variant": false
     }
   }
 }

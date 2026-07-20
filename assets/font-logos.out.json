@@ -396,6 +396,9 @@
     },
     "wireguard": {
       "width": 512
+    },
+    "ffmpeg": {
+      "width": 512
     }
   }
 }

@@ -137,7 +137,8 @@
 .fl-nobara::before, 
 .fl-river::before, 
 .fl-openwrt::before, 
-.fl-wireguard::before
+.fl-wireguard::before, 
+.fl-ffmpeg::before
  {
   display: inline-block;
   font-family: "font-logos";
@@ -574,4 +575,7 @@
 }
 .fl-wireguard::before {
   content: "\f383";
+}
+.fl-ffmpeg::before {
+  content: "\f384";
 }
