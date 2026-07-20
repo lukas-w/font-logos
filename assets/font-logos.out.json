@@ -390,6 +390,9 @@
     },
     "river": {
       "width": 512
+    },
+    "openwrt": {
+      "width": 427
     }
   }
 }
